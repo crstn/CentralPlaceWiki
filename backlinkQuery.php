@@ -1,14 +1,14 @@
 <?php
+// Bump up the memory a bit
 ini_set('memory_limit', '256M');
+// Change $origin to inspect a different place	
+$origin = "Cold War";
 
 // Time Logging
 $starttime = microtime(true);
 
 
 // Setting strings for the query
-	// $origin = "What links here"
-	// Change $origin to inspect a different place
-	$origin = "Cold War";
 	$query = backlinkQuery($origin);
 	$continue = "";
 
@@ -26,12 +26,15 @@ $starttime = microtime(true);
 // Make the API call
 	// json_decode(true) returns the JSON API Call as an associative array
 	$response = json_decode(curl_exec($ch), true);
-	$allresponses = array($response);
 	$counter = 0;
 
 	// Opening file for outputting. Will overwrite any pre-existing file.
 	$filename = str_replace(array(" ","'","\""), array("_","\'","\\\""),$origin);
-	$outputhandle = fopen($filename."_bl_results.JSON", "w");
+	$outputhandle = fopen($filename."_bl_results.csv", "w");
+
+	// write the csv header
+	fwrite($outputhandle, '"origin","pageid","title"
+');
 
 // Does the initial query exceed 500 results? If yes, we will loop.
 	if (isset($response["query-continue"]["backlinks"]["blcontinue"]))
@@ -40,51 +43,38 @@ $starttime = microtime(true);
 		$query = backlinkQueryContinue($origin, $continue);
 	}	
 	
-	while (isset($continue))
-	{
+	while (isset($continue)) {
 		echo "Current continue code: ".$continue."\n";
 		// Run the next API Call including the continue code
 		curl_setopt($ch, CURLOPT_URL,$query.$continue);
 		$response = json_decode(curl_exec($ch), true);
 
 		// Prepare the next continue code and its query
-		if (isset($response["query-continue"]["backlinks"]["blcontinue"]))
-		{	
+		if (isset($response["query-continue"]["backlinks"]["blcontinue"])) {	
 			$continue = $response["query-continue"]["backlinks"]["blcontinue"];
 			$query = backlinkQueryContinue($origin, $continue);
 		}
-		else
-		{	// Break condition: This query had <= 500 results
+		else{	// Break condition: This query had <= 500 results
 			unset($continue);
 		}
 
-		// Append the response to $allresponses[]
-		$allresponses[] = $response;
+		// Append the response to the output CSV file:
+		foreach($response["query"]["backlinks"] as $entry){				
+			fwrite($outputhandle, '"'.$origin.
+				                  '",'.$entry["pageid"].
+				                  ',"'.$entry["title"].
+				                  '"
+');
+		}
 		
 		// Do not rapidly bombard Wikipedia or they will ban your IP
-		sleep (1);
+		sleep (1);		
 
-		// Prevents memory overload by writing, then erasing every 10k results
-//		$counter++;
-//		if ($counter == 20)
-//		{
-//			echo "Writing to file...\n";
-//
-//			writeToOutputJSON($allresponses, $origin, $outputhandle);
-//			$allresponses = array();
-//			$counter = 0;
-//		}
-	} #END WHILE
-
-// Write any remaining responses to output file
-	if(isset($allresponses[0]))
-	{	// If exactly 20*n queries, then array[0]==NULL
-		// writeToOutputJSON($allresponses, $origin, $outputhandle);	
-		fwrite($outputhandle, json_encode($allresponses));
 	}
 
 // Time Logging and cleanup
 	curl_close($ch);
+	fclose($outputhandle);
 	$endtime = microtime(true);
 	echo "Completion time: ".($endtime - $starttime)."\n";
 
@@ -116,24 +106,6 @@ function symbolToCode($origin)
 	$replace = array('%20', '%7C');
 	return(str_replace($search, $replace, $origin));
 }
-
-// Write all backlinks to a file
-//function writeToOutputJSON($allresponses, $origin, $outputhandle)
-//{
-//	// Manually creating a JSON object
-//	// Is there a predefined method for this already?
-//	// Need ensure that entry[title]&[origin] characters are properly escaped
-//	foreach($allresponses as $response)
-//	{
-//		foreach($response["query"]["backlinks"] as $entry)
-//		{	
-//			$insert = "{\"pageid\":".$entry["pageid"].
-//						", \"title\":\"".addslashes($entry["title"])."\"".
-//						", \"linksto\":\"".$origin."\"}\n";
-//			fwrite($outputhandle, $insert);
-//		}
-//	}
-//}
 
 /*** END FUNCTIONS ***/
 

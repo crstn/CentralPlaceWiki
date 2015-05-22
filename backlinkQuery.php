@@ -1,4 +1,10 @@
 <?php
+/*
+Implement:
+	recusive backlinkQuery to 6 levels
+	eliminate cycles in the search graph
+ */
+
 // Bump up the memory a bit
 ini_set('memory_limit', '256M');
 // Change $origin to inspect a different place	

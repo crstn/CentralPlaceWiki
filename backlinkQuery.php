@@ -1,16 +1,15 @@
 <?php
 /*
-Implement:
-	recusive backlinkQuery to 6 levels
-	eliminate cycles in the search graph
-	ORIGIN as command line parameter
+To be Implemented:
+	eliminate cycles in the search graph us
+	ORIGIN and DEPTHLIMIT as command line arguments
  */
 
 // Bump up the memory a bit
 ini_set('memory_limit', '256M');
 
-// Change ORIGIN to inspect a different place	
-define('ORIGIN', "Rego Park");
+// Change second argument to inspect a different place (global constant)	
+define('ORIGIN', "Middle Village");
 $depth = 0;
 $depthlimit = 2;
 $visited = array();		// will not BL recur if it has already been done
@@ -30,31 +29,25 @@ $starttime = microtime(true);
 	$filename = str_replace(array(" ","'","\""), array("_","\'","\\\""), ORIGIN);
 	$outputhandle = fopen($filename."_bl_results.csv", "w");
 	// Write the CSV header
-	fwrite($outputhandle, '"origin","pageid","title","depth"'."\n");
+	fwrite($outputhandle, '"origin","pageid","title","depth","parent"'."\n");
 
 // Begin recursion
-$TODOqueue[ORIGIN] = $depth;
+// Items in the queue are pairs where Key==Title => Value==Depth
+	$TODOqueue[ORIGIN] = $depth;
 
 	while($depth <= $depthlimit)
 	{
+		$remaining = count($TODOqueue);
 		foreach ($TODOqueue as $key => $value)
 		{
-
+		// if not already visited, then executeBLQ() will go here
 			executeBLQ($ch, $key, $value, $outputhandle, $TODOqueue);
+		// set into $visited will go here here
 			unset($TODOqueue[$key]);
+			echo "Items remaining at this depth: ".--$remaining."\n";
 		}
 		$depth++;
 	}
-
-/*
-	foreach(array_combine(array_keys($TODOqueue), $TODOqueue)
-			 as $page => $depth)
-		{
-			echo $page."\n";
-			echo $depth."\n";
-		}
-*/
-
 
 // Time Logging and cleanup
 	curl_close($ch);
@@ -63,24 +56,24 @@ $TODOqueue[ORIGIN] = $depth;
 	echo "Completion time: ".($endtime - $starttime)."\n";
 
 /*** FUNCTIONS ***/
-//
-function executeBLQ($ch, $pagename, $depth, $outputhandle, &$TODOqueue)
+// Runs make the API call(s) and records all results to a CSV file
+function executeBLQ($ch, $pagename, $parentdepth, $outputhandle, &$TODOqueue)
 {
-// Make the API call
-	$query = backlinkQuery($pagename);
-	$childdepth = $depth + 1;
+	// Make the API call
+	$query = makeBLQ($pagename);
+	$childdepth = $parentdepth + 1;
 	// Setting the API Call. Will return as JSON
 	curl_setopt($ch, CURLOPT_URL, $query);
 	// json_decode(true) returns the JSON API Call as an associative array
 	$response = json_decode(curl_exec($ch), true);
-	echo "in execeuteBLQ: $pagename at depth $depth\n";
+	echo "in executeBLQ: $pagename at depth $parentdepth\n";
 
 
-// Does the initial query exceed 500 results? If yes, we will loop.
+	// Does the initial query exceed 500 results? If yes, we will loop.
 	if (isset($response["query-continue"]["backlinks"]["blcontinue"]))
 	{	// Get the next continue code and generate the query
 		$continue = $response["query-continue"]["backlinks"]["blcontinue"];
-		$query = backlinkQueryContinue($pagename, $continue);
+		$query = makeBLQContinue($pagename, $continue);
 
 		while (isset($continue)) {
 		echo "Current continue code: ".$continue."\n";
@@ -91,9 +84,9 @@ function executeBLQ($ch, $pagename, $depth, $outputhandle, &$TODOqueue)
 		// Prepare the next continue code and its query
 		if (isset($response["query-continue"]["backlinks"]["blcontinue"])) {	
 			$continue = $response["query-continue"]["backlinks"]["blcontinue"];
-			$query = backlinkQueryContinue($pagename, $continue);
+			$query = makeBLQContinue($pagename, $continue);
 		}
-		else{	// While() break condition: This query had <= 500 results
+		else{	// While() break condition: The last query had <=500 results
 			unset($continue);
 		}
 
@@ -102,7 +95,8 @@ function executeBLQ($ch, $pagename, $depth, $outputhandle, &$TODOqueue)
 			fwrite($outputhandle, '"'.ORIGIN.
 				                  '",'.$entry["pageid"].
 				                  ',"'.$entry["title"].
-				                  '",'.$childdepth."\n");
+				                  '",'.$childdepth.
+				                  ',"'.$pagename.'"'."\n");
 			// Add all children to the $TODOqueue
 			$title = $entry["title"];
 			$TODOqueue[$title] = $childdepth;
@@ -111,13 +105,15 @@ function executeBLQ($ch, $pagename, $depth, $outputhandle, &$TODOqueue)
 		sleep (1);
 		}
 	}
-	else // If no continue, record results
+	 // If initial query has <=500 results, simply record results
+	else
 	{
 		foreach($response["query"]["backlinks"] as $entry){				
 			fwrite($outputhandle, '"'.ORIGIN.
 				                  '",'.$entry["pageid"].
 				                  ',"'.$entry["title"].
-				                  '",'.$childdepth."\n");
+				                  '",'.$childdepth.
+				                  ',"'.$pagename.'"'."\n");
 			// Add all children to the $TODOqueue
 			$title = $entry["title"];
 			$TODOqueue[$title] = $childdepth;
@@ -127,7 +123,7 @@ function executeBLQ($ch, $pagename, $depth, $outputhandle, &$TODOqueue)
 }
 
 // Generates the backlink query for $title
-function backlinkQuery($title)
+function makeBLQ($title)
 {	
 	$title = symbolToCode($title);
 	$API = "http://en.wikipedia.org/w/api.php?";
@@ -136,7 +132,7 @@ function backlinkQuery($title)
 }
 
 // Generates the backlink query for $title with $continue code
-function backlinkQueryContinue($title, $continue)
+function makeBLQContinue($title, $continue)
 {	
 	$title = symbolToCode($title);
 	$continue = symbolToCode($continue);
@@ -150,7 +146,7 @@ function symbolToCode($title)
 {
 	$search  = array(' ', '|');
 	$replace = array('%20', '%7C');
-	return(str_replace($search, $replace, $title));
+	return str_replace($search, $replace, $title);
 }
 
 /*** END FUNCTIONS ***/

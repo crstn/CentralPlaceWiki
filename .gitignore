@@ -1,1 +1,6 @@
 *.csv
+*.xml
+CPT/*
+AGILE 2015 Central Places in Wikipedia alias
+
+.ipynb_checkpoints/parse-checkpoint.ipynb

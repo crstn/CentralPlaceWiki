@@ -1,17 +1,23 @@
 <?php
-/*
-To be Implemented:
-	eliminate cycles in the search graph us
-	ORIGIN and DEPTHLIMIT as command line arguments
- */
+/*	Usage:
+	php backlinkQuery.php (string) (int)
 
+	string will be ORIGIN
+	int will be depthlimit
+*/
 // Bump up the memory a bit
 ini_set('memory_limit', '256M');
 
+if(!isset($argv[1]) || !isset($argv[2]))
+{
+	echo "Missing arguments\n";
+	exit(1);
+}
+
 // Change second argument to inspect a different place (global constant)	
-define('ORIGIN', "Rego Park");
+define('ORIGIN', $argv[1]);
 $depth = 0;
-$depthlimit = 2;
+$depthlimit = $argv[2];
 $visited = array();		// will not BL recur if it has already been done
 $TODOqueue = array();
 
@@ -31,7 +37,7 @@ $starttime = microtime(true);
 	// Write the CSV header
 	fwrite($outputhandle, '"origin","pageid","title","depth","parent"'."\n");
 
-// Begin recursion
+// Begin search for N generations of children
 // Items in the queue are pairs where Key==Title => Value==Depth
 	$TODOqueue[ORIGIN] = $depth;
 

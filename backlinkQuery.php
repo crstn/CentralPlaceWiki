@@ -9,7 +9,7 @@ To be Implemented:
 ini_set('memory_limit', '256M');
 
 // Change second argument to inspect a different place (global constant)	
-define('ORIGIN', "Middle Village");
+define('ORIGIN', "Rego Park");
 $depth = 0;
 $depthlimit = 2;
 $visited = array();		// will not BL recur if it has already been done
@@ -40,13 +40,23 @@ $starttime = microtime(true);
 		$remaining = count($TODOqueue);
 		foreach ($TODOqueue as $key => $value)
 		{
-		// if not already visited, then executeBLQ() will go here
-			executeBLQ($ch, $key, $value, $outputhandle, $TODOqueue);
-		// set into $visited will go here here
+		// If not yet visited, then executeBLQ() (eliminates cycles in graph)
+			if(!isset($visited[$key]))
+			{
+				echo "Executing: $key at depth $value\n";
+				executeBLQ($ch, $key, $value, $outputhandle, $TODOqueue);
+				$visited[$key] = $value;
+			}
+			else
+			{
+				echo "Already visited $key\n";
+			}
+
 			unset($TODOqueue[$key]);
 			echo "Items remaining at this depth: ".--$remaining."\n";
 		}
 		$depth++;
+		
 	}
 
 // Time Logging and cleanup
@@ -66,9 +76,7 @@ function executeBLQ($ch, $pagename, $parentdepth, $outputhandle, &$TODOqueue)
 	curl_setopt($ch, CURLOPT_URL, $query);
 	// json_decode(true) returns the JSON API Call as an associative array
 	$response = json_decode(curl_exec($ch), true);
-	echo "in executeBLQ: $pagename at depth $parentdepth\n";
-
-
+	
 	// Does the initial query exceed 500 results? If yes, we will loop.
 	if (isset($response["query-continue"]["backlinks"]["blcontinue"]))
 	{	// Get the next continue code and generate the query

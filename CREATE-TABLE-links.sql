@@ -1,4 +1,4 @@
-# DROP TABLE IF EXISTS links;
+# DROP TABLE IF EXISTS links; 
 
 CREATE TABLE links 
 	("from" 	varchar, 
@@ -8,5 +8,5 @@ CREATE TABLE links
 	 mentions 	integer,
 	 id 		serial primary key );
 
-CREATE INDEX link_from_index ON links USING hash ( "from" );
-CREATE INDEX link_to_index ON links USING hash ( "to" );
+CREATE INDEX links_index_to ON links USING hash ( "to" );
+CREATE INDEX links_index_from ON links USING hash ( "from" );

@@ -307,8 +307,13 @@ def go():
         currentpage = currentpage + 1
         if currentpage > numthreads:
             currentpage = 1
-           
-    sqlfile.close()    
+               
+    # trigger housekeeping in DB after all inserts:
+    insert = u"VACUUM;\n"
+    sqlfile.write(insert.encode('utf8')) 
+
+    sqlfile.close()  
+
 
 if __name__ == "__main__":
     logme(str(timeit.timeit(go, 'gc.enable()', number = 1)))

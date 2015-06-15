@@ -58,3 +58,5 @@ nyc.sql
 PostGIS queries.txt
 
 PostGIS queries.txt
+
+*.geojson

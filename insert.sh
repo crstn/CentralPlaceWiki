@@ -1,3 +1,7 @@
+psql -q -f insert-1-of-16.sql CPT
+echo "1 / 16 completed"
+psql -q -f insert-2-of-16.sql CPT
+echo "2 / 16 completed"
 psql -q -f insert-3-of-16.sql CPT
 echo "3 / 16 completed"
 psql -q -f insert-4-of-16.sql CPT

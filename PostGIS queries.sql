@@ -113,3 +113,7 @@ SELECT row_number() OVER() As fake_id, p.lang, ST_ConvexHull(ST_Collect(p.the_ge
 	AND l."from" = p.page
 	AND l.lang = p.lang
     GROUP BY p.lang;
+
+-- loads pages with incoming links as a layer in QGIS:
+
+SELECT pages.page, pages.id, (incoming.incoming * -1) AS incoming, pages.the_geom FROM pages, incoming WHERE pages.page = incoming.page

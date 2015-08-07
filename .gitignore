@@ -60,3 +60,9 @@ PostGIS queries.txt
 PostGIS queries.txt
 
 *.geojson
+
+DEM.qgs
+
+DEM.qgs~
+
+gdal-dem-invdist-2.0.tiff

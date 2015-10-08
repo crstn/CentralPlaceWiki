@@ -21,21 +21,22 @@ global currentpage
 global logfile
 
 # let's pre-compile some regexes (crazy long, huh?)
-coordpattern = re.compile("\{\{coord\|?([^|\}\}]*)\|?([^|\}\}]*)(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?", re.IGNORECASE)
+coordpattern = re.compile("\{\{coord[inates]*\|[a-z]*=*([^|\}\}]*)\|[a-z]*=?([^|\}\}]*)(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?", re.IGNORECASE)
 
 # if written as latitude = 42° 26' 36'' N
-latcompletepattern  = re.compile(u"\|\s*(?:lat|latitude|latd|lat_d|lat\_degrees)\s*\=\s*([^\|\s°]*)°\s*([^\|\s']*)'\s*([^\|\s'']*)''\s*([^\|\s]*)", re.IGNORECASE)
-longcompletepattern = re.compile(u"\|\s*(?:long|longitude|longd|long_d|long\_degrees)\s*\=\s*([^\|\s°]*)°\s*([^\|\s']*)'\s*([^\|\s'']*)''\s*([^\|\s]*)", re.IGNORECASE)
+# or latitude = 42/26/36N
+latcompletepattern  = re.compile(u"\|\s*(?:lat|latitude|latd|lat\_d|lat\_degrees|Breitengrad)\s*\=\s*([^\|\s°]*)[°|/]\s*([^\|\s']*)['|/]\s*([^\|\s'']*)[''|/]\s*([^\|\s]*)", re.IGNORECASE)
+longcompletepattern = re.compile(u"\|\s*(?:long|longitude|longd|long_d|long\_degrees|Längengrad)\s*\=\s*([^\|\s°]*)[°|/]\s*([^\|\s']*)['|/]\s*([^\|\s'']*)[''|/]\s*([^\|\s]*)", re.IGNORECASE)
 
 # if separated as degree, minute, second, heading:
-latdpattern  = re.compile("\|\s*(?:lat|latitude|latd|lat_d|lat\_degrees)\s*\=\s*([^\|\s\}\)>]*)", re.IGNORECASE)
-latmpattern  = re.compile("\|\s*(?:latm|lat_m|lat\_minutes)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
-latspattern  = re.compile("\|\s*(?:lats|lat_s|lat\_seconds)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
+latdpattern  = re.compile("\|\s*(?:lat|latitude|latd|lat\_d|lat\_degrees)\s*\=\s*([^\|\s\}\)>]*)", re.IGNORECASE)
+latmpattern  = re.compile("\|\s*(?:latm|lat\_m|lat\_minutes)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
+latspattern  = re.compile("\|\s*(?:lats|lat\_s|lat\_seconds)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
 lathpattern  = re.compile("\|\s*(?:latns|lat\_ns|lat\_direction)\s*\=\s*(\w)", re.IGNORECASE)
 
-longdpattern = re.compile("\|\s*(?:long|longitude|longd|long_d|long\_degrees)\s*\=\s*([^\|\s\}\)>]*)", re.IGNORECASE)
-longmpattern = re.compile("\|\s*(?:longm|long_m|long\_minutes)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
-longspattern = re.compile("\|\s*(?:longs|long_s|long\_seconds)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
+longdpattern = re.compile("\|\s*(?:long|longitude|longd|long\_d|long\_degrees)\s*\=\s*([^\|\s\}\)>]*)", re.IGNORECASE)
+longmpattern = re.compile("\|\s*(?:longm|long\_m|long\_minutes)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
+longspattern = re.compile("\|\s*(?:longs|long\_s|long\_seconds)\s*\=\s*([^\|\s]*)", re.IGNORECASE)
 longhpattern = re.compile("\|\s*(?:longew|long\_ew|long\_direction)\s*\=\s*(\w)", re.IGNORECASE)
 
 # conveniece logging function
@@ -287,9 +288,14 @@ def go():
     # http://www.ibm.com/developerworks/xml/library/x-hiperfparse/ 
     pages = etree.iterparse(infile, events=('end',), tag=ns+'page')
 
+    count = 0
+
     # go through wikipedia pages in dump, one by one:
     for event, page in pages:   
-        
+        # print page title:
+        # print page.find(ns+'title').text
+        count = count +1 
+
         # make sure we only parse every n-th page!
         if currentpage == thisthread:
             try:
@@ -302,6 +308,7 @@ def go():
                 
             except Exception as e:
                 logme("Exception caught when parsing: " + page.find(ns+'title').text)
+                logme(str(e))
                 # logme(page.find(ns+'revision/'+ns+'text').text)
            
         currentpage = currentpage + 1
@@ -314,7 +321,8 @@ def go():
 
     sqlfile.close()  
 
+    print str(count) + " pages processed."
+
 
 if __name__ == "__main__":
-    logme(str(timeit.timeit(go, 'gc.enable()', number = 1)))
     logme("done")

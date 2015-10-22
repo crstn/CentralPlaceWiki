@@ -21,7 +21,7 @@ global currentpage
 global logfile
 
 # let's pre-compile some regexes (crazy long, huh?)
-coordpattern = re.compile("\{\{coord[inates]*\|[a-z]*=*([^|\}\}]*)\|[a-z]*=?([^|\}\}]*)(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?", re.IGNORECASE)
+coordpattern = re.compile("\{\{coord[inates ]*\|[a-z]*=*([^|\}\}]*)\|[a-z]*=?([^|\}\}]*)(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?(?:\|?([^|\}\}]*))?", re.IGNORECASE)
 
 # if written as latitude = 42° 26' 36'' N
 # or latitude = 42/26/36N

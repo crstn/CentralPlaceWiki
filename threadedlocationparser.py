@@ -2,7 +2,12 @@
 import re                     # Regex
 from lxml import etree        # XML parsing
 import timeit                 # simple benachmarking
-import sys                    # to read command line args
+# encoding=utf8  
+import sys  
+
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 import LatLon                 # conversion between degrees, minutes, seconds and decimal degrees 
 
 lang = "en"  # so that we can keep track of different languages in our DB
@@ -308,8 +313,11 @@ def go():
                 
             except Exception as e:
                 logme("Exception caught when parsing: " + page.find(ns+'title').text)
-                logme(str(e))
-                # logme(page.find(ns+'revision/'+ns+'text').text)
+                try:
+                    logme(str(e))
+                    # logme(page.find(ns+'revision/'+ns+'text').text)
+                except Exception:
+                    logme("Error could not be logged.")
            
         currentpage = currentpage + 1
         if currentpage > numthreads:
@@ -325,4 +333,5 @@ def go():
 
 
 if __name__ == "__main__":
+    go()
     logme("done")

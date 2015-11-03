@@ -1,0 +1,183 @@
+== Oberzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Chemnitz]]
+| Kreisfreie Stadt
+|-
+| [[Dresden]]
+| Kreisfreie Stadt
+|-
+| [[Leipzig]]
+| Kreisfreie Stadt
+|-
+| [[Plauen]]
+| [[Vogtlandkreis]]
+|-
+| [[Zwickau]]
+| [[Landkreis Zwickau|Zwickau]]
+|-
+| [[Oberzentraler Städteverbund]] [[Bautzen]] – [[Görlitz]] – [[Hoyerswerda]]
+| [[Landkreis Bautzen|Bautzen]] (Bautzen und Hoyerswerda), [[Landkreis Görlitz|Görlitz]]
+|}
+
+== Mittelzentren ==
+
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Art
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Annaberg-Buchholz]]
+| M
+| [[Erzgebirgskreis]]
+|-
+| [[Borna]]
+| M
+| [[Landkreis Leipzig|Leipzig]]
+|-
+| [[Coswig (Sachsen)|Coswig]]
+| MVR
+| [[Landkreis Meißen|Meißen]]
+|-
+| [[Crimmitschau]]
+| MVR
+| [[Landkreis Zwickau|Zwickau]]
+|-
+| [[Delitzsch]]
+| M
+| [[Landkreis Nordsachsen|Nordsachsen]]
+|-
+| [[Dippoldiswalde]]
+| MELR
+| [[Landkreis Sächsische Schweiz-Osterzgebirge|Sächsische Schweiz-Osterzgebirge]]
+|-
+| [[Döbeln]]
+| M
+| [[Landkreis Mittelsachsen|Mittelsachsen]]
+|-
+| [[Eilenburg]]
+| MELR
+| [[Landkreis Nordsachsen|Nordsachsen]]
+|-
+| [[Freiberg]]
+| M
+| [[Landkreis Mittelsachsen|Mittelsachsen]]
+|-
+| [[Freital]]
+| MVR
+| [[Landkreis Sächsische Schweiz-Osterzgebirge|Sächsische Schweiz-Osterzgebirge]]
+|-
+| [[Glauchau]]
+| M
+| [[Landkreis Zwickau|Zwickau]]
+|-
+| [[Grimma]]
+| M
+| [[Landkreis Leipzig|Leipzig]]
+|-
+| [[Großenhain]]
+| MELR
+| [[Landkreis Meißen|Meißen]]
+|-
+| [[Kamenz]]
+| M
+| [[Landkreis Bautzen|Bautzen]]
+|-
+| [[Limbach-Oberfrohna]]
+| MVR
+| [[Landkreis Zwickau|Zwickau]]
+|-
+| [[Löbau]]
+| MELR
+| [[Landkreis Görlitz|Görlitz]]
+|-
+| [[Marienberg]]
+| MELR
+| [[Erzgebirgskreis]]
+|-
+| [[Markkleeberg]]
+| MVR
+| [[Landkreis Leipzig|Leipzig]]
+|-
+| [[Meißen]]
+| M
+| [[Landkreis Meißen|Meißen]]
+|-
+| [[Mittweida]]
+| MELR
+| [[Landkreis Mittelsachsen|Mittelsachsen]]
+|-
+| [[Niesky]]
+| MELR
+| [[Landkreis Görlitz|Görlitz]]
+|-
+| [[Oelsnitz/Vogtl.]]
+| MELR
+| [[Vogtlandkreis]]
+|-
+| [[Oschatz]]
+| MELR
+| [[Landkreis Nordsachsen|Nordsachsen]]
+|-
+| [[Pirna]]
+| M
+| [[Landkreis Sächsische Schweiz-Osterzgebirge|Sächsische Schweiz-Osterzgebirge]]
+|-
+| [[Radeberg]]
+| MVR
+| [[Landkreis Bautzen|Bautzen]]
+|-
+| [[Radebeul]]
+| MVR
+| [[Landkreis Meißen|Meißen]]
+|-
+| [[Reichenbach im Vogtland]]
+| MVR
+| [[Vogtlandkreis]]
+|-
+| [[Riesa]]
+| M
+| [[Landkreis Meißen|Meißen]]
+|-
+| [[Schkeuditz]]
+| MVR
+| [[Landkreis Nordsachsen|Nordsachsen]]
+|-
+| [[Stollberg/Erzgeb.]]
+| MVR
+| [[Erzgebirgskreis]]
+|-
+| [[Torgau]]
+| M
+| [[Landkreis Nordsachsen|Nordsachsen]]
+|-
+| [[Weißwasser/Oberlausitz]]
+| M
+| [[Landkreis Görlitz|Görlitz]]
+|-
+| [[Werdau]]
+| MVR
+| [[Landkreis Zwickau|Zwickau]]
+|-
+| [[Wurzen]]
+| MELR
+| [[Landkreis Leipzig|Leipzig]]
+|-
+| [[Zittau]]
+| M
+| [[Landkreis Görlitz|Görlitz]]
+|-
+| Städteverbund Göltzschtal [[Auerbach/Vogtl.]] – [[Ellefeld]] – [[Falkenstein/Vogtl.]] – [[Rodewisch]]
+| M
+| [[Vogtlandkreis]]
+|-
+| Städteverbund Sachsenring [[Hohenstein-Ernstthal]] – [[Lichtenstein/Sa.|Lichtenstein]] – [[Oberlungwitz]]
+| MVR
+| [[Zwickau]]
+|-
+| [[Städteverbund Silberberg]] [[Aue (Sachsen)|Aue]] – [[Lauter/Sa.]] – [[Lößnitz (Erzgebirge)|Lößnitz]] – [[Bad Schlema]] – [[Schneeberg (Erzgebirge)|Schneeberg]] – [[Schwarzenberg/Erzgeb.|Schwarzenberg]]
+| M
+| [[Erzgebirgskreis]]
+|}

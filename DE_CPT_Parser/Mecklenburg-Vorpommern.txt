@@ -1,0 +1,105 @@
+== Oberzentren ==
+
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+! class="hintergrundfarbe6" | Bild
+|-
+| [[Neubrandenburg]]
+| [[Landkreis Mecklenburgische Seenplatte|Mecklenburgische Seenplatte]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Tollensesee-02-06-2008-187.jpg|120px|Neubrandenburg am Tollensesee, Mecklenburger Seenland]]
+|-
+| [[Rostock]]
+| Kreisfreie Stadt
+|style="background:#F5F5F5;" align="center" | [[Datei:Warnemuende-strand-leuchtturm-teepott-2013.jpg|120px|Rostock-Warnemünde - Strand, Leuchtturm und Teepott]]
+|-
+| [[Schwerin]]
+| Kreisfreie Stadt, Landeshauptstadt
+|style="background:#F5F5F5;" align="center" | [[Datei:Schwerin Castle Aerial View Island Luftbild Schweriner Schloss Insel See.jpg|120px|Schweriner Schloss, Sitz des Landtages von Mecklenburg-Vorpommern]]
+|-
+| [[Stralsund]] und [[Greifswald]]
+| | [[Landkreis Vorpommern-Rügen|Vorpommern-Rügen]] und [[Landkreis Vorpommern-Greifswald|Vorpommern-Greifswald]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Stralsund (2013-07-23), by Klugschnacker in Wikipedia (9).JPG|120px|Silhouette von Stralsund mit Strelasund]]
+[[Datei:Greifswald - Town Hall.jpg|120px|Greifswalder Markt mit Rathaus und Dom]]
+|}
+
+== Mittelzentren ==
+
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+! class="hintergrundfarbe6" | Bild
+|-
+| [[Anklam]]
+| [[Landkreis Vorpommern-Greifswald|Vorpommern-Greifswald]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Anklam Peene Fussgängerbrücke.JPG|120px|Peene und Anklamer Hafen]]
+|-
+| [[Bad Doberan]]
+| [[Landkreis Rostock|Rostock]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Bad Doberan Münster 02 2012-05-08.jpg|120px|Das Doberaner Münster]]
+|-
+| [[Bergen auf Rügen]]
+| [[Landkreis Vorpommern-Rügen|Vorpommern-Rügen]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Bergen Markt 2.jpg|120px|Bergens ältestes Fachwerkhaus am Markt, im Hintergrund die St. Marienkirche]]
+|-
+| [[Demmin]]
+| [[Landkreis Mecklenburgische Seenplatte|Mecklenburgische Seenplatte]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Demmin Kahldenbruecke 01.jpg|120px|Hafen und Kahldenbrücke über die Peene]]
+|-
+| [[Grevesmühlen]]
+| [[Landkreis Nordwestmecklenburg|Nordwestmecklenburg]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Galerieholländer Grevesmühlen.jpg|120px|Windmühle Grevesmühlen]]
+|-
+| [[Grimmen]]
+| [[Landkreis Vorpommern-Rügen|Vorpommern-Rügen]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Grimmen-wasserturm.jpg|120px|Der Grimmener Wasserturm]]
+|-
+| [[Güstrow]]
+| [[Landkreis Rostock|Rostock]]
+|style="background:#F5F5F5;" align="center" | [[Datei:GüstrowSchloss&Park.JPG|120px|Schloss Güstrow]]
+|-
+| [[Hagenow]]
+| [[Landkreis Ludwigslust-Parchim|Ludwigslust-Parchim]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Hagenow Stadtkirche 2007-05-28 019.jpg|120px|Die Altstadt und Stadtkirche in Hagenow]]
+|-
+| [[Ludwigslust]]
+| [[Landkreis Ludwigslust-Parchim|Ludwigslust-Parchim]]
+|style="background:#F5F5F5;" align="center" | [[Datei:SchlossLudwigslust.jpg|120px|Das Ludwigsluster Schloss]]
+|-
+| [[Neustrelitz]]
+| [[Landkreis Mecklenburgische Seenplatte|Mecklenburgische Seenplatte]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Schlosskirche (Neustrelitz) Front.jpg|120px|Schlosskirche Neustrelitz]]
+|-
+| [[Parchim]]
+| [[Landkreis Ludwigslust-Parchim|Ludwigslust-Parchim]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Parchim Kaiserl Postamt.jpg|120px|Postamt Parchim]]
+|-
+| [[Pasewalk]]
+| [[Landkreis Vorpommern-Greifswald|Vorpommern-Greifswald]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Pasewalk Amtsgericht.jpg|120px|Amtsgericht von Pasewalk]]
+|-
+| [[Ribnitz-Damgarten]]
+| [[Landkreis Vorpommern-Rügen|Vorpommern-Rügen]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Ribnitz Damgarten Rostocker Tor.jpg|120px|Rostocker Tor und Marienkirche in Ribnitz]]
+|-
+| [[Teterow]]
+| [[Landkreis Rostock|Rostock]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Teterow Bergring Wegweiser.jpg|120px|Rennstrecke Teterower Bergring]]
+|-
+| [[Ueckermünde]]
+| [[Landkreis Vorpommern-Greifswald|Vorpommern-Greifswald]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Uede strand.jpg|120px|Strand von Ueckermünde]]
+|-
+| [[Waren (Müritz)]]
+| [[Landkreis Mecklenburgische Seenplatte|Mecklenburgische Seenplatte]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Schiff Waren.jpg|120px|Müritz Sail in Waren]]
+|-
+| [[Wismar]]
+| [[Landkreis Nordwestmecklenburg|Nordwestmecklenburg]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Wismarer Wasserkunst.jpg|120px|Die Wasserkunst (links im Hintergrund das 1817–1819 erbaute Rathaus und das Reuterhaus am Markt)]]
+|-
+| [[Wolgast]]
+| [[Landkreis Vorpommern-Greifswald|Vorpommern-Greifswald]]
+|style="background:#F5F5F5;" align="center" | [[Datei:Wolgast11.JPG|120px|Peenebrücke in Wolgast]]
+|-
+|}

@@ -1,0 +1,1145 @@
+place;state;center
+Freiburg im Breisgau;Baden-Württemberg;Oberzentren
+Heidelberg;Baden-Württemberg;Oberzentren
+Heilbronn;Baden-Württemberg;Oberzentren
+Karlsruhe;Baden-Württemberg;Oberzentren
+Konstanz;Baden-Württemberg;Oberzentren
+Offenburg;Baden-Württemberg;Oberzentren
+Pforzheim;Baden-Württemberg;Oberzentren
+Stuttgart;Baden-Württemberg;Oberzentren
+Villingen-Schwenningen;Baden-Württemberg;Oberzentren
+Baden-Baden;Baden-Württemberg;Mittelzentren mit oberzentralen Teilfunktionen
+Aalen;Baden-Württemberg;Mittelzentren
+Achern;Baden-Württemberg;Mittelzentren
+Albstadt;Baden-Württemberg;Mittelzentren
+Backnang;Baden-Württemberg;Mittelzentren
+Bad Mergentheim;Baden-Württemberg;Mittelzentren
+Bad Säckingen;Baden-Württemberg;Mittelzentren
+Bad Saulgau;Baden-Württemberg;Mittelzentren
+Bad Waldsee;Baden-Württemberg;Mittelzentren
+Bad Wildbad;Baden-Württemberg;Mittelzentren
+Balingen;Baden-Württemberg;Mittelzentren
+Biberach an der Riß;Baden-Württemberg;Mittelzentren
+Breisach am Rhein;Baden-Württemberg;Mittelzentren
+Bretten;Baden-Württemberg;Mittelzentren
+Bruchsal;Baden-Württemberg;Mittelzentren
+Buchen (Odenwald);Baden-Württemberg;Mittelzentren
+Bühl (Baden);Baden-Württemberg;Mittelzentren
+Calw;Baden-Württemberg;Mittelzentren
+Crailsheim;Baden-Württemberg;Mittelzentren
+Donaueschingen;Baden-Württemberg;Mittelzentren
+Eberbach;Baden-Württemberg;Mittelzentren
+Ehingen (Donau);Baden-Württemberg;Mittelzentren
+Ellwangen (Jagst);Baden-Württemberg;Mittelzentren
+Emmendingen;Baden-Württemberg;Mittelzentren
+Esslingen am Neckar;Baden-Württemberg;Mittelzentren
+Ettlingen;Baden-Württemberg;Mittelzentren
+Freudenstadt;Baden-Württemberg;Mittelzentren
+Geislingen an der Steige;Baden-Württemberg;Mittelzentren
+Göppingen;Baden-Württemberg;Mittelzentren
+Hechingen;Baden-Württemberg;Mittelzentren
+Heidenheim an der Brenz;Baden-Württemberg;Mittelzentren
+Herrenberg;Baden-Württemberg;Mittelzentren
+Horb am Neckar;Baden-Württemberg;Mittelzentren
+Kehl;Baden-Württemberg;Mittelzentren
+Kirchheim unter Teck;Baden-Württemberg;Mittelzentren
+Künzelsau;Baden-Württemberg;Mittelzentren
+Laupheim;Baden-Württemberg;Mittelzentren
+Leonberg;Baden-Württemberg;Mittelzentren
+Leutkirch im Allgäu;Baden-Württemberg;Mittelzentren
+Metzingen;Baden-Württemberg;Mittelzentren
+Mosbach;Baden-Württemberg;Mittelzentren
+Mühlacker;Baden-Württemberg;Mittelzentren
+Müllheim (Baden);Baden-Württemberg;Mittelzentren
+Münsingen (Württemberg);Baden-Württemberg;Mittelzentren
+Nagold (Stadt);Baden-Württemberg;Mittelzentren
+Neckarsulm;Baden-Württemberg;Mittelzentren
+Nürtingen;Baden-Württemberg;Mittelzentren
+Öhringen;Baden-Württemberg;Mittelzentren
+Pfullendorf;Baden-Württemberg;Mittelzentren
+Radolfzell am Bodensee;Baden-Württemberg;Mittelzentren
+Rastatt;Baden-Württemberg;Mittelzentren
+Rheinfelden (Baden);Baden-Württemberg;Mittelzentren
+Riedlingen;Baden-Württemberg;Mittelzentren
+Rottenburg am Neckar;Baden-Württemberg;Mittelzentren
+Rottweil;Baden-Württemberg;Mittelzentren
+Schorndorf;Baden-Württemberg;Mittelzentren
+Schopfheim;Baden-Württemberg;Mittelzentren
+Schramberg;Baden-Württemberg;Mittelzentren
+Schwäbisch Gmünd;Baden-Württemberg;Mittelzentren
+Schwäbisch Hall;Baden-Württemberg;Mittelzentren
+Schwetzingen;Baden-Württemberg;Mittelzentren
+Sigmaringen;Baden-Württemberg;Mittelzentren
+Singen (Hohentwiel);Baden-Württemberg;Mittelzentren
+Sinsheim;Baden-Württemberg;Mittelzentren
+Stockach;Baden-Württemberg;Mittelzentren
+Tauberbischofsheim;Baden-Württemberg;Mittelzentren
+Titisee-Neustadt;Baden-Württemberg;Mittelzentren
+Tuttlingen;Baden-Württemberg;Mittelzentren
+Überlingen;Baden-Württemberg;Mittelzentren
+Vaihingen an der Enz;Baden-Württemberg;Mittelzentren
+Waldkirch;Baden-Württemberg;Mittelzentren
+Waldshut-Tiengen;Baden-Württemberg;Mittelzentren
+Wangen im Allgäu;Baden-Württemberg;Mittelzentren
+Weinheim;Baden-Württemberg;Mittelzentren
+Wertheim;Baden-Württemberg;Mittelzentren
+Amberg;Bayern;Oberzentren
+Ansbach;Bayern;Oberzentren
+Aschaffenburg;Bayern;Oberzentren
+Augsburg;Bayern;Oberzentren
+Bamberg;Bayern;Oberzentren
+Bayreuth;Bayern;Oberzentren
+Coburg;Bayern;Oberzentren
+Hof (Saale);Bayern;Oberzentren
+Ingolstadt;Bayern;Oberzentren
+Kaufbeuren;Bayern;Oberzentren
+Kempten (Allgäu);Bayern;Oberzentren
+Landshut;Bayern;Oberzentren
+Memmingen;Bayern;Oberzentren
+München;Bayern;Oberzentren
+Passau;Bayern;Oberzentren
+Regensburg;Bayern;Oberzentren
+Rosenheim;Bayern;Oberzentren
+Schweinfurt;Bayern;Oberzentren
+Straubing;Bayern;Oberzentren
+Traunstein;Bayern;Oberzentren
+Weiden in der Oberpfalz;Bayern;Oberzentren
+Würzburg;Bayern;Oberzentren
+Freising;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Garmisch-Partenkirchen;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Kulmbach;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Neumarkt in der Oberpfalz;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Schwabach;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Alzenau;Bayern;Mittelzentren
+Aichach;Bayern;Mittelzentren
+Bad Aibling;Bayern;Mittelzentren
+Bad Brückenau;Bayern;Mittelzentren
+Bad Kissingen;Bayern;Mittelzentren
+Bad Kötzting;Bayern;Mittelzentren
+Bad Neustadt an der Saale;Bayern;Mittelzentren
+Bad Reichenhall;Bayern;Mittelzentren
+Bad Tölz;Bayern;Mittelzentren
+Bad Windsheim;Bayern;Mittelzentren
+Bad Wörishofen;Bayern;Mittelzentren
+Berchtesgaden;Bayern;Mittelzentren
+Bogen (Stadt);Bayern;Mittelzentren
+Burghausen;Bayern;Mittelzentren
+Cham (Oberpfalz);Bayern;Mittelzentren
+Dachau;Bayern;Mittelzentren
+Dingolfing;Bayern;Mittelzentren
+Dinkelsbühl;Bayern;Mittelzentren
+Donauwörth;Bayern;Mittelzentren
+Eggenfelden;Bayern;Mittelzentren
+Eichstätt;Bayern;Mittelzentren
+Erding;Bayern;Mittelzentren
+Forchheim;Bayern;Mittelzentren
+Freilassing;Bayern;Mittelzentren
+Freyung;Bayern;Mittelzentren
+Friedberg (Bayern);Bayern;Mittelzentren
+Fürstenfeldbruck;Bayern;Mittelzentren
+Füssen;Bayern;Mittelzentren
+Germering;Bayern;Mittelzentren
+Gerolzhofen;Bayern;Mittelzentren
+Grafenau (Niederbayern);Bayern;Mittelzentren
+Gunzenhausen;Bayern;Mittelzentren
+Hammelburg;Bayern;Mittelzentren
+Haßfurt;Bayern;Mittelzentren
+Hersbruck;Bayern;Mittelzentren
+Herzogenaurach;Bayern;Mittelzentren
+Höchstadt a. d. Aisch;Bayern;Mittelzentren
+Illertissen;Bayern;Mittelzentren
+Karlstadt;Bayern;Mittelzentren
+Kelheim;Bayern;Mittelzentren
+Kitzingen;Bayern;Mittelzentren
+Kronach;Bayern;Mittelzentren
+Krumbach (Schwaben);Bayern;Mittelzentren
+Landau an der Isar;Bayern;Mittelzentren
+Landsberg am Lech;Bayern;Mittelzentren
+Lauf an der Pegnitz;Bayern;Mittelzentren
+Lichtenfels (Oberfranken);Bayern;Mittelzentren
+Lindau (Bodensee);Bayern;Mittelzentren
+Lindenberg im Allgäu;Bayern;Mittelzentren
+Lohr am Main;Bayern;Mittelzentren
+Mainburg;Bayern;Mittelzentren
+Marktheidenfeld;Bayern;Mittelzentren
+Marktoberdorf;Bayern;Mittelzentren
+Miltenberg;Bayern;Mittelzentren
+Mindelheim;Bayern;Mittelzentren
+Moosburg an der Isar;Bayern;Mittelzentren
+Murnau am Staffelsee;Bayern;Mittelzentren
+Mühldorf am Inn;Bayern;Mittelzentren
+Münchberg;Bayern;Mittelzentren
+Naila;Bayern;Mittelzentren
+Neuburg an der Donau;Bayern;Mittelzentren
+Neustadt an der Aisch;Bayern;Mittelzentren
+Neustadt bei Coburg;Bayern;Mittelzentren
+Neutraubling;Bayern;Mittelzentren
+Nördlingen;Bayern;Mittelzentren
+Oberstdorf;Bayern;Mittelzentren
+Ochsenfurt;Bayern;Mittelzentren
+Parsberg;Bayern;Mittelzentren
+Pegnitz (Stadt);Bayern;Mittelzentren
+Penzberg;Bayern;Mittelzentren
+Pfaffenhofen an der Ilm;Bayern;Mittelzentren
+Pfarrkirchen;Bayern;Mittelzentren
+Roth;Bayern;Mittelzentren
+Rothenburg ob der Tauber;Bayern;Mittelzentren
+Schrobenhausen;Bayern;Mittelzentren
+Schwabmünchen;Bayern;Mittelzentren
+Schwandorf;Bayern;Mittelzentren
+Selb;Bayern;Mittelzentren
+Starnberg;Bayern;Mittelzentren
+Sulzbach-Rosenberg;Bayern;Mittelzentren
+Tirschenreuth;Bayern;Mittelzentren
+Viechtach;Bayern;Mittelzentren
+Vilsbiburg;Bayern;Mittelzentren
+Vilshofen an der Donau;Bayern;Mittelzentren
+Waldkraiburg;Bayern;Mittelzentren
+Wasserburg am Inn;Bayern;Mittelzentren
+Weilheim in Oberbayern;Bayern;Mittelzentren
+Weißenburg in Bayern;Bayern;Mittelzentren
+Amberg;Brandenburg;Oberzentren
+Ansbach;Brandenburg;Oberzentren
+Aschaffenburg;Brandenburg;Oberzentren
+Augsburg;Brandenburg;Oberzentren
+Bamberg;Brandenburg;Oberzentren
+Bayreuth;Brandenburg;Oberzentren
+Coburg;Brandenburg;Oberzentren
+Hof (Saale);Brandenburg;Oberzentren
+Ingolstadt;Brandenburg;Oberzentren
+Kaufbeuren;Brandenburg;Oberzentren
+Kempten (Allgäu);Brandenburg;Oberzentren
+Landshut;Brandenburg;Oberzentren
+Memmingen;Brandenburg;Oberzentren
+München;Brandenburg;Oberzentren
+Passau;Brandenburg;Oberzentren
+Regensburg;Brandenburg;Oberzentren
+Rosenheim;Brandenburg;Oberzentren
+Schweinfurt;Brandenburg;Oberzentren
+Straubing;Brandenburg;Oberzentren
+Traunstein;Brandenburg;Oberzentren
+Weiden in der Oberpfalz;Brandenburg;Oberzentren
+Würzburg;Brandenburg;Oberzentren
+Freising;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Garmisch-Partenkirchen;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Kulmbach;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Neumarkt in der Oberpfalz;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Schwabach;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Alzenau;Brandenburg;Mittelzentren
+Aichach;Brandenburg;Mittelzentren
+Bad Aibling;Brandenburg;Mittelzentren
+Bad Brückenau;Brandenburg;Mittelzentren
+Bad Kissingen;Brandenburg;Mittelzentren
+Bad Kötzting;Brandenburg;Mittelzentren
+Bad Neustadt an der Saale;Brandenburg;Mittelzentren
+Bad Reichenhall;Brandenburg;Mittelzentren
+Bad Tölz;Brandenburg;Mittelzentren
+Bad Windsheim;Brandenburg;Mittelzentren
+Bad Wörishofen;Brandenburg;Mittelzentren
+Berchtesgaden;Brandenburg;Mittelzentren
+Bogen (Stadt);Brandenburg;Mittelzentren
+Burghausen;Brandenburg;Mittelzentren
+Cham (Oberpfalz);Brandenburg;Mittelzentren
+Dachau;Brandenburg;Mittelzentren
+Dingolfing;Brandenburg;Mittelzentren
+Dinkelsbühl;Brandenburg;Mittelzentren
+Donauwörth;Brandenburg;Mittelzentren
+Eggenfelden;Brandenburg;Mittelzentren
+Eichstätt;Brandenburg;Mittelzentren
+Erding;Brandenburg;Mittelzentren
+Forchheim;Brandenburg;Mittelzentren
+Freilassing;Brandenburg;Mittelzentren
+Freyung;Brandenburg;Mittelzentren
+Friedberg (Bayern);Brandenburg;Mittelzentren
+Fürstenfeldbruck;Brandenburg;Mittelzentren
+Füssen;Brandenburg;Mittelzentren
+Germering;Brandenburg;Mittelzentren
+Gerolzhofen;Brandenburg;Mittelzentren
+Grafenau (Niederbayern);Brandenburg;Mittelzentren
+Gunzenhausen;Brandenburg;Mittelzentren
+Hammelburg;Brandenburg;Mittelzentren
+Haßfurt;Brandenburg;Mittelzentren
+Hersbruck;Brandenburg;Mittelzentren
+Herzogenaurach;Brandenburg;Mittelzentren
+Höchstadt a. d. Aisch;Brandenburg;Mittelzentren
+Illertissen;Brandenburg;Mittelzentren
+Karlstadt;Brandenburg;Mittelzentren
+Kelheim;Brandenburg;Mittelzentren
+Kitzingen;Brandenburg;Mittelzentren
+Kronach;Brandenburg;Mittelzentren
+Krumbach (Schwaben);Brandenburg;Mittelzentren
+Landau an der Isar;Brandenburg;Mittelzentren
+Landsberg am Lech;Brandenburg;Mittelzentren
+Lauf an der Pegnitz;Brandenburg;Mittelzentren
+Lichtenfels (Oberfranken);Brandenburg;Mittelzentren
+Lindau (Bodensee);Brandenburg;Mittelzentren
+Lindenberg im Allgäu;Brandenburg;Mittelzentren
+Lohr am Main;Brandenburg;Mittelzentren
+Mainburg;Brandenburg;Mittelzentren
+Marktheidenfeld;Brandenburg;Mittelzentren
+Marktoberdorf;Brandenburg;Mittelzentren
+Miltenberg;Brandenburg;Mittelzentren
+Mindelheim;Brandenburg;Mittelzentren
+Moosburg an der Isar;Brandenburg;Mittelzentren
+Murnau am Staffelsee;Brandenburg;Mittelzentren
+Mühldorf am Inn;Brandenburg;Mittelzentren
+Münchberg;Brandenburg;Mittelzentren
+Naila;Brandenburg;Mittelzentren
+Neuburg an der Donau;Brandenburg;Mittelzentren
+Neustadt an der Aisch;Brandenburg;Mittelzentren
+Neustadt bei Coburg;Brandenburg;Mittelzentren
+Neutraubling;Brandenburg;Mittelzentren
+Nördlingen;Brandenburg;Mittelzentren
+Oberstdorf;Brandenburg;Mittelzentren
+Ochsenfurt;Brandenburg;Mittelzentren
+Parsberg;Brandenburg;Mittelzentren
+Pegnitz (Stadt);Brandenburg;Mittelzentren
+Penzberg;Brandenburg;Mittelzentren
+Pfaffenhofen an der Ilm;Brandenburg;Mittelzentren
+Pfarrkirchen;Brandenburg;Mittelzentren
+Roth;Brandenburg;Mittelzentren
+Rothenburg ob der Tauber;Brandenburg;Mittelzentren
+Schrobenhausen;Brandenburg;Mittelzentren
+Schwabmünchen;Brandenburg;Mittelzentren
+Schwandorf;Brandenburg;Mittelzentren
+Selb;Brandenburg;Mittelzentren
+Starnberg;Brandenburg;Mittelzentren
+Sulzbach-Rosenberg;Brandenburg;Mittelzentren
+Tirschenreuth;Brandenburg;Mittelzentren
+Viechtach;Brandenburg;Mittelzentren
+Vilsbiburg;Brandenburg;Mittelzentren
+Vilshofen an der Donau;Brandenburg;Mittelzentren
+Waldkraiburg;Brandenburg;Mittelzentren
+Wasserburg am Inn;Brandenburg;Mittelzentren
+Weilheim in Oberbayern;Brandenburg;Mittelzentren
+Weißenburg in Bayern;Brandenburg;Mittelzentren
+Amberg;Hessen;Oberzentren
+Ansbach;Hessen;Oberzentren
+Aschaffenburg;Hessen;Oberzentren
+Augsburg;Hessen;Oberzentren
+Bamberg;Hessen;Oberzentren
+Bayreuth;Hessen;Oberzentren
+Coburg;Hessen;Oberzentren
+Hof (Saale);Hessen;Oberzentren
+Ingolstadt;Hessen;Oberzentren
+Kaufbeuren;Hessen;Oberzentren
+Kempten (Allgäu);Hessen;Oberzentren
+Landshut;Hessen;Oberzentren
+Memmingen;Hessen;Oberzentren
+München;Hessen;Oberzentren
+Passau;Hessen;Oberzentren
+Regensburg;Hessen;Oberzentren
+Rosenheim;Hessen;Oberzentren
+Schweinfurt;Hessen;Oberzentren
+Straubing;Hessen;Oberzentren
+Traunstein;Hessen;Oberzentren
+Weiden in der Oberpfalz;Hessen;Oberzentren
+Würzburg;Hessen;Oberzentren
+Freising;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Garmisch-Partenkirchen;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Kulmbach;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Neumarkt in der Oberpfalz;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Schwabach;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren
+Alzenau;Hessen;Mittelzentren
+Aichach;Hessen;Mittelzentren
+Bad Aibling;Hessen;Mittelzentren
+Bad Brückenau;Hessen;Mittelzentren
+Bad Kissingen;Hessen;Mittelzentren
+Bad Kötzting;Hessen;Mittelzentren
+Bad Neustadt an der Saale;Hessen;Mittelzentren
+Bad Reichenhall;Hessen;Mittelzentren
+Bad Tölz;Hessen;Mittelzentren
+Bad Windsheim;Hessen;Mittelzentren
+Bad Wörishofen;Hessen;Mittelzentren
+Berchtesgaden;Hessen;Mittelzentren
+Bogen (Stadt);Hessen;Mittelzentren
+Burghausen;Hessen;Mittelzentren
+Cham (Oberpfalz);Hessen;Mittelzentren
+Dachau;Hessen;Mittelzentren
+Dingolfing;Hessen;Mittelzentren
+Dinkelsbühl;Hessen;Mittelzentren
+Donauwörth;Hessen;Mittelzentren
+Eggenfelden;Hessen;Mittelzentren
+Eichstätt;Hessen;Mittelzentren
+Erding;Hessen;Mittelzentren
+Forchheim;Hessen;Mittelzentren
+Freilassing;Hessen;Mittelzentren
+Freyung;Hessen;Mittelzentren
+Friedberg (Bayern);Hessen;Mittelzentren
+Fürstenfeldbruck;Hessen;Mittelzentren
+Füssen;Hessen;Mittelzentren
+Germering;Hessen;Mittelzentren
+Gerolzhofen;Hessen;Mittelzentren
+Grafenau (Niederbayern);Hessen;Mittelzentren
+Gunzenhausen;Hessen;Mittelzentren
+Hammelburg;Hessen;Mittelzentren
+Haßfurt;Hessen;Mittelzentren
+Hersbruck;Hessen;Mittelzentren
+Herzogenaurach;Hessen;Mittelzentren
+Höchstadt a. d. Aisch;Hessen;Mittelzentren
+Illertissen;Hessen;Mittelzentren
+Karlstadt;Hessen;Mittelzentren
+Kelheim;Hessen;Mittelzentren
+Kitzingen;Hessen;Mittelzentren
+Kronach;Hessen;Mittelzentren
+Krumbach (Schwaben);Hessen;Mittelzentren
+Landau an der Isar;Hessen;Mittelzentren
+Landsberg am Lech;Hessen;Mittelzentren
+Lauf an der Pegnitz;Hessen;Mittelzentren
+Lichtenfels (Oberfranken);Hessen;Mittelzentren
+Lindau (Bodensee);Hessen;Mittelzentren
+Lindenberg im Allgäu;Hessen;Mittelzentren
+Lohr am Main;Hessen;Mittelzentren
+Mainburg;Hessen;Mittelzentren
+Marktheidenfeld;Hessen;Mittelzentren
+Marktoberdorf;Hessen;Mittelzentren
+Miltenberg;Hessen;Mittelzentren
+Mindelheim;Hessen;Mittelzentren
+Moosburg an der Isar;Hessen;Mittelzentren
+Murnau am Staffelsee;Hessen;Mittelzentren
+Mühldorf am Inn;Hessen;Mittelzentren
+Münchberg;Hessen;Mittelzentren
+Naila;Hessen;Mittelzentren
+Neuburg an der Donau;Hessen;Mittelzentren
+Neustadt an der Aisch;Hessen;Mittelzentren
+Neustadt bei Coburg;Hessen;Mittelzentren
+Neutraubling;Hessen;Mittelzentren
+Nördlingen;Hessen;Mittelzentren
+Oberstdorf;Hessen;Mittelzentren
+Ochsenfurt;Hessen;Mittelzentren
+Parsberg;Hessen;Mittelzentren
+Pegnitz (Stadt);Hessen;Mittelzentren
+Penzberg;Hessen;Mittelzentren
+Pfaffenhofen an der Ilm;Hessen;Mittelzentren
+Pfarrkirchen;Hessen;Mittelzentren
+Roth;Hessen;Mittelzentren
+Rothenburg ob der Tauber;Hessen;Mittelzentren
+Schrobenhausen;Hessen;Mittelzentren
+Schwabmünchen;Hessen;Mittelzentren
+Schwandorf;Hessen;Mittelzentren
+Selb;Hessen;Mittelzentren
+Starnberg;Hessen;Mittelzentren
+Sulzbach-Rosenberg;Hessen;Mittelzentren
+Tirschenreuth;Hessen;Mittelzentren
+Viechtach;Hessen;Mittelzentren
+Vilsbiburg;Hessen;Mittelzentren
+Vilshofen an der Donau;Hessen;Mittelzentren
+Waldkraiburg;Hessen;Mittelzentren
+Wasserburg am Inn;Hessen;Mittelzentren
+Weilheim in Oberbayern;Hessen;Mittelzentren
+Weißenburg in Bayern;Hessen;Mittelzentren
+Neubrandenburg;Mecklenburg-Vorpommern;Oberzentren
+Rostock;Mecklenburg-Vorpommern;Oberzentren
+Schwerin;Mecklenburg-Vorpommern;Oberzentren
+Stralsund;Mecklenburg-Vorpommern;Oberzentren
+Anklam;Mecklenburg-Vorpommern;Mittelzentren
+Bad Doberan;Mecklenburg-Vorpommern;Mittelzentren
+Bergen auf Rügen;Mecklenburg-Vorpommern;Mittelzentren
+Demmin;Mecklenburg-Vorpommern;Mittelzentren
+Grevesmühlen;Mecklenburg-Vorpommern;Mittelzentren
+Grimmen;Mecklenburg-Vorpommern;Mittelzentren
+Güstrow;Mecklenburg-Vorpommern;Mittelzentren
+Hagenow;Mecklenburg-Vorpommern;Mittelzentren
+Ludwigslust;Mecklenburg-Vorpommern;Mittelzentren
+Neustrelitz;Mecklenburg-Vorpommern;Mittelzentren
+Parchim;Mecklenburg-Vorpommern;Mittelzentren
+Pasewalk;Mecklenburg-Vorpommern;Mittelzentren
+Ribnitz-Damgarten;Mecklenburg-Vorpommern;Mittelzentren
+Teterow;Mecklenburg-Vorpommern;Mittelzentren
+Ueckermünde;Mecklenburg-Vorpommern;Mittelzentren
+Waren (Müritz);Mecklenburg-Vorpommern;Mittelzentren
+Wismar;Mecklenburg-Vorpommern;Mittelzentren
+Wolgast;Mecklenburg-Vorpommern;Mittelzentren
+Wilhelmshaven;Niedersachsen;Oberzentren
+Oldenburg (Oldenburg);Niedersachsen;Oberzentren
+Osnabrück;Niedersachsen;Oberzentren
+Hannover;Niedersachsen;Oberzentren
+Hildesheim;Niedersachsen;Oberzentren
+Göttingen;Niedersachsen;Oberzentren
+Celle;Niedersachsen;Oberzentren
+Lüneburg;Niedersachsen;Oberzentren
+Salzgitter;Niedersachsen;Oberzentren
+Braunschweig;Niedersachsen;Oberzentren
+Wolfsburg;Niedersachsen;Oberzentren
+Emden;Niedersachsen;Mittelzentren mit oberzentralen Teilfunktionen
+Lingen (Ems);Niedersachsen;Mittelzentren mit oberzentralen Teilfunktionen
+Nordhorn;Niedersachsen;Mittelzentren mit oberzentralen Teilfunktionen
+Delmenhorst;Niedersachsen;Mittelzentren mit oberzentralen Teilfunktionen
+Hameln;Niedersachsen;Mittelzentren mit oberzentralen Teilfunktionen
+Langenhagen;Niedersachsen;Mittelzentren mit oberzentralen Teilfunktionen
+Norden (Ostfriesland);Niedersachsen;Mittelzentren
+Aurich;Niedersachsen;Mittelzentren
+Leer (Ostfriesland);Niedersachsen;Mittelzentren
+Papenburg;Niedersachsen;Mittelzentren
+Meppen;Niedersachsen;Mittelzentren
+Wittmund;Niedersachsen;Mittelzentren
+Jever;Niedersachsen;Mittelzentren
+Varel;Niedersachsen;Mittelzentren
+Westerstede;Niedersachsen;Mittelzentren
+Bad Zwischenahn;Niedersachsen;Mittelzentren
+Rastede;Niedersachsen;Mittelzentren
+Friesoythe;Niedersachsen;Mittelzentren
+Cloppenburg;Niedersachsen;Mittelzentren
+Quakenbrück;Niedersachsen;Mittelzentren
+Bramsche;Niedersachsen;Mittelzentren
+Georgsmarienhütte;Niedersachsen;Mittelzentren
+Melle;Niedersachsen;Mittelzentren
+Nordenham;Niedersachsen;Mittelzentren
+Brake (Unterweser);Niedersachsen;Mittelzentren
+Wildeshausen;Niedersachsen;Mittelzentren
+Vechta;Niedersachsen;Mittelzentren
+Lohne (Oldenburg);Niedersachsen;Mittelzentren
+Stuhr;Niedersachsen;Mittelzentren
+Syke;Niedersachsen;Mittelzentren
+Diepholz;Niedersachsen;Mittelzentren
+Sulingen;Niedersachsen;Mittelzentren
+Cuxhaven;Niedersachsen;Mittelzentren
+Hemmoor;Niedersachsen;Mittelzentren
+Osterholz-Scharmbeck;Niedersachsen;Mittelzentren
+Bremervörde;Niedersachsen;Mittelzentren
+Zeven;Niedersachsen;Mittelzentren
+Rotenburg (Wümme);Niedersachsen;Mittelzentren
+Achim (Landkreis Verden);Niedersachsen;Mittelzentren
+Verden (Aller);Niedersachsen;Mittelzentren
+Bad Nenndorf;Niedersachsen;Mittelzentren
+Stadthagen;Niedersachsen;Mittelzentren
+Bückeburg;Niedersachsen;Mittelzentren
+Rinteln;Niedersachsen;Mittelzentren
+Stade;Niedersachsen;Mittelzentren
+Buxtehude;Niedersachsen;Mittelzentren
+Soltau;Niedersachsen;Mittelzentren
+Munster (Örtze);Niedersachsen;Mittelzentren
+Walsrode;Niedersachsen;Mittelzentren
+Neustadt am Rübenberge;Niedersachsen;Mittelzentren
+Wunstorf;Niedersachsen;Mittelzentren
+Garbsen;Niedersachsen;Mittelzentren
+Barsinghausen;Niedersachsen;Mittelzentren
+Springe;Niedersachsen;Mittelzentren
+Großburgwedel;Niedersachsen;Mittelzentren
+Burgdorf (Region Hannover);Niedersachsen;Mittelzentren
+Lehrte;Niedersachsen;Mittelzentren
+Laatzen;Niedersachsen;Mittelzentren
+Bad Pyrmont;Niedersachsen;Mittelzentren
+Holzminden;Niedersachsen;Mittelzentren
+Sarstedt;Niedersachsen;Mittelzentren
+Alfeld (Leine);Niedersachsen;Mittelzentren
+Bad Gandersheim;Niedersachsen;Mittelzentren
+Einbeck;Niedersachsen;Mittelzentren
+Northeim;Niedersachsen;Mittelzentren
+Uslar;Niedersachsen;Mittelzentren
+Hann. Münden;Niedersachsen;Mittelzentren
+Duderstadt;Niedersachsen;Mittelzentren
+Buchholz in der Nordheide;Niedersachsen;Mittelzentren
+Seevetal;Niedersachsen;Mittelzentren
+Winsen (Luhe);Niedersachsen;Mittelzentren
+Uelzen;Niedersachsen;Mittelzentren
+Wittingen;Niedersachsen;Mittelzentren
+Gifhorn;Niedersachsen;Mittelzentren
+Peine;Niedersachsen;Mittelzentren
+Wolfenbüttel;Niedersachsen;Mittelzentren
+Goslar;Niedersachsen;Mittelzentren
+Bad Harzburg;Niedersachsen;Mittelzentren
+Seesen;Niedersachsen;Mittelzentren
+Clausthal-Zellerfeld;Niedersachsen;Mittelzentren
+Osterode am Harz;Niedersachsen;Mittelzentren
+Lüchow (Wendland);Niedersachsen;Mittelzentren
+Helmstedt;Niedersachsen;Mittelzentren
+Siegen;Nordrhein-Westfalen;Oberzentren
+Bielefeld;Nordrhein-Westfalen;Oberzentren
+Düsseldorf;Nordrhein-Westfalen;Oberzentren
+Krefeld;Nordrhein-Westfalen;Oberzentren
+Mönchengladbach;Nordrhein-Westfalen;Oberzentren
+Wuppertal;Nordrhein-Westfalen;Oberzentren
+Aachen;Nordrhein-Westfalen;Oberzentren
+Bonn;Nordrhein-Westfalen;Oberzentren
+Köln;Nordrhein-Westfalen;Oberzentren
+Münster (Westfalen);Nordrhein-Westfalen;Oberzentren
+Bochum;Nordrhein-Westfalen;Oberzentren
+Dortmund;Nordrhein-Westfalen;Oberzentren
+Duisburg;Nordrhein-Westfalen;Oberzentren
+Essen;Nordrhein-Westfalen;Oberzentren
+Hagen;Nordrhein-Westfalen;Oberzentren
+Arnsberg;Nordrhein-Westfalen;Mittelzentren
+Brilon;Nordrhein-Westfalen;Mittelzentren
+Marsberg;Nordrhein-Westfalen;Mittelzentren
+Schmallenberg;Nordrhein-Westfalen;Mittelzentren
+Sundern (Sauerland);Nordrhein-Westfalen;Mittelzentren
+Winterberg;Nordrhein-Westfalen;Mittelzentren
+Meschede;Nordrhein-Westfalen;Mittelzentren
+Altena;Nordrhein-Westfalen;Mittelzentren
+Hemer;Nordrhein-Westfalen;Mittelzentren
+Iserlohn;Nordrhein-Westfalen;Mittelzentren
+Lüdenscheid;Nordrhein-Westfalen;Mittelzentren
+Meinerzhagen;Nordrhein-Westfalen;Mittelzentren
+Menden;Nordrhein-Westfalen;Mittelzentren
+Plettenberg;Nordrhein-Westfalen;Mittelzentren
+Werdohl;Nordrhein-Westfalen;Mittelzentren
+Attendorn;Nordrhein-Westfalen;Mittelzentren
+Lennestadt;Nordrhein-Westfalen;Mittelzentren
+Olpe;Nordrhein-Westfalen;Mittelzentren
+Bad Berleburg;Nordrhein-Westfalen;Mittelzentren
+Bad Laasphe;Nordrhein-Westfalen;Mittelzentren
+Kreuztal;Nordrhein-Westfalen;Mittelzentren
+Neunkirchen (Siegerland);Nordrhein-Westfalen;Mittelzentren
+Geseke;Nordrhein-Westfalen;Mittelzentren
+Lippstadt;Nordrhein-Westfalen;Mittelzentren
+Soest;Nordrhein-Westfalen;Mittelzentren
+Warstein;Nordrhein-Westfalen;Mittelzentren
+Werl;Nordrhein-Westfalen;Mittelzentren
+Gütersloh;Nordrhein-Westfalen;Mittelzentren
+Halle (Westf.);Nordrhein-Westfalen;Mittelzentren
+Rheda-Wiedenbrück;Nordrhein-Westfalen;Mittelzentren
+Rietberg;Nordrhein-Westfalen;Mittelzentren
+Bünde;Nordrhein-Westfalen;Mittelzentren
+Herford;Nordrhein-Westfalen;Mittelzentren
+Löhne;Nordrhein-Westfalen;Mittelzentren
+Vlotho;Nordrhein-Westfalen;Mittelzentren
+Bad Driburg;Nordrhein-Westfalen;Mittelzentren
+Beverungen;Nordrhein-Westfalen;Mittelzentren
+Brakel;Nordrhein-Westfalen;Mittelzentren
+Höxter;Nordrhein-Westfalen;Mittelzentren
+Steinheim (Westfalen);Nordrhein-Westfalen;Mittelzentren
+Warburg;Nordrhein-Westfalen;Mittelzentren
+Bad Salzuflen;Nordrhein-Westfalen;Mittelzentren
+Barntrup;Nordrhein-Westfalen;Mittelzentren
+Blomberg;Nordrhein-Westfalen;Mittelzentren
+Detmold;Nordrhein-Westfalen;Mittelzentren
+Horn-Bad Meinberg;Nordrhein-Westfalen;Mittelzentren
+Lage (Lippe);Nordrhein-Westfalen;Mittelzentren
+Lemgo;Nordrhein-Westfalen;Mittelzentren
+Bad Oeynhausen;Nordrhein-Westfalen;Mittelzentren
+Espelkamp;Nordrhein-Westfalen;Mittelzentren
+Lübbecke;Nordrhein-Westfalen;Mittelzentren
+Minden;Nordrhein-Westfalen;Mittelzentren
+Petershagen;Nordrhein-Westfalen;Mittelzentren
+Porta Westfalica (Stadt);Nordrhein-Westfalen;Mittelzentren
+Remscheid;Nordrhein-Westfalen;Mittelzentren
+Solingen;Nordrhein-Westfalen;Mittelzentren
+Emmerich;Nordrhein-Westfalen;Mittelzentren
+Geldern;Nordrhein-Westfalen;Mittelzentren
+Goch;Nordrhein-Westfalen;Mittelzentren
+Kevelaer;Nordrhein-Westfalen;Mittelzentren
+Kleve;Nordrhein-Westfalen;Mittelzentren
+Erkrath;Nordrhein-Westfalen;Mittelzentren
+Haan;Nordrhein-Westfalen;Mittelzentren
+Heiligenhaus;Nordrhein-Westfalen;Mittelzentren
+Hilden;Nordrhein-Westfalen;Mittelzentren
+Langenfeld (Rheinland);Nordrhein-Westfalen;Mittelzentren
+Mettmann;Nordrhein-Westfalen;Mittelzentren
+Monheim am Rhein;Nordrhein-Westfalen;Mittelzentren
+Ratingen;Nordrhein-Westfalen;Mittelzentren
+Velbert;Nordrhein-Westfalen;Mittelzentren
+Wülfrath;Nordrhein-Westfalen;Mittelzentren
+Dormagen;Nordrhein-Westfalen;Mittelzentren
+Grevenbroich;Nordrhein-Westfalen;Mittelzentren
+Kaarst;Nordrhein-Westfalen;Mittelzentren
+Korschenbroich;Nordrhein-Westfalen;Mittelzentren
+Meerbusch;Nordrhein-Westfalen;Mittelzentren
+Neuss;Nordrhein-Westfalen;Mittelzentren
+Kempen;Nordrhein-Westfalen;Mittelzentren
+Nettetal;Nordrhein-Westfalen;Mittelzentren
+Schwalmtal (Niederrhein);Nordrhein-Westfalen;Mittelzentren
+Tönisvorst;Nordrhein-Westfalen;Mittelzentren
+Viersen;Nordrhein-Westfalen;Mittelzentren
+Willich;Nordrhein-Westfalen;Mittelzentren
+Leverkusen;Nordrhein-Westfalen;Mittelzentren
+Alsdorf;Nordrhein-Westfalen;Mittelzentren
+Baesweiler;Nordrhein-Westfalen;Mittelzentren
+Eschweiler;Nordrhein-Westfalen;Mittelzentren
+Herzogenrath;Nordrhein-Westfalen;Mittelzentren
+Monschau;Nordrhein-Westfalen;Mittelzentren
+Stolberg (Rheinland);Nordrhein-Westfalen;Mittelzentren
+Würselen;Nordrhein-Westfalen;Mittelzentren
+Düren;Nordrhein-Westfalen;Mittelzentren
+Jülich;Nordrhein-Westfalen;Mittelzentren
+Bedburg;Nordrhein-Westfalen;Mittelzentren
+Bergheim;Nordrhein-Westfalen;Mittelzentren
+Brühl (Rheinland);Nordrhein-Westfalen;Mittelzentren
+Erftstadt;Nordrhein-Westfalen;Mittelzentren
+Frechen;Nordrhein-Westfalen;Mittelzentren
+Hürth;Nordrhein-Westfalen;Mittelzentren
+Kerpen;Nordrhein-Westfalen;Mittelzentren
+Pulheim;Nordrhein-Westfalen;Mittelzentren
+Wesseling;Nordrhein-Westfalen;Mittelzentren
+Euskirchen;Nordrhein-Westfalen;Mittelzentren
+Mechernich;Nordrhein-Westfalen;Mittelzentren
+Schleiden;Nordrhein-Westfalen;Mittelzentren
+Erkelenz;Nordrhein-Westfalen;Mittelzentren
+Geilenkirchen;Nordrhein-Westfalen;Mittelzentren
+Heinsberg;Nordrhein-Westfalen;Mittelzentren
+Hückelhoven;Nordrhein-Westfalen;Mittelzentren
+Übach-Palenberg;Nordrhein-Westfalen;Mittelzentren
+Wegberg;Nordrhein-Westfalen;Mittelzentren
+Engelskirchen;Nordrhein-Westfalen;Mittelzentren
+Gummersbach;Nordrhein-Westfalen;Mittelzentren
+Radevormwald;Nordrhein-Westfalen;Mittelzentren
+Waldbröl;Nordrhein-Westfalen;Mittelzentren
+Wipperfürth;Nordrhein-Westfalen;Mittelzentren
+Bergisch Gladbach;Nordrhein-Westfalen;Mittelzentren
+Leichlingen;Nordrhein-Westfalen;Mittelzentren
+Wermelskirchen;Nordrhein-Westfalen;Mittelzentren
+Bad Honnef;Nordrhein-Westfalen;Mittelzentren
+Bornheim (Rheinland);Nordrhein-Westfalen;Mittelzentren
+Eitorf;Nordrhein-Westfalen;Mittelzentren
+Hennef;Nordrhein-Westfalen;Mittelzentren
+Königswinter;Nordrhein-Westfalen;Mittelzentren
+Lohmar;Nordrhein-Westfalen;Mittelzentren
+Niederkassel;Nordrhein-Westfalen;Mittelzentren
+Rheinbach;Nordrhein-Westfalen;Mittelzentren
+Sankt Augustin;Nordrhein-Westfalen;Mittelzentren
+Siegburg;Nordrhein-Westfalen;Mittelzentren
+Troisdorf;Nordrhein-Westfalen;Mittelzentren
+Ahaus;Nordrhein-Westfalen;Mittelzentren
+Bocholt;Nordrhein-Westfalen;Mittelzentren
+Borken;Nordrhein-Westfalen;Mittelzentren
+Gronau (Westf.);Nordrhein-Westfalen;Mittelzentren
+Stadtlohn;Nordrhein-Westfalen;Mittelzentren
+Vreden;Nordrhein-Westfalen;Mittelzentren
+Coesfeld;Nordrhein-Westfalen;Mittelzentren
+Dülmen;Nordrhein-Westfalen;Mittelzentren
+Lüdinghausen;Nordrhein-Westfalen;Mittelzentren
+Emsdetten;Nordrhein-Westfalen;Mittelzentren
+Greven;Nordrhein-Westfalen;Mittelzentren
+Ibbenbüren;Nordrhein-Westfalen;Mittelzentren
+Lengerich (Westfalen);Nordrhein-Westfalen;Mittelzentren
+Ochtrup;Nordrhein-Westfalen;Mittelzentren
+Rheine;Nordrhein-Westfalen;Mittelzentren
+Steinfurt;Nordrhein-Westfalen;Mittelzentren
+Ahlen;Nordrhein-Westfalen;Mittelzentren
+Beckum;Nordrhein-Westfalen;Mittelzentren
+Oelde;Nordrhein-Westfalen;Mittelzentren
+Warendorf;Nordrhein-Westfalen;Mittelzentren
+Bottrop;Nordrhein-Westfalen;Mittelzentren
+Gelsenkirchen;Nordrhein-Westfalen;Mittelzentren
+Hamm;Nordrhein-Westfalen;Mittelzentren
+Herne;Nordrhein-Westfalen;Mittelzentren
+Mülheim an der Ruhr;Nordrhein-Westfalen;Mittelzentren
+Oberhausen;Nordrhein-Westfalen;Mittelzentren
+Ennepetal;Nordrhein-Westfalen;Mittelzentren
+Gevelsberg;Nordrhein-Westfalen;Mittelzentren
+Hattingen;Nordrhein-Westfalen;Mittelzentren
+Herdecke;Nordrhein-Westfalen;Mittelzentren
+Schwelm;Nordrhein-Westfalen;Mittelzentren
+Sprockhövel;Nordrhein-Westfalen;Mittelzentren
+Wetter (Ruhr);Nordrhein-Westfalen;Mittelzentren
+Witten;Nordrhein-Westfalen;Mittelzentren
+Castrop-Rauxel;Nordrhein-Westfalen;Mittelzentren
+Datteln;Nordrhein-Westfalen;Mittelzentren
+Dorsten;Nordrhein-Westfalen;Mittelzentren
+Gladbeck;Nordrhein-Westfalen;Mittelzentren
+Haltern;Nordrhein-Westfalen;Mittelzentren
+Herten;Nordrhein-Westfalen;Mittelzentren
+Marl;Nordrhein-Westfalen;Mittelzentren
+Oer-Erkenschwick;Nordrhein-Westfalen;Mittelzentren
+Recklinghausen;Nordrhein-Westfalen;Mittelzentren
+Waltrop;Nordrhein-Westfalen;Mittelzentren
+Bergkamen;Nordrhein-Westfalen;Mittelzentren
+Kamen;Nordrhein-Westfalen;Mittelzentren
+Lünen;Nordrhein-Westfalen;Mittelzentren
+Schwerte;Nordrhein-Westfalen;Mittelzentren
+Selm;Nordrhein-Westfalen;Mittelzentren
+Unna;Nordrhein-Westfalen;Mittelzentren
+Werne;Nordrhein-Westfalen;Mittelzentren
+Dinslaken;Nordrhein-Westfalen;Mittelzentren
+Hamminkeln;Nordrhein-Westfalen;Mittelzentren
+Kamp-Lintfort;Nordrhein-Westfalen;Mittelzentren
+Moers;Nordrhein-Westfalen;Mittelzentren
+Neukirchen-Vluyn;Nordrhein-Westfalen;Mittelzentren
+Rheinberg;Nordrhein-Westfalen;Mittelzentren
+Voerde;Nordrhein-Westfalen;Mittelzentren
+Wesel;Nordrhein-Westfalen;Mittelzentren
+Xanten;Nordrhein-Westfalen;Mittelzentren
+Kaiserslautern;Rheinland-Pfalz;Oberzentren
+Koblenz;Rheinland-Pfalz;Oberzentren
+Ludwigshafen am Rhein;Rheinland-Pfalz;Oberzentren
+Mainz;Rheinland-Pfalz;Oberzentren
+Trier;Rheinland-Pfalz;Oberzentren
+Landau in der Pfalz;Rheinland-Pfalz;Mittelzentren mit oberzentralen Teilfunktionen
+Speyer;Rheinland-Pfalz;Mittelzentren mit oberzentralen Teilfunktionen
+Worms;Rheinland-Pfalz;Mittelzentren mit oberzentralen Teilfunktionen
+Zweibrücken;Rheinland-Pfalz;Mittelzentren mit oberzentralen Teilfunktionen
+Altenkirchen (Westerwald);Rheinland-Pfalz;Mittelzentren
+Andernach;Rheinland-Pfalz;Mittelzentren
+Alzey;Rheinland-Pfalz;Mittelzentren
+Bad Bergzabern;Rheinland-Pfalz;Mittelzentren
+Bad Ems;Rheinland-Pfalz;Mittelzentren
+Bad Dürkheim;Rheinland-Pfalz;Mittelzentren
+Bad Kreuznach;Rheinland-Pfalz;Mittelzentren
+Bingen am Rhein;Rheinland-Pfalz;Mittelzentren
+Boppard;Rheinland-Pfalz;Mittelzentren
+Dahn;Rheinland-Pfalz;Mittelzentren
+Daun;Rheinland-Pfalz;Mittelzentren
+Diez;Rheinland-Pfalz;Mittelzentren
+Frankenthal (Pfalz);Rheinland-Pfalz;Mittelzentren
+Gerolstein;Rheinland-Pfalz;Mittelzentren
+Germersheim;Rheinland-Pfalz;Mittelzentren
+Grünstadt;Rheinland-Pfalz;Mittelzentren
+Hermeskeil;Rheinland-Pfalz;Mittelzentren
+Ingelheim am Rhein;Rheinland-Pfalz;Mittelzentren
+Linz am Rhein;Rheinland-Pfalz;Mittelzentren
+Mayen;Rheinland-Pfalz;Mittelzentren
+Pirmasens;Rheinland-Pfalz;Mittelzentren
+Prüm;Rheinland-Pfalz;Mittelzentren
+Saarburg;Rheinland-Pfalz;Mittelzentren
+Wittlich;Rheinland-Pfalz;Mittelzentren
+Adenau;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Bad Sobernheim;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Baumholder;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Bendorf;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Bernkastel-Kues;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Betzdorf;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Bitburg;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Cochem;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Dernbach (Westerwald);Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Dierdorf;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Eisenberg (Pfalz);Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Hachenburg;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Haßloch;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Kandel (Pfalz);Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Konz;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Kusel;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Landstuhl;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Ludwigshafen am Rhein;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Mainz;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Nastätten;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren)
+Saarbrücken;Saarland;Oberzentren
+Blieskastel;Saarland;Mittelzentren
+Homburg;Saarland;Mittelzentren
+Lebach;Saarland;Mittelzentren
+Merzig;Saarland;Mittelzentren
+Neunkirchen (Saar);Saarland;Mittelzentren
+Saarlouis;Saarland;Mittelzentren
+St. Ingbert;Saarland;Mittelzentren
+St. Wendel;Saarland;Mittelzentren
+Völklingen;Saarland;Mittelzentren
+Wadern;Saarland;Mittelzentren
+Dessau-Roßlau;Sachsen-Anhalt;Oberzentren
+Halle (Saale);Sachsen-Anhalt;Oberzentren
+Magdeburg;Sachsen-Anhalt;Oberzentren
+Bitterfeld-Wolfen;Sachsen-Anhalt;Mittelzentren mit oberzentralen Teilfunktionen
+Halberstadt;Sachsen-Anhalt;Mittelzentren mit oberzentralen Teilfunktionen
+Merseburg;Sachsen-Anhalt;Mittelzentren mit oberzentralen Teilfunktionen
+Naumburg (Saale);Sachsen-Anhalt;Mittelzentren mit oberzentralen Teilfunktionen
+Schönebeck (Elbe);Sachsen-Anhalt;Mittelzentren mit oberzentralen Teilfunktionen
+Stendal;Sachsen-Anhalt;Mittelzentren mit oberzentralen Teilfunktionen
+Lutherstadt Wittenberg;Sachsen-Anhalt;Mittelzentren mit oberzentralen Teilfunktionen
+Aschersleben;Sachsen-Anhalt;Mittelzentren
+Bernburg (Saale);Sachsen-Anhalt;Mittelzentren
+Burg (bei Magdeburg);Sachsen-Anhalt;Mittelzentren
+Lutherstadt Eisleben;Sachsen-Anhalt;Mittelzentren
+Haldensleben;Sachsen-Anhalt;Mittelzentren
+Köthen (Anhalt);Sachsen-Anhalt;Mittelzentren
+Oschersleben;Sachsen-Anhalt;Mittelzentren
+Quedlinburg;Sachsen-Anhalt;Mittelzentren
+Salzwedel;Sachsen-Anhalt;Mittelzentren
+Sangerhausen;Sachsen-Anhalt;Mittelzentren
+Staßfurt;Sachsen-Anhalt;Mittelzentren
+Weißenfels;Sachsen-Anhalt;Mittelzentren
+Wernigerode;Sachsen-Anhalt;Mittelzentren
+Zeitz;Sachsen-Anhalt;Mittelzentren
+Chemnitz;Sachsen;Oberzentren
+Dresden;Sachsen;Oberzentren
+Leipzig;Sachsen;Oberzentren
+Plauen;Sachsen;Oberzentren
+Zwickau;Sachsen;Oberzentren
+Oberzentraler Städteverbund;Sachsen;Oberzentren
+Annaberg-Buchholz;Sachsen;Mittelzentren
+Borna;Sachsen;Mittelzentren
+Coswig (Sachsen);Sachsen;Mittelzentren
+Crimmitschau;Sachsen;Mittelzentren
+Delitzsch;Sachsen;Mittelzentren
+Dippoldiswalde;Sachsen;Mittelzentren
+Döbeln;Sachsen;Mittelzentren
+Eilenburg;Sachsen;Mittelzentren
+Freiberg;Sachsen;Mittelzentren
+Freital;Sachsen;Mittelzentren
+Glauchau;Sachsen;Mittelzentren
+Grimma;Sachsen;Mittelzentren
+Großenhain;Sachsen;Mittelzentren
+Kamenz;Sachsen;Mittelzentren
+Limbach-Oberfrohna;Sachsen;Mittelzentren
+Löbau;Sachsen;Mittelzentren
+Marienberg;Sachsen;Mittelzentren
+Markkleeberg;Sachsen;Mittelzentren
+Meißen;Sachsen;Mittelzentren
+Mittweida;Sachsen;Mittelzentren
+Niesky;Sachsen;Mittelzentren
+Oschatz;Sachsen;Mittelzentren
+Pirna;Sachsen;Mittelzentren
+Radeberg;Sachsen;Mittelzentren
+Radebeul;Sachsen;Mittelzentren
+Reichenbach im Vogtland;Sachsen;Mittelzentren
+Riesa;Sachsen;Mittelzentren
+Schkeuditz;Sachsen;Mittelzentren
+Torgau;Sachsen;Mittelzentren
+Werdau;Sachsen;Mittelzentren
+Wurzen;Sachsen;Mittelzentren
+Zittau;Sachsen;Mittelzentren
+Flensburg;Schleswig-Holstein;Oberzentren
+Kiel;Schleswig-Holstein;Oberzentren
+Lübeck;Schleswig-Holstein;Oberzentren
+Neumünster;Schleswig-Holstein;Oberzentren
+Bad Oldesloe;Schleswig-Holstein;Mittelzentren
+Bad Segeberg;Schleswig-Holstein;Mittelzentren
+Brunsbüttel;Schleswig-Holstein;Mittelzentren
+Eckernförde;Schleswig-Holstein;Mittelzentren
+Elmshorn;Schleswig-Holstein;Mittelzentren
+Eutin;Schleswig-Holstein;Mittelzentren
+Heide (Holstein);Schleswig-Holstein;Mittelzentren
+Husum;Schleswig-Holstein;Mittelzentren
+Itzehoe;Schleswig-Holstein;Mittelzentren
+Kaltenkirchen;Schleswig-Holstein;Mittelzentren
+Mölln;Schleswig-Holstein;Mittelzentren
+Rendsburg;Schleswig-Holstein;Mittelzentren
+Schleswig;Schleswig-Holstein;Mittelzentren
+Ahrensburg;Schleswig-Holstein;Mittelzentren im Verdichtungsraum
+Geesthacht;Schleswig-Holstein;Mittelzentren im Verdichtungsraum
+Norderstedt;Schleswig-Holstein;Mittelzentren im Verdichtungsraum
+Pinneberg;Schleswig-Holstein;Mittelzentren im Verdichtungsraum
+Wedel;Schleswig-Holstein;Mittelzentren im Verdichtungsraum
+Erfurt;Thüringen;Oberzentren
+Gera;Thüringen;Oberzentren
+Jena;Thüringen;Oberzentren
+Altenburg;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums
+Eisenach;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums
+Gotha;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums
+Nordhausen;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums
+Weimar;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums
+Apolda;Thüringen;Mittelzentren
+Arnstadt;Thüringen;Mittelzentren
+Bad Langensalza;Thüringen;Mittelzentren
+Bad Lobenstein;Thüringen;Mittelzentren
+Bad Salzungen;Thüringen;Mittelzentren
+Eisenberg (Thüringen);Thüringen;Mittelzentren
+Greiz;Thüringen;Mittelzentren
+Heilbad Heiligenstadt;Thüringen;Mittelzentren
+Hildburghausen;Thüringen;Mittelzentren
+Ilmenau;Thüringen;Mittelzentren
+Leinefelde-Worbis;Thüringen;Mittelzentren
+Meiningen;Thüringen;Mittelzentren
+Pößneck;Thüringen;Mittelzentren
+Schleiz;Thüringen;Mittelzentren
+Schmalkalden;Thüringen;Mittelzentren
+Sömmerda;Thüringen;Mittelzentren
+Sondershausen;Thüringen;Mittelzentren
+Sonneberg;Thüringen;Mittelzentren
+Stadtroda;Thüringen;Mittelzentren
+Zeulenroda-Triebes;Thüringen;Mittelzentren
+Friedrichshafen;Baden-Württemberg;Oberzentren;
+Ravensburg;Baden-Württemberg;Oberzentren;
+Weingarten (Württemberg);Baden-Württemberg;Oberzentren;
+Lörrach;Baden-Württemberg;Oberzentren;
+Weil am Rhein;Baden-Württemberg;Oberzentren;
+Mannheim;Baden-Württemberg;Oberzentren;
+Ludwigshafen am Rhein;Baden-Württemberg;Oberzentren;
+Reutlingen;Baden-Württemberg;Oberzentren;
+Tübingen;Baden-Württemberg;Oberzentren;
+Ulm;Baden-Württemberg;Oberzentren;
+Neu-Ulm;Baden-Württemberg;Oberzentren;
+Bad Krozingen;Baden-Württemberg;Mittelzentren;
+Staufen im Breisgau;Baden-Württemberg;Mittelzentren;
+Bietigheim-Bissingen;Baden-Württemberg;Mittelzentren;
+Besigheim;Baden-Württemberg;Mittelzentren;
+Blaubeuren;Baden-Württemberg;Mittelzentren;
+Laichingen;Baden-Württemberg;Mittelzentren;
+Böblingen;Baden-Württemberg;Mittelzentren;
+Sindelfingen;Baden-Württemberg;Mittelzentren;
+Gaggenau;Baden-Württemberg;Mittelzentren;
+Gernsbach;Baden-Württemberg;Mittelzentren;
+Haslach im Kinzigtal;Baden-Württemberg;Mittelzentren;
+Hausach;Baden-Württemberg;Mittelzentren;
+Wolfach;Baden-Württemberg;Mittelzentren;
+Lahr/Schwarzwald;Baden-Württemberg;Mittelzentren;
+Ludwigsburg;Baden-Württemberg;Mittelzentren;
+Kornwestheim;Baden-Württemberg;Mittelzentren;
+Waiblingen;Baden-Württemberg;Mittelzentren;
+Fellbach;Baden-Württemberg;Mittelzentren;
+Wiesloch;Baden-Württemberg;Mittelzentren;
+Walldorf (Baden);Baden-Württemberg;Mittelzentren;
+Deggendorf;Bayern;Oberzentren;
+Plattling;Bayern;Oberzentren;
+Neu-Ulm;Bayern;Oberzentren;
+Ulm;Bayern;Oberzentren;
+Nürnberg;Bayern;Oberzentren;
+Fürth;Bayern;Oberzentren;
+Erlangen;Bayern;Oberzentren;
+Marktredwitz;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;
+Wunsiedel;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;
+Abensberg;Bayern;Mittelzentren;
+Neustadt an der Donau;Bayern;Mittelzentren;
+Altötting;Bayern;Mittelzentren;
+Neuötting;Bayern;Mittelzentren;
+Burglengenfeld;Bayern;Mittelzentren;
+Maxhütte-Haidhof;Bayern;Mittelzentren;
+Teublitz;Bayern;Mittelzentren;
+Dillingen an der Donau;Bayern;Mittelzentren;
+Lauingen (Donau);Bayern;Mittelzentren;
+Ebersberg;Bayern;Mittelzentren;
+Grafing bei München;Bayern;Mittelzentren;
+Furth im Wald;Bayern;Mittelzentren;
+Domažlice;Bayern;Mittelzentren;
+Günzburg;Bayern;Mittelzentren;
+Leipheim;Bayern;Mittelzentren;
+Miesbach;Bayern;Mittelzentren;
+Hausham;Bayern;Mittelzentren;
+Obernburg am Main;Bayern;Mittelzentren;
+Elsenfeld;Bayern;Mittelzentren;
+Erlenbach am Main;Bayern;Mittelzentren;
+Pocking;Bayern;Mittelzentren;
+Ruhstorf an der Rott;Bayern;Mittelzentren;
+Regen (Stadt);Bayern;Mittelzentren;
+Zwiesel;Bayern;Mittelzentren;
+Schongau;Bayern;Mittelzentren;
+Peiting;Bayern;Mittelzentren;
+Simbach am Inn;Bayern;Mittelzentren;
+Braunau am Inn;Bayern;Mittelzentren;
+Sonthofen;Bayern;Mittelzentren;
+Immenstadt im Allgäu;Bayern;Mittelzentren;
+Tegernsee;Bayern;Mittelzentren;
+Rottach-Egern;Bayern;Mittelzentren;
+Bad Wiessee;Bayern;Mittelzentren;
+Gmund am Tegernsee;Bayern;Mittelzentren;
+Traunreut;Bayern;Mittelzentren;
+Trostberg;Bayern;Mittelzentren;
+Waldsassen;Bayern;Mittelzentren;
+Cheb;Bayern;Mittelzentren;
+Wolfratshausen;Bayern;Mittelzentren;
+Geretsried;Bayern;Mittelzentren;
+Deggendorf;Brandenburg;Oberzentren;
+Plattling;Brandenburg;Oberzentren;
+Neu-Ulm;Brandenburg;Oberzentren;
+Ulm;Brandenburg;Oberzentren;
+Nürnberg;Brandenburg;Oberzentren;
+Fürth;Brandenburg;Oberzentren;
+Erlangen;Brandenburg;Oberzentren;
+Marktredwitz;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;
+Wunsiedel;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;
+Abensberg;Brandenburg;Mittelzentren;
+Neustadt an der Donau;Brandenburg;Mittelzentren;
+Altötting;Brandenburg;Mittelzentren;
+Neuötting;Brandenburg;Mittelzentren;
+Burglengenfeld;Brandenburg;Mittelzentren;
+Maxhütte-Haidhof;Brandenburg;Mittelzentren;
+Teublitz;Brandenburg;Mittelzentren;
+Dillingen an der Donau;Brandenburg;Mittelzentren;
+Lauingen (Donau);Brandenburg;Mittelzentren;
+Ebersberg;Brandenburg;Mittelzentren;
+Grafing bei München;Brandenburg;Mittelzentren;
+Furth im Wald;Brandenburg;Mittelzentren;
+Domažlice;Brandenburg;Mittelzentren;
+Günzburg;Brandenburg;Mittelzentren;
+Leipheim;Brandenburg;Mittelzentren;
+Miesbach;Brandenburg;Mittelzentren;
+Hausham;Brandenburg;Mittelzentren;
+Obernburg am Main;Brandenburg;Mittelzentren;
+Elsenfeld;Brandenburg;Mittelzentren;
+Erlenbach am Main;Brandenburg;Mittelzentren;
+Pocking;Brandenburg;Mittelzentren;
+Ruhstorf an der Rott;Brandenburg;Mittelzentren;
+Regen (Stadt);Brandenburg;Mittelzentren;
+Zwiesel;Brandenburg;Mittelzentren;
+Schongau;Brandenburg;Mittelzentren;
+Peiting;Brandenburg;Mittelzentren;
+Simbach am Inn;Brandenburg;Mittelzentren;
+Braunau am Inn;Brandenburg;Mittelzentren;
+Sonthofen;Brandenburg;Mittelzentren;
+Immenstadt im Allgäu;Brandenburg;Mittelzentren;
+Tegernsee;Brandenburg;Mittelzentren;
+Rottach-Egern;Brandenburg;Mittelzentren;
+Bad Wiessee;Brandenburg;Mittelzentren;
+Gmund am Tegernsee;Brandenburg;Mittelzentren;
+Traunreut;Brandenburg;Mittelzentren;
+Trostberg;Brandenburg;Mittelzentren;
+Waldsassen;Brandenburg;Mittelzentren;
+Cheb;Brandenburg;Mittelzentren;
+Wolfratshausen;Brandenburg;Mittelzentren;
+Geretsried;Brandenburg;Mittelzentren;
+Deggendorf;Hessen;Oberzentren;
+Plattling;Hessen;Oberzentren;
+Neu-Ulm;Hessen;Oberzentren;
+Ulm;Hessen;Oberzentren;
+Nürnberg;Hessen;Oberzentren;
+Fürth;Hessen;Oberzentren;
+Erlangen;Hessen;Oberzentren;
+Marktredwitz;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;
+Wunsiedel;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;
+Abensberg;Hessen;Mittelzentren;
+Neustadt an der Donau;Hessen;Mittelzentren;
+Altötting;Hessen;Mittelzentren;
+Neuötting;Hessen;Mittelzentren;
+Burglengenfeld;Hessen;Mittelzentren;
+Maxhütte-Haidhof;Hessen;Mittelzentren;
+Teublitz;Hessen;Mittelzentren;
+Dillingen an der Donau;Hessen;Mittelzentren;
+Lauingen (Donau);Hessen;Mittelzentren;
+Ebersberg;Hessen;Mittelzentren;
+Grafing bei München;Hessen;Mittelzentren;
+Furth im Wald;Hessen;Mittelzentren;
+Domažlice;Hessen;Mittelzentren;
+Günzburg;Hessen;Mittelzentren;
+Leipheim;Hessen;Mittelzentren;
+Miesbach;Hessen;Mittelzentren;
+Hausham;Hessen;Mittelzentren;
+Obernburg am Main;Hessen;Mittelzentren;
+Elsenfeld;Hessen;Mittelzentren;
+Erlenbach am Main;Hessen;Mittelzentren;
+Pocking;Hessen;Mittelzentren;
+Ruhstorf an der Rott;Hessen;Mittelzentren;
+Regen (Stadt);Hessen;Mittelzentren;
+Zwiesel;Hessen;Mittelzentren;
+Schongau;Hessen;Mittelzentren;
+Peiting;Hessen;Mittelzentren;
+Simbach am Inn;Hessen;Mittelzentren;
+Braunau am Inn;Hessen;Mittelzentren;
+Sonthofen;Hessen;Mittelzentren;
+Immenstadt im Allgäu;Hessen;Mittelzentren;
+Tegernsee;Hessen;Mittelzentren;
+Rottach-Egern;Hessen;Mittelzentren;
+Bad Wiessee;Hessen;Mittelzentren;
+Gmund am Tegernsee;Hessen;Mittelzentren;
+Traunreut;Hessen;Mittelzentren;
+Trostberg;Hessen;Mittelzentren;
+Waldsassen;Hessen;Mittelzentren;
+Cheb;Hessen;Mittelzentren;
+Wolfratshausen;Hessen;Mittelzentren;
+Geretsried;Hessen;Mittelzentren;
+Nienburg/Weser;Niedersachsen;Mittelzentren;
+Annweiler am Trifels;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);
+Edenkoben;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);
+Herxheim bei Landau/Pfalz;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);
+Landau in der Pfalz;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);
+Kastellaun;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);
+Simmern/Hunsrück;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);
+Kirchberg (Hunsrück);Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);
+Dillingen/Saar;Saarland;Mittelzentren;
+Zerbst/Anhalt;Sachsen-Anhalt;Mittelzentren;
+Oelsnitz/Vogtl.;Sachsen;Mittelzentren;
+Stollberg/Erzgeb.;Sachsen;Mittelzentren;
+Weißwasser/Oberlausitz;Sachsen;Mittelzentren;
+Auerbach/Vogtl.;Sachsen;Mittelzentren;
+Ellefeld;Sachsen;Mittelzentren;
+Falkenstein/Vogtl.;Sachsen;Mittelzentren;
+Rodewisch;Sachsen;Mittelzentren;
+Hohenstein-Ernstthal;Sachsen;Mittelzentren;
+Lichtenstein/Sa.;Sachsen;Mittelzentren;
+Oberlungwitz;Sachsen;Mittelzentren;
+Städteverbund Silberberg;Sachsen;Mittelzentren;
+Aue (Sachsen);Sachsen;Mittelzentren;
+Lauter/Sa.;Sachsen;Mittelzentren;
+Lößnitz (Erzgebirge);Sachsen;Mittelzentren;
+Bad Schlema;Sachsen;Mittelzentren;
+Schneeberg (Erzgebirge);Sachsen;Mittelzentren;
+Schwarzenberg/Erzgeb.;Sachsen;Mittelzentren;
+Mühlhausen/Thüringen;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;
+Saalfeld/Saale;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;
+Rudolstadt;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;
+Bad Blankenburg;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;
+Suhl;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;
+Zella-Mehlis;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;
+Artern/Unstrut;Thüringen;Mittelzentren;
+Hermsdorf (Thüringen);Thüringen;Mittelzentren;
+Bad Klosterlausnitz;Thüringen;Mittelzentren;
+Neuhaus am Rennweg;Thüringen;Mittelzentren;
+Lauscha;Thüringen;Mittelzentren;
+Schmölln;Thüringen;Mittelzentren;
+Gößnitz (Thüringen);Thüringen;Mittelzentren;

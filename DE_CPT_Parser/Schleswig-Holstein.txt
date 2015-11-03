@@ -1,0 +1,88 @@
+== Oberzentren ==
+
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Kreis
+|-
+| [[Flensburg]]
+| Kreisfreie Stadt
+|-
+| [[Kiel]]
+| Kreisfreie Stadt, Landeshauptstadt
+|-
+| [[Lübeck]]
+| Kreisfreie Stadt
+|-
+| [[Neumünster]]
+| Kreisfreie Stadt
+|}
+
+== Mittelzentren ==
+
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Kreis
+|-
+| [[Bad Oldesloe]]
+| [[Kreis Stormarn|Stormarn]]
+|-
+| [[Bad Segeberg]] und [[Wahlstedt]]
+| [[Kreis Segeberg|Segeberg]]
+|-
+| [[Brunsbüttel]]
+| [[Kreis Dithmarschen|Dithmarschen]]
+|-
+| [[Eckernförde]]
+| [[Kreis Rendsburg-Eckernförde|Rendsburg-Eckernförde]]
+|-
+| [[Elmshorn]]
+| [[Kreis Pinneberg|Pinneberg]]
+|-
+| [[Eutin]]
+| [[Kreis Ostholstein|Ostholstein]]
+|-
+| [[Heide (Holstein)|Heide]]
+| [[Kreis Dithmarschen|Dithmarschen]]
+|-
+| [[Husum]]
+| [[Kreis Nordfriesland|Nordfriesland]]
+|-
+| [[Itzehoe]]
+| [[Kreis Steinburg|Steinburg]]
+|-
+| [[Kaltenkirchen]]
+| [[Kreis Segeberg|Segeberg]]
+|-
+| [[Mölln]]
+| [[Kreis Herzogtum Lauenburg|Herzogtum Lauenburg]]
+|-
+| [[Rendsburg]]
+| [[Kreis Rendsburg-Eckernförde|Rendsburg-Eckernförde]]
+|-
+| [[Schleswig]]
+| [[Kreis Schleswig-Flensburg|Schleswig-Flensburg]]
+|-
+|}
+
+== Mittelzentren im Verdichtungsraum ==
+
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Kreis
+|-
+| [[Ahrensburg]]
+| [[Kreis Stormarn|Stormarn]]
+|-
+| [[Geesthacht]]
+| [[Kreis Herzogtum Lauenburg|Herzogtum Lauenburg]]
+|-
+| [[Norderstedt]]
+| [[Kreis Segeberg|Segeberg]]
+|-
+| [[Pinneberg]]
+| [[Kreis Pinneberg|Pinneberg]]
+|-
+| [[Wedel]]
+| [[Kreis Pinneberg|Pinneberg]]
+|-
+|}

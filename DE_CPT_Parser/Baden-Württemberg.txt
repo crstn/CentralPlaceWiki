@@ -1,0 +1,416 @@
+== Oberzentren ==
+{| class="wikitable sortable zebra"
+! class="hintergrundfarbe6" style="width:18em" | Zentrum
+! class="hintergrundfarbe6" style="width:13em" | Landkreis
+! class="hintergrundfarbe6" | Regierungsbezirk
+|-
+| [[Freiburg im Breisgau]]
+| Stadtkreis
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Friedrichshafen]]/[[Ravensburg]]/[[Weingarten (Württemberg)|Weingarten]]
+| [[Bodenseekreis]]/[[Landkreis Ravensburg|Ravensburg]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Heidelberg]]
+| Stadtkreis
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Heilbronn]]
+| Stadtkreis
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Karlsruhe]]
+| Stadtkreis
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Konstanz]]
+| [[Landkreis Konstanz|Konstanz]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Lörrach]]/[[Weil am Rhein]]
+| [[Landkreis Lörrach|Lörrach]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Mannheim]](/[[Ludwigshafen am Rhein]])
+| Stadtkreis
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Offenburg]]
+| [[Ortenaukreis]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Pforzheim]]
+| Stadtkreis
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Reutlingen]]/[[Tübingen]]
+| [[Landkreis Reutlingen|Reutlingen]]/[[Landkreis Tübingen|Tübingen]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Stuttgart]]
+| Stadtkreis
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Ulm]](/[[Neu-Ulm]])
+| Stadtkreis
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Villingen-Schwenningen]]
+| [[Schwarzwald-Baar-Kreis]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|}
+
+== Mittelzentren mit oberzentralen Teilfunktionen ==
+{| class="wikitable sortable zebra"
+! class="hintergrundfarbe6" style="width:18em" | Zentrum
+! class="hintergrundfarbe6" style="width:13em" | Landkreis
+! class="hintergrundfarbe6" | Regierungsbezirk
+|-
+| [[Baden-Baden]]
+| Stadtkreis
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|}
+
+== Mittelzentren ==
+{| class="wikitable sortable zebra"
+! class="hintergrundfarbe6" style="width:18em" | Zentrum
+! class="hintergrundfarbe6" style="width:13em" | Landkreis
+! class="hintergrundfarbe6" | Regierungsbezirk
+|-
+| [[Aalen]]
+| [[Ostalbkreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Achern]]
+| [[Ortenaukreis]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Albstadt]]
+| [[Zollernalbkreis]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Backnang]]
+| [[Rems-Murr-Kreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Bad Krozingen]]/[[Staufen im Breisgau]]
+| [[Landkreis Breisgau-Hochschwarzwald|Breisgau-Hochschwarzwald]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Bad Mergentheim]]
+| [[Main-Tauber-Kreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Bad Säckingen]]
+| [[Landkreis Waldshut|Waldshut]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Bad Saulgau]]
+| [[Landkreis Sigmaringen|Sigmaringen]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Bad Waldsee]]
+| [[Landkreis Ravensburg|Ravensburg]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Bad Wildbad]]
+| [[Landkreis Calw|Calw]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Balingen]]
+| [[Zollernalbkreis]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Biberach an der Riß]]
+| [[Landkreis Biberach|Biberach]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Bietigheim-Bissingen]]/[[Besigheim]]
+| [[Landkreis Ludwigsburg|Ludwigsburg]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Blaubeuren]]/[[Laichingen]]
+| [[Alb-Donau-Kreis]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Böblingen]]/[[Sindelfingen]]
+| [[Landkreis Böblingen|Böblingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Breisach am Rhein]]
+| [[Landkreis Breisgau-Hochschwarzwald|Breisgau-Hochschwarzwald]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Bretten]]
+| [[Landkreis Karlsruhe|Karlsruhe]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Bruchsal]]
+| [[Landkreis Karlsruhe|Karlsruhe]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Buchen (Odenwald)]]
+| [[Neckar-Odenwald-Kreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Bühl (Baden)|Bühl]]
+| [[Landkreis Rastatt|Rastatt]] 
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Calw]]
+| [[Landkreis Calw|Calw]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Crailsheim]]
+| [[Landkreis Schwäbisch Hall|Schwäbisch Hall]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Donaueschingen]]
+| [[Schwarzwald-Baar-Kreis]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Eberbach]]
+| [[Rhein-Neckar-Kreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Ehingen (Donau)]]
+| [[Alb-Donau-Kreis]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Ellwangen (Jagst)]]
+| [[Ostalbkreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Emmendingen]]
+| [[Landkreis Emmendingen|Emmendingen]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Esslingen am Neckar]]
+| [[Landkreis Esslingen|Esslingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Ettlingen]]
+| [[Landkreis Karlsruhe|Karlsruhe]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Freudenstadt]]
+| [[Landkreis Freudenstadt|Freudenstadt]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Gaggenau]]/[[Gernsbach]]
+| [[Landkreis Rastatt|Rastatt]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Geislingen an der Steige]]
+| [[Landkreis Göppingen|Göppingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Göppingen]]
+| [[Landkreis Göppingen|Göppingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Haslach im Kinzigtal|Haslach]]/[[Hausach]]/[[Wolfach]]
+| [[Ortenaukreis]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Hechingen]]
+| [[Zollernalbkreis]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Heidenheim an der Brenz]]
+| [[Landkreis Heidenheim|Heidenheim]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Herrenberg]]
+| [[Landkreis Böblingen|Böblingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Horb am Neckar]]
+| [[Landkreis Freudenstadt|Freudenstadt]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Kehl]]
+| [[Ortenaukreis]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Kirchheim unter Teck]]
+| [[Landkreis Esslingen|Esslingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Künzelsau]]
+| [[Hohenlohekreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Lahr/Schwarzwald]]
+| [[Ortenaukreis]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Laupheim]]
+| [[Landkreis Biberach|Biberach]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Leonberg]]
+| [[Landkreis Böblingen|Böblingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Leutkirch im Allgäu]]
+| [[Landkreis Ravensburg|Ravensburg]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Ludwigsburg]]/[[Kornwestheim]]
+| [[Landkreis Ludwigsburg|Ludwigsburg]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Metzingen]]
+| [[Landkreis Reutlingen|Reutlingen]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Mosbach]]
+| [[Neckar-Odenwald-Kreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Mühlacker]]
+| [[Enzkreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Müllheim (Baden)|Müllheim]]
+| [[Landkreis Breisgau-Hochschwarzwald|Breisgau-Hochschwarzwald]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Münsingen (Württemberg)|Münsingen]]
+| [[Landkreis Reutlingen|Reutlingen]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Nagold (Stadt)|Nagold]]
+| [[Landkreis Calw|Calw]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Neckarsulm]]
+| [[Landkreis Heilbronn|Heilbronn]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Nürtingen]]
+| [[Landkreis Esslingen|Esslingen]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Öhringen]]
+| [[Hohenlohekreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Pfullendorf]]
+| [[Landkreis Sigmaringen|Sigmaringen]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Radolfzell am Bodensee]]
+| [[Landkreis Konstanz|Konstanz]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Rastatt]]
+| [[Landkreis Rastatt|Rastatt]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Rheinfelden (Baden)]]
+| [[Landkreis Lörrach|Lörrach]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Riedlingen]]
+| [[Landkreis Biberach|Biberach]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Rottenburg am Neckar]]
+| [[Landkreis Tübingen|Tübingen]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Rottweil]]
+| [[Landkreis Rottweil|Rottweil]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Schorndorf]]
+| [[Rems-Murr-Kreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Schopfheim]]
+| [[Landkreis Lörrach|Lörrach]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Schramberg]]
+| [[Landkreis Rottweil|Rottweil]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Schwäbisch Gmünd]]
+| [[Ostalbkreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Schwäbisch Hall]]
+| [[Landkreis Schwäbisch Hall|Schwäbisch Hall]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Schwetzingen]]
+| [[Rhein-Neckar-Kreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Sigmaringen]]
+| [[Landkreis Sigmaringen|Sigmaringen]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Singen (Hohentwiel)]]
+| [[Landkreis Konstanz|Konstanz]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Sinsheim]]
+| [[Rhein-Neckar-Kreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Stockach]]
+| [[Landkreis Konstanz|Konstanz]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Tauberbischofsheim]]
+| [[Main-Tauber-Kreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Titisee-Neustadt]]
+| [[Landkreis Breisgau-Hochschwarzwald|Breisgau-Hochschwarzwald]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Tuttlingen]]
+| [[Landkreis Tuttlingen|Tuttlingen]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Überlingen]]
+| [[Bodenseekreis]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Vaihingen an der Enz]]
+| [[Landkreis Ludwigsburg|Ludwigsburg]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Waiblingen]]/[[Fellbach]]
+| [[Rems-Murr-Kreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Waldkirch]]
+| [[Landkreis Emmendingen|Emmendingen]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Waldshut-Tiengen]]
+| [[Landkreis Waldshut|Waldshut]]
+| [[Regierungsbezirk Freiburg|Freiburg]]
+|-
+| [[Wangen im Allgäu]]
+| [[Landkreis Ravensburg|Ravensburg]]
+| [[Regierungsbezirk Tübingen|Tübingen]]
+|-
+| [[Weinheim]]
+| [[Rhein-Neckar-Kreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|-
+| [[Wertheim]]
+| [[Main-Tauber-Kreis]]
+| [[Regierungsbezirk Stuttgart|Stuttgart]]
+|-
+| [[Wiesloch]]/[[Walldorf (Baden)|Walldorf]]
+| [[Rhein-Neckar-Kreis]]
+| [[Regierungsbezirk Karlsruhe|Karlsruhe]]
+|}

@@ -1,0 +1,302 @@
+== Oberzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Wilhelmshaven]]
+| Kreisfreie Stadt
+|-
+| [[Oldenburg (Oldenburg)|Oldenburg]]
+| Kreisfreie Stadt
+|-
+| [[Osnabrück]]
+| Kreisfreie Stadt
+|-
+| [[Hannover]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Hildesheim]]
+| [[Landkreis Hildesheim]]
+|-
+| [[Göttingen]]
+| [[Landkreis Göttingen]]
+|-
+| [[Celle]]
+| [[Landkreis Celle]]
+|-
+| [[Lüneburg]]
+| [[Landkreis Lüneburg]]
+|-
+| [[Salzgitter]]
+| Kreisfreie Stadt
+|-
+| [[Braunschweig]]
+| Kreisfreie Stadt
+|-
+| [[Wolfsburg]]
+| Kreisfreie Stadt
+|}
+
+== Mittelzentren mit oberzentralen Teilfunktionen ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Emden]]
+| Kreisfreie Stadt
+|-
+| [[Lingen (Ems)]]
+| [[Landkreis Emsland]]
+|-
+| [[Nordhorn]]
+| [[Landkreis Grafschaft Bentheim]]
+|-
+| [[Delmenhorst]]
+| Kreisfreie Stadt
+|-
+| [[Hameln]]
+| [[Landkreis Hameln-Pyrmont]]
+|-
+| [[Langenhagen]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|}
+
+== Mittelzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Norden (Ostfriesland)|Norden]]
+| [[Landkreis Aurich]]
+|-
+| [[Aurich]]
+| [[Landkreis Aurich]]
+|-
+| [[Leer (Ostfriesland)|Leer]]
+| [[Landkreis Leer]]
+|-
+| [[Papenburg]]
+| [[Landkreis Emsland]]
+|-
+| [[Meppen]]
+| [[Landkreis Emsland]]
+|-
+| [[Wittmund]]
+| [[Landkreis Wittmund]]
+|-
+| [[Jever]]
+| [[Landkreis Friesland]]
+|-
+| [[Varel]]
+| [[Landkreis Friesland]]
+|-
+| [[Westerstede]]
+| [[Landkreis Ammerland]]
+|-
+| [[Bad Zwischenahn]]
+| [[Landkreis Ammerland]]
+|-
+| [[Rastede]]
+| [[Landkreis Ammerland]]
+|-
+| [[Friesoythe]]
+| [[Landkreis Cloppenburg]]
+|-
+| [[Cloppenburg]]
+| [[Landkreis Cloppenburg]]
+|-
+| [[Quakenbrück]]
+| [[Landkreis Osnabrück]]
+|-
+| [[Bramsche]]
+| [[Landkreis Osnabrück]]
+|-
+| [[Georgsmarienhütte]]
+| [[Landkreis Osnabrück]]
+|-
+| [[Melle]]
+| [[Landkreis Osnabrück]]
+|-
+| [[Nordenham]]
+| [[Landkreis Wesermarsch]]
+|-
+| [[Brake (Unterweser)]]
+| [[Landkreis Wesermarsch]]
+|-
+| [[Wildeshausen]]
+| [[Landkreis Oldenburg]]
+|-
+| [[Vechta]]
+| [[Landkreis Vechta]]
+|-
+| [[Lohne (Oldenburg)]]
+| [[Landkreis Vechta]]
+|-
+| [[Stuhr]]
+| [[Landkreis Diepholz]]
+|-
+| [[Syke]]
+| [[Landkreis Diepholz]]
+|-
+| [[Diepholz]]
+| [[Landkreis Diepholz]]
+|-
+| [[Sulingen]]
+| [[Landkreis Diepholz]]
+|-
+| [[Cuxhaven]]
+| [[Landkreis Cuxhaven]]
+|-
+| [[Hemmoor]]
+| [[Landkreis Cuxhaven]]
+|-
+| [[Osterholz-Scharmbeck]]
+| [[Landkreis Osterholz]]
+|-
+| [[Bremervörde]]
+| [[Landkreis Rotenburg (Wümme)]]
+|-
+| [[Zeven]]
+| [[Landkreis Rotenburg (Wümme)]]
+|-
+| [[Rotenburg (Wümme)]]
+| [[Landkreis Rotenburg (Wümme)]]
+|-
+| [[Achim (Landkreis Verden)|Achim]]
+| [[Landkreis Verden]]
+|-
+| [[Verden (Aller)]]
+| [[Landkreis Verden]]
+|-
+| [[Nienburg/Weser]]
+| [[Landkreis Nienburg/Weser]]
+|-
+| [[Bad Nenndorf]]
+| [[Landkreis Schaumburg]]
+|-
+| [[Stadthagen]]
+| [[Landkreis Schaumburg]]
+|-
+| [[Bückeburg]]
+| [[Landkreis Schaumburg]]
+|-
+| [[Rinteln]]
+| [[Landkreis Schaumburg]]
+|-
+| [[Stade]]
+| [[Landkreis Stade]]
+|-
+| [[Buxtehude]]
+| [[Landkreis Stade]]
+|-
+| [[Soltau]]
+| [[Landkreis Heidekreis]]
+|-
+| [[Munster (Örtze)|Munster]]
+| [[Landkreis Heidekreis]]
+|-
+| [[Walsrode]]
+| [[Landkreis Heidekreis]]
+|-
+| [[Neustadt am Rübenberge]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Wunstorf]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Garbsen]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Barsinghausen]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Springe]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Großburgwedel]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Burgdorf (Region Hannover)|Burgdorf]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Lehrte]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Laatzen]]
+| {{SortKey|Landkreis Hannover|[[Region Hannover]]}}
+|-
+| [[Bad Pyrmont]]
+| [[Landkreis Hameln-Pyrmont]]
+|-
+| [[Holzminden]]
+| [[Landkreis Holzminden]]
+|-
+| [[Sarstedt]]
+| [[Landkreis Hildesheim]]
+|-
+| [[Alfeld (Leine)]]
+| [[Landkreis Hildesheim]]
+|-
+| [[Bad Gandersheim]]
+| [[Landkreis Northeim]]
+|-
+| [[Einbeck]]
+| [[Landkreis Northeim]]
+|-
+| [[Northeim]]
+| [[Landkreis Northeim]]
+|-
+| [[Uslar]]
+| [[Landkreis Northeim]]
+|-
+| [[Hann. Münden]]
+| [[Landkreis Göttingen]]
+|-
+| [[Duderstadt]]
+| [[Landkreis Göttingen]]
+|-
+| [[Buchholz in der Nordheide]]
+| [[Landkreis Harburg]]
+|-
+| [[Seevetal]]
+| [[Landkreis Harburg]]
+|-
+| [[Winsen (Luhe)]]
+| [[Landkreis Harburg]]
+|-
+| [[Uelzen]]
+| [[Landkreis Uelzen]]
+|-
+| [[Wittingen]]
+| [[Landkreis Gifhorn]]
+|-
+| [[Gifhorn]]
+| [[Landkreis Gifhorn]]
+|-
+| [[Peine]]
+| [[Landkreis Peine]]
+|-
+| [[Wolfenbüttel]]
+| [[Landkreis Wolfenbüttel]]
+|-
+| [[Goslar]]
+| [[Landkreis Goslar]]
+|-
+| [[Bad Harzburg]]
+| [[Landkreis Goslar]]
+|-
+| [[Seesen]]
+| [[Landkreis Goslar]]
+|-
+| [[Clausthal-Zellerfeld]]
+| [[Landkreis Goslar]]
+|-
+| [[Osterode am Harz]]
+| [[Landkreis Osterode am Harz]]
+|-
+| [[Lüchow (Wendland)]]
+| [[Landkreis Lüchow-Dannenberg]]
+|-
+| [[Helmstedt]]
+| [[Landkreis Helmstedt]]
+|}

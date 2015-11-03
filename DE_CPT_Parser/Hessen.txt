@@ -1,0 +1,569 @@
+== Oberzentren ==
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+! class="hintergrundfarbe6" | Regierungsbezirk
+|-
+| [[Amberg]]
+| Kreisfreie Stadt
+| [[Oberpfalz]]
+|-
+| [[Ansbach]]
+| Kreisfreie Stadt
+| [[Mittelfranken]]
+|-
+| [[Aschaffenburg]]
+| Kreisfreie Stadt
+| [[Unterfranken]]
+|-
+| [[Augsburg]]
+| Kreisfreie Stadt
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Bamberg]]
+| Kreisfreie Stadt
+| [[Oberfranken]]
+|-
+| [[Bayreuth]]
+| Kreisfreie Stadt
+| [[Oberfranken]]
+|-
+| [[Coburg]]
+| Kreisfreie Stadt
+| [[Oberfranken]]
+|-
+| [[Deggendorf]]/[[Plattling]]
+| [[Landkreis Deggendorf|Deggendorf]]
+| [[Niederbayern]]
+|-
+| [[Hof (Saale)|Hof]]
+| Kreisfreie Stadt
+| [[Oberfranken]]
+|-
+| [[Ingolstadt]]
+| Kreisfreie Stadt
+| [[Oberbayern]]
+|-
+| [[Kaufbeuren]]
+| Kreisfreie Stadt
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Kempten (Allgäu)]]
+| Kreisfreie Stadt
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Landshut]]
+| Kreisfreie Stadt
+| [[Niederbayern]]
+|-
+| [[Memmingen]]
+| Kreisfreie Stadt
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[München]]
+| Kreisfreie Stadt
+| [[Oberbayern]]
+|-
+| [[Neu-Ulm]]/([[Ulm]])
+| [[Landkreis Neu-Ulm|Neu-Ulm]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Nürnberg]]/[[Fürth]]/[[Erlangen]]
+| Kreisfreie Städte
+| [[Mittelfranken]]
+|-
+| [[Passau]]
+| Kreisfreie Stadt
+| [[Niederbayern]]
+|-
+| [[Regensburg]]
+| Kreisfreie Stadt
+| [[Oberpfalz]]
+|-
+| [[Rosenheim]]
+| Kreisfreie Stadt
+| [[Oberbayern]]
+|-
+| [[Schweinfurt]]
+| Kreisfreie Stadt
+| [[Unterfranken]]
+|-
+| [[Straubing]]
+| Kreisfreie Stadt
+| [[Niederbayern]]
+|-
+| [[Traunstein]]
+| [[Landkreis Traunstein|Traunstein]]
+| [[Oberbayern]]
+|-
+| [[Weiden in der Oberpfalz]]
+| Kreisfreie Stadt
+| [[Oberpfalz]]
+|-
+| [[Würzburg]]
+| Kreisfreie Stadt
+| [[Unterfranken]]
+|}
+
+== Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren ==
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+! class="hintergrundfarbe6" | Regierungsbezirk
+|-
+| [[Freising]]
+| [[Landkreis Freising|Freising]]
+| [[Oberbayern]]
+|-
+| [[Garmisch-Partenkirchen]]
+| [[Landkreis Garmisch-Partenkirchen|Garmisch-Partenkirchen]]
+| [[Oberbayern]]
+|-
+| [[Kulmbach]]
+| [[Landkreis Kulmbach|Kulmbach]]
+| [[Oberfranken]]
+|-
+| [[Marktredwitz]]/[[Wunsiedel]]
+| [[Landkreis Wunsiedel im Fichtelgebirge|Wunsiedel im Fichtelgebirge]]
+| [[Oberfranken]]
+|-
+| [[Neumarkt in der Oberpfalz]]
+| [[Landkreis Neumarkt in der Oberpfalz|Neumarkt in der Oberpfalz]]
+| [[Oberpfalz]]
+|-
+| [[Schwabach]]
+| Kreisfreie Stadt
+| [[Mittelfranken]]
+|-
+|}
+
+== Mittelzentren ==
+{| class="wikitable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+! class="hintergrundfarbe6" | Regierungsbezirk
+|-
+| [[Alzenau]]
+| [[Landkreis Aschaffenburg|Aschaffenburg]]
+| [[Unterfranken]]
+|-
+| [[Abensberg]]/[[Neustadt an der Donau|Neustadt]]
+| [[Landkreis Kelheim|Kelheim]]
+| [[Niederbayern]]
+|-
+| [[Aichach]]
+| [[Landkreis Aichach-Friedberg|Aichach-Friedberg]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Altötting]]/[[Neuötting]]
+| [[Landkreis Altötting|Altötting]]
+| [[Oberbayern]]
+|-
+| [[Bad Aibling]]
+| [[Landkreis Rosenheim|Rosenheim]]
+| [[Oberbayern]]
+|-
+| [[Bad Brückenau]]
+| [[Landkreis Bad Kissingen|Bad Kissingen]]
+| [[Unterfranken]]
+|-
+| [[Bad Kissingen]]
+| [[Landkreis Bad Kissingen|Bad Kissingen]]
+| [[Unterfranken]]
+|-
+| [[Bad Kötzting]]
+| [[Landkreis Cham|Cham]]
+| [[Oberpfalz]]
+|-
+| [[Bad Neustadt an der Saale]]
+| [[Landkreis Rhön-Grabfeld|Rhön-Grabfeld]]
+| [[Unterfranken]]
+|-
+| [[Bad Reichenhall]]
+| [[Landkreis Berchtesgadener Land|Berchtesgadener Land]]
+| [[Oberbayern]]
+|-
+| [[Bad Tölz]]
+| [[Landkreis Bad Tölz-Wolfratshausen|Bad Tölz-Wolfratshausen]]
+| [[Oberbayern]]
+|-
+| [[Bad Windsheim]]
+| [[Landkreis Neustadt an der Aisch-Bad Windsheim|Neustadt an der Aisch-Bad Windsheim]]
+| [[Mittelfranken]]
+|-
+| [[Bad Wörishofen]]
+| [[Landkreis Unterallgäu|Unterallgäu]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Berchtesgaden]]
+| [[Landkreis Berchtesgadener Land|Berchtesgadener Land]]
+| [[Oberbayern]]
+|-
+| [[Bogen (Stadt)|Bogen]]
+| [[Landkreis Straubing-Bogen|Straubing-Bogen]]
+| [[Niederbayern]]
+|-
+| [[Burghausen]]
+| [[Landkreis Altötting|Altötting]]
+| [[Oberbayern]]
+|-
+| [[Burglengenfeld]]/[[Maxhütte-Haidhof]]/[[Teublitz]]
+| [[Landkreis Schwandorf|Schwandorf]]
+| [[Oberpfalz]]
+|-
+| [[Cham (Oberpfalz)]]
+| [[Landkreis Cham|Cham]]
+| [[Oberpfalz]]
+|-
+| [[Dachau]]
+| [[Landkreis Dachau|Dachau]]
+| [[Oberbayern]]
+|-
+| [[Dillingen an der Donau]]/[[Lauingen (Donau)]]
+| [[Landkreis Dillingen an der Donau|Dillingen an der Donau]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Dingolfing]]
+| [[Landkreis Dingolfing-Landau|Dingolfing-Landau]]
+| [[Niederbayern]]
+|-
+| [[Dinkelsbühl]]
+| [[Landkreis Ansbach|Ansbach]]
+| [[Mittelfranken]]
+|-
+| [[Donauwörth]]
+| [[Landkreis Donau-Ries|Donau-Ries]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Ebersberg]]/[[Grafing bei München]]
+| [[Landkreis Ebersberg|Ebersberg]]
+| [[Oberbayern]]
+|-
+| [[Eggenfelden]]
+| [[Landkreis Rottal-Inn|Rottal-Inn]]
+| [[Niederbayern]]
+|-
+| [[Eichstätt]]
+| [[Landkreis Eichstätt|Eichstätt]]
+| [[Oberbayern]]
+|-
+| [[Erding]]
+| [[Landkreis Erding|Erding]]
+| [[Oberbayern]]
+|-
+| [[Forchheim]]
+| [[Landkreis Forchheim|Forchheim]]
+| [[Oberfranken]]
+|-
+| [[Freilassing]]
+| [[Landkreis Berchtesgadener Land|Berchtesgadener Land]]
+| [[Oberbayern]]
+|-
+| [[Freyung]]
+| [[Landkreis Freyung-Grafenau|Freyung-Grafenau]]
+| [[Niederbayern]]
+|-
+| [[Friedberg (Bayern)|Friedberg]]
+| [[Landkreis Aichach-Friedberg|Aichach-Friedberg]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Furth im Wald]]/([[Domažlice]])
+| [[Landkreis Cham|Cham]]
+| [[Oberpfalz]]
+|-
+| [[Fürstenfeldbruck]]
+| [[Landkreis Fürstenfeldbruck|Fürstenfeldbruck]]
+| [[Oberbayern]]
+|-
+| [[Füssen]]
+| [[Landkreis Ostallgäu|Ostallgäu]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Germering]]
+| [[Landkreis Fürstenfeldbruck|Fürstenfeldbruck]]
+| [[Oberbayern]]
+|-
+| [[Gerolzhofen]]
+| [[Landkreis Schweinfurt|Schweinfurt]]
+| [[Unterfranken]]
+|-
+| [[Grafenau (Niederbayern)|Grafenau]]
+| [[Landkreis Freyung-Grafenau]]
+| [[Niederbayern]]
+|-
+| [[Gunzenhausen]]
+| [[Landkreis Weißenburg-Gunzenhausen|Weißenburg-Gunzenhausen]]
+| [[Mittelfranken]]
+|-
+| [[Günzburg]]/[[Leipheim]]
+| [[Landkreis Günzburg|Günzburg]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Hammelburg]]
+| [[Landkreis Bad Kissingen|Bad Kissingen]]
+| [[Unterfranken]]
+|-
+| [[Haßfurt]]
+| [[Landkreis Haßberge|Haßberge]]
+| [[Unterfranken]]
+|-
+| [[Hersbruck]]
+| [[Landkreis Nürnberger Land|Nürnberger Land]]
+| [[Mittelfranken]]
+|-
+| [[Herzogenaurach]]
+| [[Landkreis Erlangen-Höchstadt|Erlangen-Höchstadt]]
+| [[Mittelfranken]]
+|-
+| [[Höchstadt a. d. Aisch]]
+| [[Landkreis Erlangen-Höchstadt|Erlangen-Höchstadt]]
+| [[Mittelfranken]]
+|-
+| [[Illertissen]]
+| [[Landkreis Neu-Ulm|Neu-Ulm]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Karlstadt]]
+| [[Landkreis Main-Spessart|Main-Spessart]]
+| [[Unterfranken]]
+|-
+| [[Kelheim]]
+| [[Landkreis Kelheim|Kelheim]]
+| [[Niederbayern]]
+|-
+| [[Kitzingen]]
+| [[Landkreis Kitzingen|Kitzingen]]
+| [[Unterfranken]]
+|-
+| [[Kronach]]
+| [[Landkreis Kronach|Kronach]]
+| [[Oberfranken]]
+|-
+| [[Krumbach (Schwaben)]]
+| [[Landkreis Günzburg|Günzburg]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Landau an der Isar]]
+| [[Landkreis Dingolfing-Landau|Dingolfing-Landau]]
+| [[Niederbayern]]
+|-
+| [[Landsberg am Lech|Landsberg]]
+| [[Landkreis Landsberg am Lech|Landsberg]]
+| [[Oberbayern]]
+|-
+| [[Lauf an der Pegnitz]]
+| [[Landkreis Nürnberger Land|Nürnberger Land]]
+| [[Mittelfranken]]
+|-
+| [[Lichtenfels (Oberfranken)]]
+| [[Landkreis Lichtenfels|Lichtenfels]]
+| [[Oberfranken]]
+|-
+| [[Lindau (Bodensee)]]
+| [[Landkreis Lindau (Bodensee)|Lindau (Bodensee)]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Lindenberg im Allgäu]]
+| [[Landkreis Lindau (Bodensee)|Lindau (Bodensee)]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Lohr am Main]]
+| [[Landkreis Main-Spessart|Main-Spessart]]
+| [[Unterfranken]]
+|-
+| [[Mainburg]]
+| [[Landkreis Kelheim|Kelheim]]
+| [[Niederbayern]]
+|-
+| [[Marktheidenfeld]]
+| [[Landkreis Main-Spessart|Main-Spessart]]
+| [[Unterfranken]]
+|-
+| [[Marktoberdorf]]
+| [[Landkreis Ostallgäu|Ostallgäu]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Miesbach]]/[[Hausham]]
+| [[Landkreis Miesbach|Miesbach]]
+| [[Oberbayern]]
+|-
+| [[Miltenberg]]
+| [[Landkreis Miltenberg|Miltenberg]]
+| [[Unterfranken]]
+|-
+| [[Mindelheim]]
+| [[Landkreis Unterallgäu|Unterallgäu]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Moosburg an der Isar|Moosburg]]
+| [[Landkreis Freising|Freising]]
+| [[Oberbayern]]
+|-
+| [[Murnau am Staffelsee]]
+| [[Landkreis Garmisch-Partenkirchen|Garmisch-Partenkirchen]]
+| [[Oberbayern]]
+|-
+| [[Mühldorf am Inn]]
+| [[Landkreis Mühldorf am Inn|Mühldorf]]
+| [[Oberbayern]]
+|-
+| [[Münchberg]]
+| [[Landkreis Hof|Hof]]
+| [[Oberfranken]]
+|-
+| [[Naila]]
+| [[Landkreis Hof|Hof]]
+| [[Oberfranken]]
+|-
+| [[Neuburg an der Donau]]
+| [[Landkreis Neuburg-Schrobenhausen|Neuburg-Schrobenhausen]]
+| [[Oberbayern]]
+|-
+| [[Neustadt an der Aisch]]
+| [[Landkreis Neustadt an der Aisch-Bad Windsheim|Neustadt an der Aisch-Bad Windsheim]]
+| [[Mittelfranken]]
+|-
+| [[Neustadt bei Coburg]]
+| [[Landkreis Coburg|Coburg]]
+| [[Oberfranken]]
+|-
+| [[Neutraubling]]
+| [[Landkreis Regensburg|Regensburg]]
+| [[Oberpfalz]]
+|-
+| [[Nördlingen]]
+| [[Landkreis Donau-Ries|Donau-Ries]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Obernburg am Main]]/[[Elsenfeld]]/[[Erlenbach am Main]]
+| [[Landkreis Miltenberg|Miltenberg]]
+| [[Unterfranken]]
+|-
+| [[Oberstdorf]]
+| [[Landkreis Oberallgäu|Oberallgäu]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Ochsenfurt]]
+| [[Landkreis Würzburg|Würzburg]]
+| [[Unterfranken]]
+|-
+| [[Parsberg]]
+| [[Landkreis Neumarkt in der Oberpfalz|Neumarkt in der Oberpfalz]]
+| [[Oberpfalz]]
+|-
+| [[Pegnitz (Stadt)|Pegnitz]]
+| [[Landkreis Bayreuth|Bayreuth]]
+| [[Oberfranken]]
+|-
+| [[Penzberg]]
+| [[Landkreis Weilheim-Schongau|Weilheim-Schongau]]
+| [[Oberbayern]]
+|-
+| [[Pfaffenhofen an der Ilm]]
+| [[Landkreis Pfaffenhofen an der Ilm|Pfaffenhofen an der Ilm]]
+| [[Oberbayern]]
+|-
+| [[Pfarrkirchen]]
+| [[Landkreis Rottal-Inn|Rottal-Inn]]
+| [[Niederbayern]]
+|-
+| [[Pocking]]/[[Ruhstorf an der Rott]]
+| [[Landkreis Passau|Passau]]
+| [[Niederbayern]]
+|-
+| [[Regen (Stadt)|Regen]]/[[Zwiesel]]
+| [[Landkreis Regen|Regen]]
+| [[Niederbayern]]
+|-
+| [[Roth]]
+| [[Landkreis Roth|Roth]]
+| [[Mittelfranken]]
+|-
+| [[Rothenburg ob der Tauber]]
+| [[Landkreis Ansbach|Ansbach]]
+| [[Mittelfranken]]
+|-
+| [[Schongau]]/[[Peiting]]
+| [[Landkreis Weilheim-Schongau|Weilheim-Schongau]]
+| [[Oberbayern]]
+|-
+| [[Schrobenhausen]]
+| [[Landkreis Neuburg-Schrobenhausen|Neuburg-Schrobenhausen]]
+| [[Oberbayern]]
+|-
+| [[Schwabmünchen]]
+| [[Landkreis Augsburg|Augsburg]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Schwandorf]]
+| [[Landkreis Schwandorf|Schwandorf]]
+| [[Oberpfalz]]
+|-
+| [[Selb]]
+| [[Landkreis Wunsiedel im Fichtelgebirge|Wunsiedel im Fichtelgebirge]]
+| [[Oberfranken]]
+|-
+| [[Simbach am Inn]]/([[Braunau am Inn]])
+| [[Landkreis Rottal-Inn|Rottal-Inn]]
+| [[Niederbayern]]
+|-
+| [[Sonthofen]]/[[Immenstadt im Allgäu]]
+| [[Landkreis Oberallgäu|Oberallgäu]]
+| [[Schwaben (Bayern)|Schwaben]]
+|-
+| [[Starnberg]]
+| [[Landkreis Starnberg|Starnberg]]
+| [[Oberbayern]]
+|-
+| [[Sulzbach-Rosenberg]]
+| [[Landkreis Amberg-Sulzbach|Amberg-Sulzbach]]
+| [[Oberpfalz]]
+|-
+| [[Tegernsee]]/[[Rottach-Egern]]/[[Bad Wiessee]]/[[Gmund am Tegernsee]]
+| [[Landkreis Miesbach|Miesbach]]
+| [[Oberbayern]]
+|-
+| [[Tirschenreuth]]
+| [[Landkreis Tirschenreuth|Tirschenreuth]]
+| [[Oberpfalz]]
+|-
+| [[Traunreut]]/[[Trostberg]]
+| [[Landkreis Traunstein|Traunstein]]
+| [[Oberbayern]]
+|-
+| [[Viechtach]]
+| [[Landkreis Regen|Regen]]
+| [[Niederbayern]]
+|-
+| [[Vilsbiburg]]
+| [[Landkreis Landshut|Landshut]]
+| [[Niederbayern]]
+|-
+| [[Vilshofen an der Donau]]
+| [[Landkreis Passau|Passau]]
+| [[Niederbayern]]
+|-
+| [[Waldkraiburg]]
+| [[Landkreis Mühldorf am Inn|Mühldorf am Inn]]
+| [[Oberbayern]]
+|-
+| [[Waldsassen]]/([[Cheb]])
+| [[Landkreis Tirschenreuth|Tirschenreuth]]
+| [[Oberpfalz]]
+|-
+| [[Wasserburg am Inn]]
+| [[Landkreis Rosenheim|Rosenheim]]
+| [[Oberbayern]]
+|-
+| [[Weilheim in Oberbayern]]
+| [[Landkreis Weilheim-Schongau|Weilheim-Schongau]]
+| [[Oberbayern]]
+|-
+| [[Weißenburg in Bayern]]
+| [[Landkreis Weißenburg-Gunzenhausen|Weißenburg-Gunzenhausen]]
+| [[Mittelfranken]]
+|-
+| [[Wolfratshausen]]/[[Geretsried]]
+| [[Landkreis Bad Tölz-Wolfratshausen|Bad Tölz-Wolfratshausen]]
+| [[Oberbayern]]
+|}

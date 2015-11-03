@@ -1,0 +1,124 @@
+== Oberzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Erfurt]]
+| Kreisfreie Stadt
+|-
+| [[Gera]]
+| Kreisfreie Stadt
+|-
+| [[Jena]]
+| Kreisfreie Stadt
+|}
+
+== Mittelzentren mit Teilfunktionen eines Oberzentrums ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Altenburg]]
+| [[Landkreis Altenburger Land|Altenburger Land]]
+|-
+| [[Eisenach]]
+| Kreisfreie Stadt
+|-
+| [[Gotha]]
+| [[Landkreis Gotha|Gotha]]
+|-
+| [[Mühlhausen/Thüringen|Mühlhausen]]
+| [[Unstrut-Hainich-Kreis]]
+|-
+| [[Nordhausen]]
+| [[Landkreis Nordhausen|Nordhausen]]
+|-
+| [[Saalfeld/Saale|Saalfeld]]/[[Rudolstadt]]/[[Bad Blankenburg]]<sup>1</sup>
+| [[Landkreis Saalfeld-Rudolstadt|Saalfeld-Rudolstadt]]
+|-
+| [[Suhl]]/[[Zella-Mehlis]]<sup>2</sup>
+| Kreisfreie Stadt/[[Landkreis Schmalkalden-Meiningen|Schmalkalden-Meiningen]]
+|-
+| [[Weimar]]
+| Kreisfreie Stadt
+|}
+<sup>1</sup> gemeinsam 58.762 Einwohner (2008) <br>
+<sup>2</sup> gemeinsam 52.083 Einwohner (2008)
+
+== Mittelzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Apolda]]
+| [[Landkreis Weimarer Land|Weimarer Land]]
+|-
+| [[Arnstadt]]
+| [[Ilm-Kreis]]
+|-
+| [[Artern/Unstrut|Artern]]
+| [[Kyffhäuserkreis]]
+|-
+| [[Bad Langensalza]]
+| [[Unstrut-Hainich-Kreis]]
+|-
+| [[Bad Lobenstein]]
+| [[Saale-Orla-Kreis]]
+|-
+| [[Bad Salzungen]]
+| [[Wartburgkreis]]
+|-
+| [[Eisenberg (Thüringen)|Eisenberg]]
+| [[Saale-Holzland-Kreis]]
+|-
+| [[Greiz]]
+| [[Landkreis Greiz|Greiz]]
+|-
+| [[Heilbad Heiligenstadt]]
+| [[Landkreis Eichsfeld|Eichsfeld]]
+|-
+| [[Hermsdorf (Thüringen)|Hermsdorf]]/[[Bad Klosterlausnitz]]<sup>1</sup>
+| [[Saale-Holzland-Kreis]]
+|-
+| [[Hildburghausen]]
+| [[Landkreis Hildburghausen|Hildburghausen]]
+|-
+| [[Ilmenau]]
+| [[Ilm-Kreis]]
+|-
+| [[Leinefelde-Worbis]]
+| [[Landkreis Eichsfeld|Eichsfeld]]
+|-
+| [[Meiningen]]
+| [[Landkreis Schmalkalden-Meiningen|Schmalkalden-Meiningen]]
+|-
+| [[Neuhaus am Rennweg|Neuhaus am Rennweg]]/[[Lauscha]]<sup>2</sup>
+| [[Landkreis Sonneberg|Sonneberg]]
+|-
+| [[Pößneck]]
+| [[Saale-Orla-Kreis]]
+|-
+| [[Schleiz]]
+| [[Saale-Orla-Kreis]]
+|-
+| [[Schmalkalden]]
+| [[Landkreis Schmalkalden-Meiningen|Schmalkalden-Meiningen]]
+|-
+| [[Schmölln]]/[[Gößnitz (Thüringen)|Gößnitz]]<sup>3</sup>
+| [[Landkreis Altenburger Land|Altenburger Land]]
+|-
+| [[Sömmerda]]
+| [[Landkreis Sömmerda|Sömmerda]]
+|-
+| [[Sondershausen]]
+| [[Kyffhäuserkreis]]
+|-
+| [[Sonneberg]]
+| [[Landkreis Sonneberg|Sonneberg]]
+|-
+| [[Stadtroda]]
+| [[Saale-Holzland-Kreis]]
+|-
+| [[Zeulenroda-Triebes]]
+| [[Landkreis Greiz|Greiz]]
+|}

@@ -1,0 +1,188 @@
+== Oberzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Kaiserslautern]]
+| Kreisfreie Stadt
+|-
+| [[Koblenz]]
+| Kreisfreie Stadt
+|-
+| [[Ludwigshafen am Rhein]]
+| Kreisfreie Stadt
+|-
+| [[Mainz]]
+| Kreisfreie Stadt
+|-
+| [[Trier]]
+| Kreisfreie Stadt
+|}
+
+== Mittelzentren mit oberzentralen Teilfunktionen ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Landau in der Pfalz|Landau]]
+| Kreisfreie Stadt
+|-
+| [[Speyer]]
+| Kreisfreie Stadt
+|-
+| [[Worms]]
+| Kreisfreie Stadt
+|-
+| [[Zweibrücken]] (mit [[Homburg]])
+| Kreisfreie Stadt
+|}
+
+== Mittelzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Altenkirchen (Westerwald)|Altenkirchen]]
+| [[Landkreis Altenkirchen (Westerwald)|Kreis Altenkirchen (Westerwald)]]
+|-
+| [[Andernach]]
+| [[Landkreis Mayen-Koblenz|Kreis Mayen-Koblenz]]
+|-
+| [[Alzey]]
+| [[Landkreis Alzey-Worms|Kreis Alzey-Worms]]
+|-
+| [[Bad Bergzabern]]
+| [[Landkreis Südliche Weinstraße|Kreis Südliche Weinstraße]]
+|-
+| [[Bad Ems]]
+| [[Rhein-Lahn-Kreis]]
+|-
+| [[Bad Dürkheim]]
+| [[Landkreis Bad Dürkheim|Kreis Bad Dürkheim]]
+|-
+| [[Bad Kreuznach]]
+| [[Landkreis Bad Kreuznach|Kreis Bad Kreuznach]]
+|-
+| [[Bingen am Rhein]]
+| [[Landkreis Mainz-Bingen|Kreis Mainz-Bingen]]
+|-
+| [[Boppard]]
+| [[Rhein-Hunsrück-Kreis]]
+|-
+| [[Dahn]]
+| [[Landkreis Südwestpfalz|Kreis Südwestpfalz]]
+|-
+| [[Daun]]
+| [[Landkreis Vulkaneifel|Kreis Vulkaneifel]]
+|-
+| [[Diez]]
+| [[Rhein-Lahn-Kreis]]
+|-
+| [[Frankenthal (Pfalz)]]
+| Kreisfreie Stadt
+|-
+| [[Gerolstein]]
+| [[Landkreis Vulkaneifel|Kreis Vulkaneifel]]
+|-
+| [[Germersheim]]
+| [[Landkreis Germersheim|Kreis Germersheim]]
+|-
+| [[Grünstadt]]
+| [[Landkreis Bad Dürkheim|Kreis Bad Dürkheim]]
+|-
+| [[Hermeskeil]]
+| [[Landkreis Trier-Saarburg|Kreis Trier-Saarburg]]
+|-
+| [[Ingelheim am Rhein]]
+| [[Landkreis Mainz-Bingen|Kreis Mainz-Bingen]]
+|-
+| [[Linz am Rhein]]
+| [[Landkreis Neuwied|Kreis Neuwied]]
+|-
+| [[Mayen]]
+| [[Landkreis Mayen-Koblenz|Kreis Mayen-Koblenz]]
+|-
+| [[Pirmasens]]
+| Kreisfreie Stadt
+|-
+| [[Prüm]]
+| [[Eifelkreis Bitburg-Prüm]]
+|-
+| [[Saarburg]]
+| [[Landkreis Trier-Saarburg|Kreis Trier-Saarburg]]
+|-
+| [[Wittlich]]
+| [[Landkreis Bernkastel-Wittlich|Kreis Bernkastel-Wittlich]]
+|}
+
+== Mittelzentrale Verbünde (kooperierende Zentren) ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrenverbund
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Adenau]], [[Bad Neuenahr-Ahrweiler]], [[Remagen]] und [[Sinzig]]
+| [[Landkreis Ahrweiler|Kreis Ahrweiler]]
+|-
+| [[Annweiler am Trifels]], [[Edenkoben]], [[Herxheim bei Landau/Pfalz]] und [[Landau in der Pfalz]]
+| [[Landkreis Südliche Weinstraße|Kreis Südliche Weinstraße]] und Stadt Landau in der Pfalz
+|-
+| [[Bad Sobernheim]], [[Kirn]] und [[Meisenheim]]
+| [[Landkreis Bad Kreuznach|Kreis Bad Kreuznach]]
+|-
+| [[Baumholder]], [[Birkenfeld (Nahe)|Birkenfeld]] und [[Idar-Oberstein]]
+| [[Landkreis Birkenfeld|Kreis Birkenfeld]]
+|-
+| [[Bendorf]], [[Höhr-Grenzhausen]], [[Koblenz]], [[Lahnstein]] und [[Vallendar]]
+| Stadt Koblenz, [[Landkreis Mayen-Koblenz|Kreis Mayen-Koblenz]] und [[Rhein-Lahn-Kreis]]
+|-
+| [[Bernkastel-Kues]] und [[Traben-Trarbach]]
+| [[Landkreis Bernkastel-Wittlich|Kreis Bernkastel-Wittlich]]
+|-
+| [[Betzdorf]], [[Kirchen (Sieg)|Kirchen]] und [[Wissen]]
+| [[Landkreis Altenkirchen (Westerwald)|Kreis Altenkirchen (Westerwald)]]
+|-
+| [[Bitburg]] und [[Neuerburg]]
+| [[Eifelkreis Bitburg-Prüm]]
+|-
+| [[Cochem]] und [[Zell (Mosel)|Zell]]
+| [[Landkreis Cochem-Zell|Kreis Cochem-Zell]]
+|-
+| [[Dernbach (Westerwald)|Dernbach]], [[Montabaur]] und [[Wirges]]
+| [[Westerwaldkreis]]
+|-
+| [[Dierdorf]] und [[Neuwied]]
+| [[Landkreis Neuwied|Kreis Neuwied]]
+|-
+| [[Eisenberg (Pfalz)|Eisenberg]], [[Kirchheimbolanden]] und [[Rockenhausen]]
+| [[Donnersbergkreis]]
+|-
+| [[Hachenburg]] und [[Westerburg]]
+| [[Westerwaldkreis]]
+|-
+| [[Haßloch]] und [[Neustadt an der Weinstraße]]
+| [[Landkreis Bad Dürkheim|Kreis Bad Dürkheim]] und Stadt Neustadt an der Weinstraße
+|-
+| [[Kandel (Pfalz)|Kandel]] und [[Wörth am Rhein]]
+| [[Landkreis Germersheim|Kreis Germersheim]]
+|-
+| [[Kastellaun]], [[Simmern/Hunsrück|Simmern]] und [[Kirchberg (Hunsrück)|Kirchberg]]
+| [[Rhein-Hunsrück-Kreis]]
+|-
+| [[Konz]] und [[Trier]]
+| [[Landkreis Trier-Saarburg]] und Stadt Trier
+|-
+| [[Kusel]] und [[Lauterecken]]
+| [[Landkreis Kusel|Kreis Kusel]]
+|-
+| [[Landstuhl]] und [[Ramstein-Miesenbach]]
+| [[Landkreis Kaiserslautern|Kreis Kaiserslautern]]
+|-
+| [[Ludwigshafen am Rhein]] und [[Schifferstadt]]
+| Stadt Ludwigshafen am Rhein und [[Rhein-Pfalz-Kreis]]
+|-
+| [[Mainz]], [[Nieder-Olm]], [[Nierstein]] und [[Oppenheim]]
+| Stadt Mainz und [[Landkreis Mainz-Bingen|Kreis Mainz-Bingen]]
+|-
+| [[Nastätten]], [[Sankt Goar|St.Goar]] und [[Sankt Goarshausen|St.Goarshausen]]
+| [[Rhein-Hunsrück-Kreis]] und [[Rhein-Lahn-Kreis]]
+|}

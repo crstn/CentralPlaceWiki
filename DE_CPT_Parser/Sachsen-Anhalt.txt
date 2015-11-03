@@ -1,0 +1,94 @@
+== Oberzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Dessau-Roßlau]]
+| Kreisfreie Stadt
+|-
+| [[Halle (Saale)]]
+| Kreisfreie Stadt
+|-
+| [[Magdeburg]]
+| Kreisfreie Stadt, Landeshauptstadt
+|}
+
+== Mittelzentren mit oberzentralen Teilfunktionen ==
+
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Bitterfeld-Wolfen]]
+| [[Landkreis Anhalt-Bitterfeld|Anhalt-Bitterfeld]]
+|-
+| [[Halberstadt]]
+| [[Landkreis Harz|Harz]]
+|-
+| [[Merseburg]]
+| [[Saalekreis]]
+|-
+| [[Naumburg (Saale)]]
+| [[Burgenlandkreis]]
+|-
+| [[Schönebeck (Elbe)]]
+| [[Salzlandkreis]]
+|-
+| [[Stendal]]
+| [[Landkreis Stendal|Stendal]]
+|-
+| [[Lutherstadt Wittenberg]]
+| [[Landkreis Wittenberg|Wittenberg]]
+|}
+
+== Mittelzentren ==
+
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Aschersleben]]
+| [[Salzlandkreis]]
+|-
+| [[Bernburg (Saale)]]
+| [[Salzlandkreis]]
+|-
+| [[Burg (bei Magdeburg)|Burg]]
+| [[Landkreis Jerichower Land|Jerichower Land]]
+|-
+| [[Lutherstadt Eisleben]]
+| [[Landkreis Mansfeld-Südharz|Mansfeld-Südharz]]
+|-
+| [[Haldensleben]]
+| [[Landkreis Börde|Börde]]
+|-
+| [[Köthen (Anhalt)]]
+| [[Landkreis Anhalt-Bitterfeld|Anhalt-Bitterfeld]]
+|-
+| [[Oschersleben]]
+| [[Landkreis Börde|Börde]]
+|-
+| [[Quedlinburg]]
+| [[Landkreis Harz|Harz]]
+|-
+| [[Salzwedel]]
+| [[Altmarkkreis Salzwedel]]
+|-
+| [[Sangerhausen]]
+| [[Landkreis Mansfeld-Südharz|Mansfeld-Südharz]]
+|-
+| [[Staßfurt]]
+| [[Salzlandkreis]]
+|-
+| [[Weißenfels]]
+| [[Burgenlandkreis]]
+|-
+| [[Wernigerode]]
+| [[Landkreis Harz|Harz]]
+|-
+| [[Zeitz]]
+| [[Burgenlandkreis]]
+|-
+| [[Zerbst/Anhalt]]
+| [[Landkreis Anhalt-Bitterfeld|Anhalt-Bitterfeld]]
+|}

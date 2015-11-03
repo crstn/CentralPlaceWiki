@@ -1,0 +1,47 @@
+== Oberzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Saarbrücken]]
+| [[Regionalverband Saarbrücken|Saarbrücken]]
+|}
+
+== Mittelzentren ==
+{| class="prettytable sortable"
+! class="hintergrundfarbe6" | Zentrum
+! class="hintergrundfarbe6" | Landkreis
+|-
+| [[Blieskastel]]
+| [[Saarpfalz-Kreis]]
+|-
+| [[Dillingen/Saar|Dillingen]]
+| [[Landkreis Saarlouis|Saarlouis]]
+|-
+| [[Homburg]]
+| [[Saarpfalz-Kreis]]
+|-
+| [[Lebach]]
+| [[Landkreis Saarlouis|Saarlouis]]
+|-
+| [[Merzig]]
+| [[Landkreis Merzig-Wadern|Merzig-Wadern]]
+|-
+| [[Neunkirchen (Saar)|Neunkirchen]]
+| [[Landkreis Neunkirchen|Neunkirchen]]
+|-
+| [[Saarlouis]]
+| [[Landkreis Saarlouis|Saarlouis]]
+|-
+| [[St. Ingbert|St. Ingbert]]
+| [[Saarpfalz-Kreis]]
+|-
+| [[St. Wendel|St. Wendel]]
+| [[Landkreis St. Wendel|St. Wendel]]
+|-
+| [[Völklingen]]
+| [[Regionalverband Saarbrücken|Saarbrücken]]
+|-
+| [[Wadern]]
+| [[Landkreis Merzig-Wadern|Merzig-Wadern]]
+|}

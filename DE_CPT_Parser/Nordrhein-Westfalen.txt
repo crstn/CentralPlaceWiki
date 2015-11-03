@@ -1,0 +1,628 @@
+== Oberzentren ==
+{| class="wikitable sortable zebra"
+! class="hintergrundfarbe6"| Zentrum
+! class="hintergrundfarbe6"| Landkreis
+|-
+| [[Siegen]]
+| [[Kreis Siegen-Wittgenstein]]
+|-
+| [[Bielefeld]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Düsseldorf]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Krefeld]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Mönchengladbach]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Wuppertal]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Aachen]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Bonn]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Köln]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Münster (Westfalen)|Münster]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Bochum]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Dortmund]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Duisburg]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Essen]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Hagen]]
+| [[Kreisfreie Stadt]]
+|-
+|}
+
+== Mittelzentren ==
+{| class="wikitable sortable zebra"
+! class="hintergrundfarbe6"| Zentrum
+! class="hintergrundfarbe6"| Landkreis
+|-
+| [[Arnsberg]]
+| [[Hochsauerlandkreis]]
+|-
+| [[Brilon]]
+| [[Hochsauerlandkreis]]
+|-
+| [[Marsberg]]
+| [[Hochsauerlandkreis]]
+|-
+| [[Schmallenberg]]
+| [[Hochsauerlandkreis]]
+|-
+| [[Sundern (Sauerland)|Sundern]]
+| [[Hochsauerlandkreis]]
+|-
+| [[Winterberg]]
+| [[Hochsauerlandkreis]]
+|-
+| [[Meschede]]
+| [[Hochsauerlandkreis]]
+|-
+| [[Altena]]
+| [[Märkischer Kreis]]
+|-
+| [[Hemer]]
+| [[Märkischer Kreis]]
+|-
+| [[Iserlohn]]
+| [[Märkischer Kreis]]
+|-
+| [[Lüdenscheid]]
+| [[Märkischer Kreis]]
+|-
+| [[Meinerzhagen]]
+| [[Märkischer Kreis]]
+|-
+| [[Menden]]
+| [[Märkischer Kreis]]
+|-
+| [[Plettenberg]]
+| [[Märkischer Kreis]]
+|-
+| [[Werdohl]]
+| [[Märkischer Kreis]]
+|-
+| [[Attendorn]]
+| [[Kreis Olpe]]
+|-
+| [[Lennestadt]]
+| [[Kreis Olpe]]
+|-
+| [[Olpe]]
+| [[Kreis Olpe]]
+|-
+| [[Bad Berleburg]]
+| [[Kreis Siegen-Wittgenstein]]
+|-
+| [[Bad Laasphe]]
+| [[Kreis Siegen-Wittgenstein]]
+|-
+| [[Kreuztal]]
+| [[Kreis Siegen-Wittgenstein]]
+|-
+| [[Neunkirchen (Siegerland)|Neunkirchen]]
+| [[Kreis Siegen-Wittgenstein]]
+|-
+| [[Geseke]]
+| [[Kreis Soest]]
+|-
+| [[Lippstadt]]
+| [[Kreis Soest]]
+|-
+| [[Soest]]
+| [[Kreis Soest]]
+|-
+| [[Warstein]]
+| [[Kreis Soest]]
+|-
+| [[Werl]]
+| [[Kreis Soest]]
+|-
+| [[Gütersloh]]
+| [[Kreis Gütersloh]]
+|-
+| [[Halle (Westf.)|Halle]]
+| [[Kreis Gütersloh]]
+|-
+| [[Rheda-Wiedenbrück]]
+| [[Kreis Gütersloh]]
+|-
+| [[Rietberg]]
+| [[Kreis Gütersloh]]
+|-
+| [[Bünde]]
+| [[Kreis Herford]]
+|-
+| [[Herford]]
+| [[Kreis Herford]]
+|-
+| [[Löhne]]
+| [[Kreis Herford]]
+|-
+| [[Vlotho]]
+| [[Kreis Herford]]
+|-
+| [[Bad Driburg]]
+| [[Kreis Höxter]]
+|-
+| [[Beverungen]]
+| [[Kreis Höxter]]
+|-
+| [[Brakel]]
+| [[Kreis Höxter]]
+|-
+| [[Höxter]]
+| [[Kreis Höxter]]
+|-
+| [[Steinheim (Westfalen)|Steinheim]]
+| [[Kreis Höxter]]
+|-
+| [[Warburg]]
+| [[Kreis Höxter]]
+|-
+| [[Bad Salzuflen]]
+| [[Kreis Lippe]]
+|-
+| [[Barntrup]]
+| [[Kreis Lippe]]
+|-
+| [[Blomberg]]
+| [[Kreis Lippe]]
+|-
+| [[Detmold]]
+| [[Kreis Lippe]]
+|-
+| [[Horn-Bad Meinberg]]
+| [[Kreis Lippe]]
+|-
+| [[Lage (Lippe)|Lage]]
+| [[Kreis Lippe]]
+|-
+| [[Lemgo]]
+| [[Kreis Lippe]]
+|-
+| [[Bad Oeynhausen]]
+| [[Kreis Minden-Lübbecke]]
+|-
+| [[Espelkamp]]
+| [[Kreis Minden-Lübbecke]]
+|-
+| [[Lübbecke]]
+| [[Kreis Minden-Lübbecke]]
+|-
+| [[Minden]]
+| [[Kreis Minden-Lübbecke]]
+|-
+| [[Petershagen]]
+| [[Kreis Minden-Lübbecke]]
+|-
+| [[Porta Westfalica (Stadt)|Porta Westfalica]]
+| [[Kreis Minden-Lübbecke]]
+|-
+| [[Remscheid]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Solingen]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Emmerich]]
+| [[Kreis Kleve]]
+|-
+| [[Geldern]]
+| [[Kreis Kleve]]
+|-
+| [[Goch]]
+| [[Kreis Kleve]]
+|-
+| [[Kevelaer]]
+| [[Kreis Kleve]]
+|-
+| [[Kleve]]
+| [[Kreis Kleve]]
+|-
+| [[Erkrath]]
+| [[Kreis Mettmann]]
+|-
+| [[Haan]]
+| [[Kreis Mettmann]]
+|-
+| [[Heiligenhaus]]
+| [[Kreis Mettmann]]
+|-
+| [[Hilden]]
+| [[Kreis Mettmann]]
+|-
+| [[Langenfeld (Rheinland)]]
+| [[Kreis Mettmann]]
+|-
+| [[Mettmann]]
+| [[Kreis Mettmann]]
+|-
+| [[Monheim am Rhein|Monheim]]
+| [[Kreis Mettmann]]
+|-
+| [[Ratingen]]
+| [[Kreis Mettmann]]
+|-
+| [[Velbert]]
+| [[Kreis Mettmann]]
+|-
+| [[Wülfrath]]
+| [[Kreis Mettmann]]
+|-
+| [[Dormagen]]
+| [[Rheinkreis Neuss]]
+|-
+| [[Grevenbroich]]
+| [[Rheinkreis Neuss]]
+|-
+| [[Kaarst]]
+| [[Rheinkreis Neuss]]
+|-
+| [[Korschenbroich]]
+| [[Rheinkreis Neuss]]
+|-
+| [[Meerbusch]]
+| [[Rheinkreis Neuss]]
+|-
+| [[Neuss]]
+| [[Rheinkreis Neuss]]
+|-
+| [[Kempen]]
+| [[Kreis Viersen]]
+|-
+| [[Nettetal]]
+| [[Kreis Viersen]]
+|-
+| [[Schwalmtal (Niederrhein)|Schwalmtal]]
+| [[Kreis Viersen]]
+|-
+| [[Tönisvorst]]
+| [[Kreis Viersen]]
+|-
+| [[Viersen]]
+| [[Kreis Viersen]]
+|-
+| [[Willich]]
+| [[Kreis Viersen]]
+|-
+| [[Leverkusen]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Alsdorf]]
+| [[Kreis Aachen]]
+|-
+| [[Baesweiler]]
+| [[Kreis Aachen]]
+|-
+| [[Eschweiler]]
+| [[Kreis Aachen]]
+|-
+| [[Herzogenrath]]
+| [[Kreis Aachen]]
+|-
+| [[Monschau]]
+| [[Kreis Aachen]]
+|-
+| [[Stolberg (Rheinland)|Stolberg]]
+| [[Kreis Aachen]]
+|-
+| [[Würselen]]
+| [[Kreis Aachen]]
+|-
+| [[Düren]]
+| [[Kreis Düren]]
+|-
+| [[Jülich]]
+| [[Kreis Düren]]
+|-
+| [[Bedburg]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Bergheim]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Brühl (Rheinland)|Brühl]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Erftstadt]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Frechen]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Hürth]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Kerpen]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Pulheim]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Wesseling]]
+| [[Rhein-Erft-Kreis]]
+|-
+| [[Euskirchen]]
+| [[Kreis Euskirchen]]
+|-
+| [[Mechernich]]
+| [[Kreis Euskirchen]]
+|-
+| [[Schleiden]]
+| [[Kreis Euskirchen]]
+|-
+| [[Erkelenz]]
+| [[Kreis Heinsberg]]
+|-
+| [[Geilenkirchen]]
+| [[Kreis Heinsberg]]
+|-
+| [[Heinsberg]]
+| [[Kreis Heinsberg]]
+|-
+| [[Hückelhoven]]
+| [[Kreis Heinsberg]]
+|-
+| [[Übach-Palenberg]]
+| [[Kreis Heinsberg]]
+|-
+| [[Wegberg]]
+| [[Kreis Heinsberg]]
+|-
+| [[Engelskirchen]]
+| [[Oberbergischer Kreis]]
+|-
+| [[Gummersbach]]
+| [[Oberbergischer Kreis]]
+|-
+| [[Radevormwald]]
+| [[Oberbergischer Kreis]]
+|-
+| [[Waldbröl]]
+| [[Oberbergischer Kreis]]
+|-
+| [[Wipperfürth]]
+| [[Oberbergischer Kreis]]
+|-
+| [[Bergisch Gladbach]]
+| [[Rheinisch-Bergischer Kreis]]
+|-
+| [[Leichlingen]]
+| [[Rheinisch-Bergischer Kreis]]
+|-
+| [[Wermelskirchen]]
+| [[Rheinisch-Bergischer Kreis]]
+|-
+| [[Bad Honnef]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Bornheim (Rheinland)|Bornheim]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Eitorf]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Hennef]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Königswinter]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Lohmar]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Niederkassel]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Rheinbach]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Sankt Augustin]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Siegburg]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Troisdorf]]
+| [[Rhein-Sieg-Kreis]]
+|-
+| [[Ahaus]]
+| [[Kreis Borken]]
+|-
+| [[Bocholt]]
+| [[Kreis Borken]]
+|-
+| [[Borken]]
+| [[Kreis Borken]]
+|-
+| [[Gronau (Westf.)|Gronau]]
+| [[Kreis Borken]]
+|-
+| [[Stadtlohn]]
+| [[Kreis Borken]]
+|-
+| [[Vreden]]
+| [[Kreis Borken]]
+|-
+| [[Coesfeld]]
+| [[Kreis Coesfeld]]
+|-
+| [[Dülmen]]
+| [[Kreis Coesfeld]]
+|-
+| [[Lüdinghausen]]
+| [[Kreis Coesfeld]]
+|-
+| [[Emsdetten]]
+| [[Kreis Steinfurt]]
+|-
+| [[Greven]]
+| [[Kreis Steinfurt]]
+|-
+| [[Ibbenbüren]]
+| [[Kreis Steinfurt]]
+|-
+| [[Lengerich (Westfalen)|Lengerich]]
+| [[Kreis Steinfurt]]
+|-
+| [[Ochtrup]]
+| [[Kreis Steinfurt]]
+|-
+| [[Rheine]]
+| [[Kreis Steinfurt]]
+|-
+| [[Steinfurt]]
+| [[Kreis Steinfurt]]
+|-
+| [[Ahlen]]
+| [[Kreis Warendorf]]
+|-
+| [[Beckum]]
+| [[Kreis Warendorf]]
+|-
+| [[Oelde]]
+| [[Kreis Warendorf]]
+|-
+| [[Warendorf]]
+| [[Kreis Warendorf]]
+|-
+| [[Bottrop]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Gelsenkirchen]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Hamm]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Herne]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Mülheim an der Ruhr]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Oberhausen]]
+| [[Kreisfreie Stadt]]
+|-
+| [[Ennepetal]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Gevelsberg]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Hattingen]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Herdecke]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Schwelm]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Sprockhövel]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Wetter (Ruhr)|Wetter]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Witten]]
+| [[Ennepe-Ruhr-Kreis]]
+|-
+| [[Castrop-Rauxel]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Datteln]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Dorsten]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Gladbeck]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Haltern]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Herten]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Marl]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Oer-Erkenschwick]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Recklinghausen]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Waltrop]]
+| [[Kreis Recklinghausen]]
+|-
+| [[Bergkamen]]
+| [[Kreis Unna]]
+|-
+| [[Kamen]]
+| [[Kreis Unna]]
+|-
+| [[Lünen]]
+| [[Kreis Unna]]
+|-
+| [[Schwerte]]
+| [[Kreis Unna]]
+|-
+| [[Selm]]
+| [[Kreis Unna]]
+|-
+| [[Unna]]
+| [[Kreis Unna]]
+|-
+| [[Werne]]
+| [[Kreis Unna]]
+|-
+| [[Dinslaken]]
+| [[Kreis Wesel]]
+|-
+| [[Hamminkeln]]
+| [[Kreis Wesel]]
+|-
+| [[Kamp-Lintfort]]
+| [[Kreis Wesel]]
+|-
+| [[Moers]]
+| [[Kreis Wesel]]
+|-
+| [[Neukirchen-Vluyn]]
+| [[Kreis Wesel]]
+|-
+| [[Rheinberg]]
+| [[Kreis Wesel]]
+|-
+| [[Voerde]]
+| [[Kreis Wesel]]
+|-
+| [[Wesel]]
+| [[Kreis Wesel]]
+|-
+| [[Xanten]]
+| [[Kreis Wesel]]
+|-
+|}

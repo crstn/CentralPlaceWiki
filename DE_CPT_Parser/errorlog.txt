@@ -1,0 +1,99 @@
+;Baden-Württemberg;Oberzentren;| [[Friedrichshafen]]/[[Ravensburg]]/[[Weingarten (Württemberg)|Weingarten]]
+;Baden-Württemberg;Oberzentren;| [[Lörrach]]/[[Weil am Rhein]]
+;Baden-Württemberg;Oberzentren;| [[Mannheim]](/[[Ludwigshafen am Rhein]])
+;Baden-Württemberg;Oberzentren;| [[Reutlingen]]/[[Tübingen]]
+;Baden-Württemberg;Oberzentren;| [[Ulm]](/[[Neu-Ulm]])
+;Baden-Württemberg;Mittelzentren;| [[Bad Krozingen]]/[[Staufen im Breisgau]]
+;Baden-Württemberg;Mittelzentren;| [[Bietigheim-Bissingen]]/[[Besigheim]]
+;Baden-Württemberg;Mittelzentren;| [[Blaubeuren]]/[[Laichingen]]
+;Baden-Württemberg;Mittelzentren;| [[Böblingen]]/[[Sindelfingen]]
+;Baden-Württemberg;Mittelzentren;| [[Gaggenau]]/[[Gernsbach]]
+;Baden-Württemberg;Mittelzentren;| [[Haslach im Kinzigtal|Haslach]]/[[Hausach]]/[[Wolfach]]
+;Baden-Württemberg;Mittelzentren;| [[Lahr/Schwarzwald]]
+;Baden-Württemberg;Mittelzentren;| [[Ludwigsburg]]/[[Kornwestheim]]
+;Baden-Württemberg;Mittelzentren;| [[Waiblingen]]/[[Fellbach]]
+;Baden-Württemberg;Mittelzentren;| [[Wiesloch]]/[[Walldorf (Baden)|Walldorf]]
+;Bayern;Oberzentren;| [[Deggendorf]]/[[Plattling]]
+;Bayern;Oberzentren;| [[Neu-Ulm]]/([[Ulm]])
+;Bayern;Oberzentren;| [[Nürnberg]]/[[Fürth]]/[[Erlangen]]
+;Bayern;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;| [[Marktredwitz]]/[[Wunsiedel]]
+;Bayern;Mittelzentren;| [[Abensberg]]/[[Neustadt an der Donau|Neustadt]]
+;Bayern;Mittelzentren;| [[Altötting]]/[[Neuötting]]
+;Bayern;Mittelzentren;| [[Burglengenfeld]]/[[Maxhütte-Haidhof]]/[[Teublitz]]
+;Bayern;Mittelzentren;| [[Dillingen an der Donau]]/[[Lauingen (Donau)]]
+;Bayern;Mittelzentren;| [[Ebersberg]]/[[Grafing bei München]]
+;Bayern;Mittelzentren;| [[Furth im Wald]]/([[Domažlice]])
+;Bayern;Mittelzentren;| [[Günzburg]]/[[Leipheim]]
+;Bayern;Mittelzentren;| [[Miesbach]]/[[Hausham]]
+;Bayern;Mittelzentren;| [[Obernburg am Main]]/[[Elsenfeld]]/[[Erlenbach am Main]]
+;Bayern;Mittelzentren;| [[Pocking]]/[[Ruhstorf an der Rott]]
+;Bayern;Mittelzentren;| [[Regen (Stadt)|Regen]]/[[Zwiesel]]
+;Bayern;Mittelzentren;| [[Schongau]]/[[Peiting]]
+;Bayern;Mittelzentren;| [[Simbach am Inn]]/([[Braunau am Inn]])
+;Bayern;Mittelzentren;| [[Sonthofen]]/[[Immenstadt im Allgäu]]
+;Bayern;Mittelzentren;| [[Tegernsee]]/[[Rottach-Egern]]/[[Bad Wiessee]]/[[Gmund am Tegernsee]]
+;Bayern;Mittelzentren;| [[Traunreut]]/[[Trostberg]]
+;Bayern;Mittelzentren;| [[Waldsassen]]/([[Cheb]])
+;Bayern;Mittelzentren;| [[Wolfratshausen]]/[[Geretsried]]
+;Brandenburg;Oberzentren;| [[Deggendorf]]/[[Plattling]]
+;Brandenburg;Oberzentren;| [[Neu-Ulm]]/([[Ulm]])
+;Brandenburg;Oberzentren;| [[Nürnberg]]/[[Fürth]]/[[Erlangen]]
+;Brandenburg;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;| [[Marktredwitz]]/[[Wunsiedel]]
+;Brandenburg;Mittelzentren;| [[Abensberg]]/[[Neustadt an der Donau|Neustadt]]
+;Brandenburg;Mittelzentren;| [[Altötting]]/[[Neuötting]]
+;Brandenburg;Mittelzentren;| [[Burglengenfeld]]/[[Maxhütte-Haidhof]]/[[Teublitz]]
+;Brandenburg;Mittelzentren;| [[Dillingen an der Donau]]/[[Lauingen (Donau)]]
+;Brandenburg;Mittelzentren;| [[Ebersberg]]/[[Grafing bei München]]
+;Brandenburg;Mittelzentren;| [[Furth im Wald]]/([[Domažlice]])
+;Brandenburg;Mittelzentren;| [[Günzburg]]/[[Leipheim]]
+;Brandenburg;Mittelzentren;| [[Miesbach]]/[[Hausham]]
+;Brandenburg;Mittelzentren;| [[Obernburg am Main]]/[[Elsenfeld]]/[[Erlenbach am Main]]
+;Brandenburg;Mittelzentren;| [[Pocking]]/[[Ruhstorf an der Rott]]
+;Brandenburg;Mittelzentren;| [[Regen (Stadt)|Regen]]/[[Zwiesel]]
+;Brandenburg;Mittelzentren;| [[Schongau]]/[[Peiting]]
+;Brandenburg;Mittelzentren;| [[Simbach am Inn]]/([[Braunau am Inn]])
+;Brandenburg;Mittelzentren;| [[Sonthofen]]/[[Immenstadt im Allgäu]]
+;Brandenburg;Mittelzentren;| [[Tegernsee]]/[[Rottach-Egern]]/[[Bad Wiessee]]/[[Gmund am Tegernsee]]
+;Brandenburg;Mittelzentren;| [[Traunreut]]/[[Trostberg]]
+;Brandenburg;Mittelzentren;| [[Waldsassen]]/([[Cheb]])
+;Brandenburg;Mittelzentren;| [[Wolfratshausen]]/[[Geretsried]]
+;Hessen;Oberzentren;| [[Deggendorf]]/[[Plattling]]
+;Hessen;Oberzentren;| [[Neu-Ulm]]/([[Ulm]])
+;Hessen;Oberzentren;| [[Nürnberg]]/[[Fürth]]/[[Erlangen]]
+;Hessen;Mittelzentren mit oberzentralen Teilfunktionen, mögliche Oberzentren;| [[Marktredwitz]]/[[Wunsiedel]]
+;Hessen;Mittelzentren;| [[Abensberg]]/[[Neustadt an der Donau|Neustadt]]
+;Hessen;Mittelzentren;| [[Altötting]]/[[Neuötting]]
+;Hessen;Mittelzentren;| [[Burglengenfeld]]/[[Maxhütte-Haidhof]]/[[Teublitz]]
+;Hessen;Mittelzentren;| [[Dillingen an der Donau]]/[[Lauingen (Donau)]]
+;Hessen;Mittelzentren;| [[Ebersberg]]/[[Grafing bei München]]
+;Hessen;Mittelzentren;| [[Furth im Wald]]/([[Domažlice]])
+;Hessen;Mittelzentren;| [[Günzburg]]/[[Leipheim]]
+;Hessen;Mittelzentren;| [[Miesbach]]/[[Hausham]]
+;Hessen;Mittelzentren;| [[Obernburg am Main]]/[[Elsenfeld]]/[[Erlenbach am Main]]
+;Hessen;Mittelzentren;| [[Pocking]]/[[Ruhstorf an der Rott]]
+;Hessen;Mittelzentren;| [[Regen (Stadt)|Regen]]/[[Zwiesel]]
+;Hessen;Mittelzentren;| [[Schongau]]/[[Peiting]]
+;Hessen;Mittelzentren;| [[Simbach am Inn]]/([[Braunau am Inn]])
+;Hessen;Mittelzentren;| [[Sonthofen]]/[[Immenstadt im Allgäu]]
+;Hessen;Mittelzentren;| [[Tegernsee]]/[[Rottach-Egern]]/[[Bad Wiessee]]/[[Gmund am Tegernsee]]
+;Hessen;Mittelzentren;| [[Traunreut]]/[[Trostberg]]
+;Hessen;Mittelzentren;| [[Waldsassen]]/([[Cheb]])
+;Hessen;Mittelzentren;| [[Wolfratshausen]]/[[Geretsried]]
+;Niedersachsen;Mittelzentren;| [[Nienburg/Weser]]
+;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);| [[Annweiler am Trifels]], [[Edenkoben]], [[Herxheim bei Landau/Pfalz]] und [[Landau in der Pfalz]]
+;Rheinland-Pfalz;Mittelzentrale Verbünde (kooperierende Zentren);| [[Kastellaun]], [[Simmern/Hunsrück|Simmern]] und [[Kirchberg (Hunsrück)|Kirchberg]]
+;Saarland;Mittelzentren;| [[Dillingen/Saar|Dillingen]]
+;Sachsen-Anhalt;Mittelzentren;| [[Zerbst/Anhalt]]
+;Sachsen;Mittelzentren;| [[Oelsnitz/Vogtl.]]
+;Sachsen;Mittelzentren;| [[Stollberg/Erzgeb.]]
+;Sachsen;Mittelzentren;| [[Weißwasser/Oberlausitz]]
+;Sachsen;Mittelzentren;| Städteverbund Göltzschtal [[Auerbach/Vogtl.]] – [[Ellefeld]] – [[Falkenstein/Vogtl.]] – [[Rodewisch]]
+;Sachsen;Mittelzentren;| Städteverbund Sachsenring [[Hohenstein-Ernstthal]] – [[Lichtenstein/Sa.|Lichtenstein]] – [[Oberlungwitz]]
+;Sachsen;Mittelzentren;| [[Städteverbund Silberberg]] [[Aue (Sachsen)|Aue]] – [[Lauter/Sa.]] – [[Lößnitz (Erzgebirge)|Lößnitz]] – [[Bad Schlema]] – [[Schneeberg (Erzgebirge)|Schneeberg]] – [[Schwarzenberg/Erzgeb.|Schwarzenberg]]
+;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;| [[Mühlhausen/Thüringen|Mühlhausen]]
+;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;| [[Saalfeld/Saale|Saalfeld]]/[[Rudolstadt]]/[[Bad Blankenburg]]<sup>1</sup>
+;Thüringen;Mittelzentren mit Teilfunktionen eines Oberzentrums;| [[Suhl]]/[[Zella-Mehlis]]<sup>2</sup>
+;Thüringen;Mittelzentren;| [[Artern/Unstrut|Artern]]
+;Thüringen;Mittelzentren;| [[Hermsdorf (Thüringen)|Hermsdorf]]/[[Bad Klosterlausnitz]]<sup>1</sup>
+;Thüringen;Mittelzentren;| [[Neuhaus am Rennweg|Neuhaus am Rennweg]]/[[Lauscha]]<sup>2</sup>
+;Thüringen;Mittelzentren;| [[Schmölln]]/[[Gößnitz (Thüringen)|Gößnitz]]<sup>3</sup>

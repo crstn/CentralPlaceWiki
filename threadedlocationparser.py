@@ -162,10 +162,16 @@ def findreferences(page, sqlfile):
     longcompletematch = longcompletepattern.search(pagetext)
 
     if latcompletematch and longcompletematch:
-        latstring = latcompletematch.group(1) + " " + latcompletematch.group(2) + " " +latcompletematch.group(3) + " " + latcompletematch.group(4)
-        longstring = longcompletematch.group(1) + " " + longcompletematch.group(2) + " " +longcompletematch.group(3) + " " + longcompletematch.group(4)
+        # if the seconds in the coords are empty:
+        if latcompletematch.group(3) == '' or longcompletematch.group(3) == '':
+            latstring = latcompletematch.group(1) + " " + latcompletematch.group(2) + " " + latcompletematch.group(4)
+            longstring = longcompletematch.group(1) + " " + longcompletematch.group(2) + " " + longcompletematch.group(4)
+            coords = LatLon.string2latlon(latstring, longstring, 'd% %m% %H')
+        else: # if we do have seconds:
+            latstring = latcompletematch.group(1) + " " + latcompletematch.group(2) + " " +latcompletematch.group(3) + " " + latcompletematch.group(4)
+            longstring = longcompletematch.group(1) + " " + longcompletematch.group(2) + " " +longcompletematch.group(3) + " " + longcompletematch.group(4)
+            coords = LatLon.string2latlon(latstring, longstring, 'd% %m% %S% %H')
 
-        coords = LatLon.string2latlon(latstring, longstring, 'd% %m% %S% %H')
         addInsert(pagetitle, coords.to_string('D')[0], coords.to_string('D')[1], sqlfile)
 
         return
@@ -305,7 +311,7 @@ def go():
 
             # except Exception as e:
             #     logme("Exception caught when parsing: " + page.find(ns+'title').text)
-            #     
+            #
 
         currentpage = currentpage + 1
         if currentpage > numthreads:

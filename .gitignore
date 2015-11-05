@@ -1,6 +1,7 @@
 *.csv
 *.xml
 CPT/*
+testpages/*
 AGILE 2015 Central Places in Wikipedia alias
 
 .ipynb_checkpoints/parse-checkpoint.ipynb
@@ -72,3 +73,13 @@ gdal-dem-invdist-2.0.tiff
 insert-1-of-1-coords.sql
 
 logfile-1-of-1.txt
+
+Coordinate.txt
+
+Coordinatearticle.txt
+
+Coordinates.txt
+
+Koordinate.txt
+
+curl.sh

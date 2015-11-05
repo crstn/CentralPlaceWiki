@@ -83,3 +83,5 @@ Coordinates.txt
 Koordinate.txt
 
 curl.sh
+
+*.log

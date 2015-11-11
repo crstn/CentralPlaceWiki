@@ -85,3 +85,5 @@ Koordinate.txt
 curl.sh
 
 *.log
+
+node_modules/*

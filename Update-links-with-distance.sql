@@ -4,9 +4,9 @@ UPDATE links SET
 	   distance = ST_Distance_Spheroid(fromp.the_geom, top.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]'),
 	   w_dist = (ST_Distance_Spheroid(fromp.the_geom, top.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]') / (incoming.incoming * incoming.incoming))
 FROM   incoming, pages AS fromp, pages as top
-WHERE  top.page = incoming.page
-AND    links."from" = fromp.page
-AND    links."to" = top.page;
+WHERE  top.de = incoming.page
+AND    links."from" = fromp.de
+AND    links."to" = top.de;
 
 -- these create sorted ascending indexes, i.e., the results will ALWAYS be ordered
 -- ascendingly, even if we don't ask for it. See http://www.postgresql.org/docs/8.3/static/indexes-ordering.html

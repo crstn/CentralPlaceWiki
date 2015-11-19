@@ -18,19 +18,17 @@ UPDATE incoming
 	SELECT SUM(injoin.links + injoin.mentions)
 	FROM
 	  ( --injoin: table where links."from" is in pages
-	  	SELECT pages.page,
-	  	pages.lang,
+	  	SELECT pages.de,
+	  	-- pages.lang,
 	  	links.from,
 	  	links.to,
 	  	links.links,
 	  	links.mentions
 		FROM pages
 		INNER JOIN links
-	      ON pages.lang=links.lang
-	        AND pages.page=links.from
+	    ON pages.de=links.from
 	  ) AS injoin
-    WHERE (injoin.to = incoming.page
-      AND injoin."lang" = incoming."lang")
+    WHERE (injoin.to = incoming.page)
   );
 
 CREATE INDEX incoming_name_index ON incoming USING hash ( page );

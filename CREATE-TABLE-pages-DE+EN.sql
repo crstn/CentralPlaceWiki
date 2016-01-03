@@ -3,8 +3,6 @@ DROP TABLE IF EXISTS pages;
 CREATE TABLE pages
 	(de 					varchar,
 	 en 				  varchar,
-	 de_alias_for varchar,
- 	 en_alias_for varchar,
 	 the_geom 		geometry,
 	 wikidata_id	varchar,
 	 id 					serial primary key );

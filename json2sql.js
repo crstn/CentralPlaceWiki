@@ -37,9 +37,7 @@ parser.on('data', function (obj) {
             // skip if there is no english nor a german label
             // or if the item is the same as the previous one
             if(((labelDE !=  '""') || (labelEN !=  '""')) && ((labelDE != prevDE) || (labelEN != prevEN) || (loc != prevLoc))){
-                labelDE.replace("'", "''");
-                labelEN.replace("'", "''");
-                console.log("INSERT INTO pages VALUES ('"+labelDE+"', '"+labelEN+"', ST_SetSRID(ST_MakePoint("+loc.longitude+", "+loc.latitude+"),4326), '"+obj.id+"');")
+                console.log("INSERT INTO pages VALUES ('"+labelDE.replace("'", "''")+"', '"+labelEN.replace("'", "''")+"', ST_SetSRID(ST_MakePoint("+loc.longitude+", "+loc.latitude+"),4326), '"+obj.id+"');")
 
                 prevDE = labelDE;
                 prevEN = labelEN;

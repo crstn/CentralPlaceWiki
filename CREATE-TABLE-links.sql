@@ -1,10 +1,10 @@
-# DROP TABLE IF EXISTS links; 
+DROP TABLE IF EXISTS links; 
 
-CREATE TABLE links 
-	("from" 	varchar, 
-	 "to" 		varchar, 
-	 lang 		varchar, 
-	 links 		integer, 
+CREATE TABLE links
+	("from" 	varchar,
+	 "to" 		varchar,
+	 lang 		varchar,
+	 links 		integer,
 	 mentions 	integer,
 	 id 		serial primary key );
 

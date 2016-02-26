@@ -23,13 +23,14 @@ linkpattern = re.compile("\[\[?([^]|]*)(\|)?([^]|]*)?\]\]")
 def findreferences(page, sqlfile, lang):
 
     pagetitle = page.find(ns+'title').text
+    pageid = page.find(ns+'id').text
     pagetext  = page.find(ns+'revision/'+ns+'text').text
 
     # find all links via regex, save in a dict with the link as key and number of occurrences for this link as value
     try:
         links = linkpattern.findall(pagetext)
     except:
-        print "Exception caught during link discovery."
+        print "--Exception caught during link discovery."
         return
 
 
@@ -49,8 +50,9 @@ def findreferences(page, sqlfile, lang):
             #write to DB:
             if lastlink:  # don't write on the first iteration when lastlink is empty!
                 # create statement to insert results into DB
-                insert = u"INSERT INTO links VALUES ('"+pagetitle.replace("'", "''")+"', '"+lastlink.replace("'", "''")+"', '"+lang+"', "+str(linkscount)+", "+str(mentionscount)+");\n"
-                sqlfile.write(insert.encode('utf8'))
+                insert = u"INSERT INTO links VALUES ("+pageid+", '"+pagetitle.replace("'", "''")+"', '"+lastlink.replace("'", "''")+"', '"+lang+"', "+str(linkscount)+", "+str(mentionscount)+");\n"
+                # sqlfile.write(insert.encode('utf8'))
+                print insert.encode('utf8') # to pipe instead of writing to file
 
             # and start over
             lastlink = link
@@ -116,5 +118,5 @@ def go():
     sqlfile.close()
 
 if __name__ == "__main__":
-    print timeit.timeit(go, 'gc.enable()', number = 1)
-    print "done"
+    print "--" + str(timeit.timeit(go, 'gc.enable()', number = 1))
+    print "--done"

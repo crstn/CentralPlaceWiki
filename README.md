@@ -14,7 +14,7 @@ curl https://dumps.wikimedia.org/dewiki/20160203/dewiki-20160203-pages-articles-
 3. Install PostGres and set up a new database cluster, start Postgres, and initialize a new database called `cpt`. Make sure you install the PostGIS extension for the database. 
 ```
 psql -f CREATE-TABLE-links.sql cpt
-
+```
 4. Run `threadedparser.py` on your unzipped `ages-articles-multistream.xml` file. It identifies all links and mentions between wikipedia pages, counts them, and summarizes that information in a SQL script to load into a PostGres database. You can start multiple copies of the script to speed things up if you have a multicore processor, e.g.
 ```
 python threadedparser.py 2 1 ages-articles-multistream.xml en | psql -q cpt &
@@ -22,7 +22,11 @@ python threadedparser.py 2 2 ages-articles-multistream.xml en | psql -q cpt &
 ```
 This would start the parser in 2 threads (first argument), the first thread will process every 1/2 articles, the second one every 2/2 article (second argument). The third argument is the file to process, and the output is directly piped to psql, i.e., written into the database. This will take a while (probably several hours).
 
-5. The unzipped `geo_tags.sql` is in MySQL’s SQL dialect. Since there seems to be no straightforward way to simply convert the SQL file to PostGres syntax, I have loaded the file into a MySQL database, and then used the `mysqlBinaryCast.sql` script to export the data in CSV format like so:
+5. The unzipped `geo_tags.sql` is in MySQL’s SQL dialect. Since there seems to be no straightforward way to simply convert the SQL file to PostGres syntax, I have loaded the file into a MySQL database (I have [MAMP](https://www.mamp.info/en/) installed and set up a new database named `wikipedia`) like so: 
 ```
-To be continued…
+/Applications/MAMP/Library/bin/mysql wikipedia -uroot -proot < geo_tags.sql 
+```
+and then use the `mysqlBinaryCast.sql` script to export the data in CSV format like so:
+```
+/Applications/MAMP/Library/bin/mysql wikipedia -uroot -proot < mysqlBinaryCast.sql
 ```

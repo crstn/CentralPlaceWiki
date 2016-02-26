@@ -3,7 +3,9 @@ SELECT gt_id,
        gt_page_id,
 --       CAST(gt_globe as CHAR) AS gt_globe,              -- not needed
 --       gt_primary,                                      -- not needed
-       CONCAT('POINT(', gt_lon, ' ', gt_lat, ')') AS geom, -- directly construct PostGIS points
+--       CONCAT('POINT(', gt_lon, ' ', gt_lat, ')') AS geom, -- directly construct PostGIS points
+       gt_lat,
+       gt_lon,
        gt_dim,
        CAST(gt_type as CHAR) AS gt_type,
        CAST(gt_name as CHAR) AS gt_name,

@@ -32,4 +32,7 @@ and then use the `mysqlBinaryCast.sql` script to export the data in CSV format l
 ```
 After running that (this one should be fast), you will find a file called `geo_tags.csv` in your home directory.
 
-6. 
+6. Import the file into PostGIS by running `CREATE-TABLE-geo_tags.sql`. You’ll need to edit the file first and change the path to the csv file, since PostGres doesn’t understand the ~ shortcut for the user’s home.
+```
+sql -f CREATE-TABLE-geo_tags.sql cpt
+```

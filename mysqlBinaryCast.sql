@@ -1,10 +1,9 @@
 -- Based on https://ariejan.net/2008/11/27/export-csv-directly-from-mysql/
 SELECT gt_id,
        gt_page_id,
---       CAST(gt_globe as CHAR) AS gt_globe,  -- not needed
---       gt_primary,                          -- not needed
-       gt_lat,
-       gt_lon,
+--       CAST(gt_globe as CHAR) AS gt_globe,              -- not needed
+--       gt_primary,                                      -- not needed
+       CONCAT('POINT(', gt_lon, ' ', gt_lat, ')') AS geom, -- directly construct PostGIS points
        gt_dim,
        CAST(gt_type as CHAR) AS gt_type,
        CAST(gt_name as CHAR) AS gt_name,

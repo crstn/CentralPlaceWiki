@@ -30,3 +30,6 @@ and then use the `mysqlBinaryCast.sql` script to export the data in CSV format l
 ```
 /Applications/MAMP/Library/bin/mysql wikipedia -uroot -proot < mysqlBinaryCast.sql
 ```
+After running that (this one should be fast), you will find a file called `geo_tags.csv` in your home directory.
+
+6. 

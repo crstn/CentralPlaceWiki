@@ -138,7 +138,7 @@ Blomberg
 Soltau
 Alzenau
 Schmalkalden
-Emmerich
+Emmerich am Rhein
 Konz
 Wetter (Ruhr)
 Lüchow (Wendland)
@@ -216,7 +216,7 @@ Cheb
 Baumholder
 Lippstadt
 Garbsen
-Städteverbund Silberberg
+Städtebund Silberberg
 Rheinfelden (Baden)
 Fellbach
 Georgsmarienhütte
@@ -292,7 +292,7 @@ Betzdorf
 Mülheim an der Ruhr
 Andernach
 Kamp-Lintfort
-Oschersleben
+Oschersleben (Bode)
 Alfeld (Leine)
 Mühlacker
 Bad Laasphe
@@ -343,7 +343,7 @@ Kastellaun
 Seevetal
 Selb
 Sinsheim
-Oldenburg (Oldenburg)
+Oldenburg (Oldb)
 Lohr am Main
 Mosbach
 Eisenberg (Thüringen)
@@ -361,7 +361,7 @@ Stadthagen
 Bergen auf Rügen
 Bochum
 Dingolfing
-Menden
+Menden (Sauerland)
 Arnsberg
 Grevesmühlen
 Bad Salzuflen
@@ -379,7 +379,7 @@ Wunsiedel
 Sulingen
 Günzburg
 Villingen-Schwenningen
-Haltern
+Haltern am See
 Lübbecke
 Zerbst/Anhalt
 Wittlich
@@ -453,7 +453,7 @@ Bad Sobernheim
 Vechta
 Freilassing
 Riedlingen
-Leichlingen
+Leichlingen (Rheinland)
 Wildeshausen
 Weißwasser/Oberlausitz
 Bad Pyrmont
@@ -478,7 +478,7 @@ Bad Segeberg
 Immenstadt im Allgäu
 Ruhstorf an der Rott
 Rottweil
-Hennef
+Hennef (Sieg)
 Lindau (Bodensee)
 Buxtehude
 Oberstdorf
@@ -643,7 +643,7 @@ Bergisch Gladbach
 Waiblingen
 Radevormwald
 Halle (Westf.)
-Voerde
+Voerde (Niederrhein)
 Bad Honnef
 Niesky
 Koblenz
@@ -744,7 +744,7 @@ Beverungen
 Rottenburg am Neckar
 Reutlingen
 Borna
-Höchstadt a. d. Aisch
+Höchstadt an der Aisch
 Bad Langensalza
 Murnau am Staffelsee
 Bietigheim-Bissingen
@@ -770,7 +770,7 @@ Gmund am Tegernsee
 Eilenburg
 Bayreuth
 Lünen
-Lauter/Sa.
+Lauter (Lauter-Bernsbach)
 Übach-Palenberg
 Suhl
 Lebach

@@ -8,6 +8,3 @@ CREATE TABLE links
 	 "links" 		integer,
 	 "mentions" integer,
 	 "id" 		  serial primary key );
-
-CREATE INDEX links_index_to ON links USING hash ( "to" );
-CREATE INDEX links_index_from ON links USING hash ( "from" );

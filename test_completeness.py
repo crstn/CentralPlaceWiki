@@ -20,8 +20,15 @@ for place in f.readlines():
     # print cur.query
 
     if cur.rowcount == 0:
-        print place.encode('utf-8') + " not found."
+        print place.encode('utf-8') + " not found; checking whether it's in the links table."
 
-    # rows = cur.fetchall()
-    # for row in rows:
-    #     print "   ", row
+        cur.execute("""SELECT DISTINCT links.fromid, links."from" FROM links WHERE links."from" = %s;""", (place,))
+        if cur.rowcount == 0:
+            print "Nope."
+        else:
+            print "Looks good, seems like only the coordinates are missing."
+            rows = cur.fetchall()
+            for row in rows:
+                print "   ", row
+
+        print " --- "

@@ -53,7 +53,7 @@ After running that (this one should be fast), you will find a file called `geo_t
   GROUP BY gt_country;
   ```
 and created insert statements with those centroids for the geo_tags table like so (I know this could be done in one step, but I was too lazy to write that query):
-  ```
+  ```SQL
   INSERT INTO geo_tags(gt_id, gt_page_id, gt_lat, gt_lon, gt_dim, gt_type, gt_name, gt_country, gt_region, the_geom) VALUES (56029078, 2814320, 51.25583221, 14.5537037933333, 10000, ‘city’, ‘Oberzentraler Städteverbund’, ‘DE’, ‘SN’, ST_GeomFromText(‘POINT(14.5537037933333 51.25583221)’, 4326));
   INSERT INTO geo_tags(gt_id, gt_page_id, gt_lat, gt_lon, gt_dim, gt_type, gt_name, gt_country, gt_region, the_gom) VALUES (56029079, 1095309, 50.5871758916667, 12.7122222216667, 10000, ‘city’, ‘Städtebund Silberberg’, ‘DE’, ‘SN’, ST_GeomFromText(‘POINT(12.7122222216667 50.5871758916667)’, 4326));
   ```

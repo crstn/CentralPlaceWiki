@@ -44,7 +44,7 @@ After running that (this one should be fast), you will find a file called `geo_t
   ```
 
 8. Since those represent groups of towns that have been set up as  a combined center due to the lack of a larger city in the region, it makes sense that these groups do not have coordinates in Wikipedia. For our calculations, however, we need all places to have coordinates. So I looked up the places that belong to those groups of towns online, and then looked up the page IDs of their wikipedia pages in the links table. I have then calculated the centroid between the places like so:
-  ```
+  ```SQL
   SELECT gt_country, ST_AsEWKT(st_centroid(st_union(the_geom::geometry))) as geom
   FROM geo_tags
   WHERE gt_page_id = 3698848
@@ -54,8 +54,10 @@ After running that (this one should be fast), you will find a file called `geo_t
   ```
 and created insert statements with those centroids for the geo_tags table like so (I know this could be done in one step, but I was too lazy to write that query):
   ```SQL
-  INSERT INTO geo_tags(gt_id, gt_page_id, gt_lat, gt_lon, gt_dim, gt_type, gt_name, gt_country, gt_region, the_geom) VALUES (56029078, 2814320, 51.25583221, 14.5537037933333, 10000, ‘city’, ‘Oberzentraler Städteverbund’, ‘DE’, ‘SN’, ST_GeomFromText(‘POINT(14.5537037933333 51.25583221)’, 4326));
-  INSERT INTO geo_tags(gt_id, gt_page_id, gt_lat, gt_lon, gt_dim, gt_type, gt_name, gt_country, gt_region, the_gom) VALUES (56029079, 1095309, 50.5871758916667, 12.7122222216667, 10000, ‘city’, ‘Städtebund Silberberg’, ‘DE’, ‘SN’, ST_GeomFromText(‘POINT(12.7122222216667 50.5871758916667)’, 4326));
+  INSERT INTO geo_tags(gt_id, gt_page_id, gt_lat, gt_lon, gt_dim, gt_type, gt_name, gt_country, gt_region, the_geom)
+  VALUES (56029078, 2814320, 51.25583221, 14.5537037933333, 10000, ‘city’, ‘Oberzentraler Städteverbund’, ‘DE’, ‘SN’, ST_GeomFromText(‘POINT(14.5537037933333 51.25583221)’, 4326));
+  INSERT INTO geo_tags(gt_id, gt_page_id, gt_lat, gt_lon, gt_dim, gt_type, gt_name, gt_country, gt_region, the_gom)
+  VALUES (56029079, 1095309, 50.5871758916667, 12.7122222216667, 10000, ‘city’, ‘Städtebund Silberberg’, ‘DE’, ‘SN’, ST_GeomFromText(‘POINT(12.7122222216667 50.5871758916667)’, 4326));
   ```
 
 9. In order to compute the distance between two places that link to each other, we need the IDs for the linked-to pages. This is a self-join on the `links` table, which tries to find the ID for ever linked-to page (these IDs are missing in the links table) by looking for the page named in the `from` column of the same table, then using the `fromid` (which _is_ contained in the table). Naturally, this means we do not find all of the IDs because some pages do not have any links in them, but this is only a very small number of pages. Since this was very slow in PostGres, I decided to do this step in Python and the re-import the data. So, let’s export the data first (before you run this, edit the script to adjust the path to the export file):

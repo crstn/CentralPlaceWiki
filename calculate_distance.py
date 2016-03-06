@@ -85,5 +85,3 @@ print "That's all, folks."
 # engine = create_engine('postgresql://localhost:5432/cpt')
 # pages.to_sql('pages', engine)
 # links.to_sql('links', engine)
-
-print 'Good night'

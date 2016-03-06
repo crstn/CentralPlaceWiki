@@ -66,7 +66,35 @@ and created insert statements with those centroids for the geo_tags table like s
   ```
 This will export the `geo_tags` and the `links` table as CSV files that we’ll process in Python in the next step.
 
+10. Now it's time to re-import the processed data into PostGIS by running
+  ```
+  psql -f reimport.sql cpt
+  ```
+Then we'll use [pgloader](http://pgloader.io) to load the links data, since it gracefully skips over any lines with problems. It's also really fast:
+    ```
+    brew install pgloader
+    pgloader --field "fromid,from,to,lang,links,mentions,toid,from_lat,from_lon,to_lat,to_lon,dist_sphere_meters" --type csv --with truncate --with "fields terminated by ','" links_processed.csv postgres:///cpt?tablename=links
+    ```    
+_Note_: If you are trying to load the data via `COPY FROM`, you'll most likely see some errors. E.g., if an error message like the following appears during import, there is something seriously wrong with the page title in that line of the CSV:
+  ```
+  ERROR: extra data after last expected column
+  SQL state: 22P04
+  Context: COPY links, line 2927100: "41997,Wikipedia:Helferlein/Chemie-Übersetzungsskript,"\[Image:([^\",de,1,142,-1,,,,,
+  ```
+In that case, take note of the line number, and remove it from the CSV like so (run this on the terminal):
+  ```
+  sed -i '' '2927100d' links_processed.csv
+  ```
+If you see a pattern -- e.g., in the german wikipedia, the page titles containing the string `Wikipedia:Helferlein` seem to be causing problems – you can remove all of them like so:
+  ```
+  sed -i '' '/Wikipedia:Helferlein/d' links_processed.csv
+  ```
+Then run `reimport.sql` again.
 
+11. Time for some more processing. The following SQL script will add a primary key to the links table, turn the coordinates for the linked pages into proper PostGIS points, and create a great circle line for those links where we have points for the linking and the linked page:
+  ```
+  psql -f housekeeping.sql cpt
+  ```
 
 
 ## Known issues

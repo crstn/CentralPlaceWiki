@@ -11,7 +11,7 @@ You should have a good idea of how Python and PostGIS work if you are trying to 
 
 2. From the same page, download the file ending in `geo_tags.sql.gz `, and unzip it, too
 
-3. Install PostGres and set up a new database cluster. Before you start Postgres, make sure to [tune the configuration](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server). This will speed things up that we’ll do later (a sample config file for a Mac Pro is included in this repo). Then start PostGres and initialize a new database called `cpt`. Make sure you install the PostGIS extension for the database.
+3. Install PostGres and set up a new database cluster. Before you start Postgres, make sure to [tune the configuration](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server). This will speed things up that we’ll do later (a sample config file for a Mac Pro is included in this repo). Then start PostGres and initialize a new database called `cpt`. Make sure you install the PostGIS extension for the database (Note about the content of the database: Because of the way the parser is set up, the count in the `mentions` column *includes* the count for the `links` column, so this is already the total number of references from page A to page B).
   ```
   psql -f CREATE-TABLE-links.sql cpt
   ```

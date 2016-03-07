@@ -63,7 +63,8 @@ CREATE INDEX links_linegeo_index ON links USING GIST ( line_geom );
 ALTER TABLE pages
 ADD COLUMN incoming integer;
 
--- this one needs a subquery because UPDATE doesn't support GROUP BY
+-- This one needs a subquery because UPDATE doesn't support GROUP BY.
+-- It's pretty fast, though. Takes only a few minutes for dewiki
 UPDATE pages
 SET incoming = sq.summe
 FROM (
@@ -73,6 +74,5 @@ FROM (
 ) AS sq
 WHERE sq.toid = pages.page_id;
 
-
-
 -- and index that column
+CREATE INDEX pages_incoming_index ON pages USING btree ( incoming );

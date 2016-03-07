@@ -75,4 +75,4 @@ FROM (
 WHERE sq.toid = pages.page_id;
 
 -- and index that column
-CREATE INDEX pages_incoming_index ON pages USING btree ( incoming );
+CREATE INDEX pages_incoming_index ON pages USING btree ( incoming DESC NULLS LAST );

@@ -41,19 +41,18 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
             search = self.path[8:]+"%" # last bit of the path contains the search term, plus wildcard
             try:
 
-                cur.execute("""SELECT page_id, page FROM pages WHERE ( page LIKE %s ) AND incoming > 0 AND the_geom IS NOT NULL ORDER BY incoming DESC limit 10;""", (search,))
-                # Send the html message
-                rows = cur.fetchall()
+                cur.execute("""SELECT row_to_json(fc) FROM (SELECT array_to_json(array_agg(f)) As results FROM (SELECT page_id, page FROM pages WHERE ( page LIKE %s ) AND incoming > 0 AND the_geom IS NOT NULL ORDER BY incoming DESC limit 10) AS f ) AS fc;""", (search,))
 
-                sendHeader(self, 200, 'text/html; charset=utf-8')
+                sendHeader(self, 200, 'application/json; charset=utf-8')
 
-                for row in rows:
-                    self.wfile.write(row[1]+" (<a href='../place/"+str(row[0])+"'>"+str(row[0])+"</a>)<br />")
+                row = cur.fetchone()
+                self.wfile.write(row[0])
 
             except Exception as e:
                 sendError(self, e)
 
             return
+
         elif self.path.startswith('/place/'):
             try:
                 s = int(self.path[7:]) # last bit of the path contains the page id we'll look for

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet mobile example</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="libs/leaflet.css" />
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="libs/jquery-1.12.1.min.js"></script>
+	<script src="libs/leaflet.js"></script>
+	<script src="libs/typeahead.bundle.min.js"></script>
+
+</head>
+<body>
+	<div id="map"></div>
+	<div id="search"></div>
+
+	<script>
+		var map = L.map('map').setView([50, 9], 6);;
+
+		L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+			id: 'stamen',
+			subdomains: ['a', 'b', 'c', 'd']
+		}).addTo(map);
+
+	</script>
+</body>
+</html>

@@ -68,21 +68,12 @@
 				source: places
 			});
 
-			// var placeHound = new Bloodhound({
-			// 	datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
-			// 	queryTokenizer: Bloodhound.tokenizers.whitespace,
-			// 	// prefetch: '../data/films/post_1960.json',
-			// 	remote: {
-			// 		url: 'place/%QUERY',
-			// 		wildcard: '%QUERY'
-			// 	}
-			// });
-			//
-			// $('#placesearch .typeahead').typeahead(null, {
-			// 	name: 'placesearch',
-			// 	display: 'value',
-			// 	source: placeHound
-			// });
+			// Telling the typeahead plugin what to do when a result is selected:
+			$('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+				$.get("place/"+suggestion.page_id, function(place) {
+					L.geoJson(place).addTo(map);
+				});
+			});
 
 		});
 	</script>

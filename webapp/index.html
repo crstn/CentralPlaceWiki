@@ -12,6 +12,7 @@
 	<script src="libs/jquery-1.12.1.min.js"></script>
 	<script src="libs/leaflet.js"></script>
 	<script src="libs/typeahead.bundle.min.js"></script>
+	<script src="libs/rcolor.js"></script> <!-- See https://github.com/sterlingwes/RandomColor -->
 
 	<title>Central Places in Wikipedia</title>
 
@@ -25,6 +26,9 @@
 
 	<script>
 		$(document).ready(function() {
+
+			var color = new RColor;
+
 			// setting up the map
 			var map = L.map('map').setView([50, 9], 6);;
 
@@ -40,7 +44,9 @@
 			// setting up the search function
 
 			// This effectively turns off tokenization, which is desired in our case:
-			function customTokenizer(datum) { return datum.page; }
+			function customTokenizer(datum) {
+				return datum.page;
+			}
 
 			var places = new Bloodhound({
 				datumTokenizer: customTokenizer,
@@ -71,13 +77,27 @@
 
 			// Telling the typeahead plugin what to do when a result is selected:
 			$('.typeahead').bind('typeahead:select', function(ev, suggestion) {
-				$.get("linksto/"+suggestion.page_id, function(place) {
-					console.log(place);
-					p = L.geoJson(place)
+				getLinksTo(suggestion.page_id);
+			});
+
+			function getLinksTo(id) {
+				$.get("linksto/" + id, function(place) {
+					p = L.geoJson(place, {
+						onEachFeature: onEachFeature,
+						style: {
+							"color": color.get(true)
+						}
+					})
 					p.addTo(map);
 					map.fitBounds(p.getBounds());
+				})
+			};
+
+			function onEachFeature(feature, layer) {
+				layer.on('click', function(e) {
+					getLinksTo(e.target.feature.properties.fromid);
 				});
-			});
+			}
 
 		});
 	</script>

@@ -39,10 +39,11 @@
 
 			// setting up the search function
 
+			// This effectively turns off tokenization, which is desired in our case:
+			function customTokenizer(datum) { return datum.page; }
+
 			var places = new Bloodhound({
-				datumTokenizer: function(datum) {
-					return Bloodhound.tokenizers.whitespace(datum.page);
-				},
+				datumTokenizer: customTokenizer,
 				queryTokenizer: Bloodhound.tokenizers.whitespace,
 				remote: {
 					url: 'search/%QUERY',

@@ -41,8 +41,21 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         logging.warning(self.headers)
-        if self.path.startswith('/search/'):
-            s = urllib.unquote(self.path[8:]).decode('utf-8')+"%" # last bit of the path contains the search term, plus wildcard
+
+        # decompose the path to figure out what to do:
+        urlpath = filter(None, self.path.split('/')) # the filter removes any empty strings from the list
+
+        # check whether we have a limit argument on the path;
+        # if not, set it to 10
+        l = 10
+        if len(urlpath) > 2:
+            l = int(urlpath[2])
+
+        if urlpath[0] == 'search':
+            # s = urllib.unquote(self.path[8:]).decode('utf-8')+"%" # last bit of the path contains the search term, plus wildcard
+            s = urllib.unquote(urlpath[1]).decode('utf-8')+"%" # last bit of the path contains the search term, plus wildcard
+
+            print s
 
             query = """SELECT row_to_json(fc)
                        FROM (SELECT array_to_json(array_agg(f)) As results
@@ -51,15 +64,15 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                                    WHERE ( page LIKE %s )
                                    AND incoming > 0
                                    AND the_geom IS NOT NULL
-                                   ORDER BY incoming DESC limit 10) AS f ) AS fc;"""
+                                   ORDER BY incoming DESC limit %s ) AS f ) AS fc;"""
 
-            queryDBsendResponse(self, query, (s,), jsonHeader)
+            queryDBsendResponse(self, query, (s,l,), jsonHeader)
 
             return
 
-        elif self.path.startswith('/place/'):
+        elif urlpath[0] == 'place':
 
-            s = int(self.path[7:]) # last bit of the path contains the page id we'll look for
+            s = int(urlpath[1]) # last bit of the path contains the page id we'll look for
 
             query = """SELECT row_to_json(fc) FROM (
                             SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM (
@@ -78,9 +91,14 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
             return
 
-        elif self.path.startswith('/linksto/'):
-            s = int(self.path[9:]) # last bit of the path contains the page id we'll look for
+        elif urlpath[0] == 'linksto':
+            # s = int(self.path[9:]) # last bit of the path contains the page id we'll look for
+
+            s = int(urlpath[1])
+
             # see links2geojson.sql for a formatted version of this query
+            l = 10
+
             query = """SELECT row_to_json(fc) FROM (
                         SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM (
                             SELECT 'Feature' As type, ST_AsGeoJSON(lg.line_geom)::json As geometry, row_to_json(lp) As properties
@@ -89,18 +107,19 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                                    FROM links
                                    WHERE toid = %s
                                    AND line_geom IS NOT NULL
-                                   ORDER BY mentions
-                                   DESC LIMIT 10) As lp
+                                   ORDER BY mentions DESC
+                                   LIMIT %s) As lp
                             ON lg.fromid = lp.fromid AND lg.toid = lp.toid  )
                         As f )
                       As fc;"""
 
-            queryDBsendResponse(self, query, (s,), geojsonHeader)
+            queryDBsendResponse(self, query, (s,l,), geojsonHeader)
 
             return
 
-        elif self.path.startswith('/placeslinkingto/'):
-            s = int(self.path[17:])
+        elif urlpath[0] == '/placeslinkingto/':
+
+            s = int(urlpath[1])
 
             query = """SELECT row_to_json(fc)
             FROM (
@@ -115,12 +134,12 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                         AND links.line_geom IS NOT NULL
                         AND pages.page_id = links.fromid
                         ORDER BY links.mentions DESC
-                        LIMIT 10) As lp
+                        LIMIT %s) As lp
                     ON lg.page_id = lp.page_id)
                 As f )
             As fc;"""
 
-            queryDBsendResponse(self, query, (s,), geojsonHeader)
+            queryDBsendResponse(self, query, (s,l,), geojsonHeader)
 
             return
 

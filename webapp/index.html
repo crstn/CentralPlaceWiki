@@ -82,34 +82,71 @@
 			});
 
 			function getLinksTo(id) {
+
+				clr = color.get(true)
+
+				// pick a random color for this subnetwork
+				var geojsonMarkerOptions = {
+					radius: 5,
+					fillColor: clr,
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				};
+
+				// load the linking lines
 				$.get("linksto/" + id, function(place) {
 					p = L.geoJson(place, {
 						onEachFeature: onEachFeature,
 						style: {
-							"color": color.get(true)
+							"color": clr
 						}
 					})
 					p.addTo(map);
 					map.fitBounds(p.getBounds());
 				})
+
+				$.get("place/" + id, function(place) {
+					p = L.geoJson(place, {
+						// onEachFeature: onEachFeature,
+						pointToLayer: function(feature, latlng) {
+							return L.circleMarker(latlng, geojsonMarkerOptions);
+						}
+					})
+					p.addTo(map);
+				})
+
+				// load the places linking to this one
+				$.get("placeslinkingto/" + id, function(place) {
+
+					p = L.geoJson(place, {
+						onEachFeature: onEachFeature,
+						pointToLayer: function(feature, latlng) {
+							return L.circleMarker(latlng, geojsonMarkerOptions);
+						}
+					})
+					p.addTo(map);
+				})
+
 			};
 
 			function onEachFeature(feature, layer) {
 
 				layer.on('click', function(e) {
-					getLinksTo(e.target.feature.properties.fromid);
+					getLinksTo(e.target.feature.properties.page_id);
 				});
 
-				layer.on('mouseover', function(e) {
-					var popup = L.popup()
-						.setLatLng(e.latlng)
-						.setContent(e.target.feature.properties.from)
-						.openOn(map);
-				});
-
-				layer.on('mouseout', function(e) {
-					this.closePopup();
-				});
+				// layer.on('mouseover', function(e) {
+				// 	var popup = L.popup()
+				// 		.setLatLng(e.latlng)
+				// 		.setContent(e.target.feature.properties.from)
+				// 		.openOn(map);
+				// });
+				//
+				// layer.on('mouseout', function(e) {
+				// 	this.closePopup();
+				// });
 
 			}
 

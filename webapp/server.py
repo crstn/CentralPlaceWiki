@@ -50,6 +50,9 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
         l = 10
         if len(urlpath) > 2:
             l = int(urlpath[2])
+        elif len(urlpath) == 0:
+            SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
+
 
         if urlpath[0] == 'search':
             # s = urllib.unquote(self.path[8:]).decode('utf-8')+"%" # last bit of the path contains the search term, plus wildcard
@@ -117,7 +120,7 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
             return
 
-        elif urlpath[0] == '/placeslinkingto/':
+        elif urlpath[0] == 'placeslinkingto':
 
             s = int(urlpath[1])
 

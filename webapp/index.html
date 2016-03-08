@@ -12,7 +12,8 @@
 	<script src="libs/jquery-1.12.1.min.js"></script>
 	<script src="libs/leaflet.js"></script>
 	<script src="libs/typeahead.bundle.min.js"></script>
-	<script src="libs/rcolor.js"></script> <!-- See https://github.com/sterlingwes/RandomColor -->
+	<script src="libs/rcolor.js"></script>
+	<!-- See https://github.com/sterlingwes/RandomColor -->
 
 	<title>Central Places in Wikipedia</title>
 
@@ -94,9 +95,22 @@
 			};
 
 			function onEachFeature(feature, layer) {
+
 				layer.on('click', function(e) {
 					getLinksTo(e.target.feature.properties.fromid);
 				});
+
+				layer.on('mouseover', function(e) {
+					var popup = L.popup()
+						.setLatLng(e.latlng)
+						.setContent(e.target.feature.properties.from)
+						.openOn(map);
+				});
+
+				layer.on('mouseout', function(e) {
+					this.closePopup();
+				});
+
 			}
 
 		});

@@ -9,7 +9,7 @@ import os
 import psycopg2
 from psycopg2 import extras
 
-import json
+import urllib
 
 if len(sys.argv) > 2:
     PORT = int(sys.argv[2])
@@ -38,7 +38,9 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
         logging.warning("======= GET STARTED =======")
         logging.warning(self.headers)
         if self.path.startswith('/search/'):
-            search = self.path[8:]+"%" # last bit of the path contains the search term, plus wildcard
+            search = urllib.unquote(self.path[8:]).decode('utf-8')+"%" # last bit of the path contains the search term, plus wildcard
+            print search;
+
             try:
 
                 cur.execute("""SELECT row_to_json(fc) FROM (SELECT array_to_json(array_agg(f)) As results FROM (SELECT page_id, page FROM pages WHERE ( page LIKE %s ) AND incoming > 0 AND the_geom IS NOT NULL ORDER BY incoming DESC limit 10) AS f ) AS fc;""", (search,))
@@ -67,10 +69,25 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                 sendError(self, e)
 
             return
+
+        elif self.path.startswith('/linksto/'):
+            try:
+                s = int(self.path[11:]) # last bit of the path contains the page id we'll look for
+                cur.execute("""SELECT row_to_json(fc) FROM ( SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM (SELECT 'Feature' As type, ST_AsGeoJSON(lg.line_geom)::json As geometry, row_to_json(lp) As properties FROM links As lg INNER JOIN (SELECT fromid, "from" FROM links WHERE toid = %s AND line_geom IS NOT NULL ORDER By mentions DESC LIMIT 10) As lp ON lg.fromid = lp.fromid  ) As f ) As fc;""", (s,))
+
+                sendHeader(self, 200, 'application/vnd.geo+json; charset=utf-8')
+
+                row = cur.fetchone()
+                self.wfile.write(row[0])
+
+            except Exception as e:
+                sendError(self, e)
+
+            return
         # else continue as usual, i.e. serve any files from the folder
         SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
 
-# def searchPlace(self, s):
+
 
 def sendHeader(self, status, contentType):
     self.send_response(status)

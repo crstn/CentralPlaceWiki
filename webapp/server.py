@@ -72,8 +72,9 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
         elif self.path.startswith('/linksto/'):
             try:
-                s = int(self.path[11:]) # last bit of the path contains the page id we'll look for
-                cur.execute("""SELECT row_to_json(fc) FROM ( SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM (SELECT 'Feature' As type, ST_AsGeoJSON(lg.line_geom)::json As geometry, row_to_json(lp) As properties FROM links As lg INNER JOIN (SELECT fromid, "from" FROM links WHERE toid = %s AND line_geom IS NOT NULL ORDER By mentions DESC LIMIT 10) As lp ON lg.fromid = lp.fromid  ) As f ) As fc;""", (s,))
+                s = int(self.path[9:]) # last bit of the path contains the page id we'll look for
+                # see links2geojson.sql for a formatted version of this query
+                cur.execute("""SELECT row_to_json(fc) FROM ( SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM ( SELECT 'Feature' As type, ST_AsGeoJSON(lg.line_geom)::json As geometry, row_to_json(lp) As properties FROM links As lg JOIN ( SELECT toid, fromid, "from", mentions FROM links WHERE toid = %s AND line_geom IS NOT NULL ORDER BY mentions DESC LIMIT 10) As lp ON lg.fromid = lp.fromid AND lg.toid = lp.toid  ) As f ) As fc;""", (s,))
 
                 sendHeader(self, 200, 'application/vnd.geo+json; charset=utf-8')
 

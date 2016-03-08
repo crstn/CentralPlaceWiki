@@ -71,7 +71,8 @@
 
 			// Telling the typeahead plugin what to do when a result is selected:
 			$('.typeahead').bind('typeahead:select', function(ev, suggestion) {
-				$.get("place/"+suggestion.page_id, function(place) {
+				$.get("linksto/"+suggestion.page_id, function(place) {
+					console.log(place);
 					L.geoJson(place).addTo(map);
 				});
 			});

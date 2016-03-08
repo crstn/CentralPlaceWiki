@@ -73,7 +73,9 @@
 			$('.typeahead').bind('typeahead:select', function(ev, suggestion) {
 				$.get("linksto/"+suggestion.page_id, function(place) {
 					console.log(place);
-					L.geoJson(place).addTo(map);
+					p = L.geoJson(place)
+					p.addTo(map);
+					map.fitBounds(p.getBounds());
 				});
 			});
 

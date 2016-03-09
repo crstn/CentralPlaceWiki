@@ -5,12 +5,15 @@ body {
 html, body, #map {
   height: 100%;
 }
-div#search {
+div#menu {
   position: absolute;
   top: 40px;
   left: 50%;
-  margin-left: -200px;
-  width: 400px;
+  margin-left: -250px;
+  width: 500px;
+}
+div#search {
+  float: left;
 }
 
 /* scaffolding */
@@ -162,4 +165,42 @@ p + p {
 }
 #rtl-support .tt-menu {
   text-align: right;
+}
+
+/* Styling the drop down menu */
+
+.select-style {
+  float: right;
+  margin: 0 0 0 10px;
+  padding: 0;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.select-style select {
+  height: 48px;
+  padding: 8px 12px;
+  font-size: 24px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.select-style select option {
+  width: 20px;
+  text-align: right;
+}
+
+.select-style select:focus {
+  outline: none;
 }

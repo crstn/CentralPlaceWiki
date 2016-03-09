@@ -40,7 +40,7 @@ cur = conn.cursor()
 class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
     def do_GET(self):
-        logging.warning(self.headers)
+        logging.warning(self.path)
 
         # decompose the path to figure out what to do:
         urlpath = filter(None, self.path.split('/')) # the filter removes any empty strings from the list
@@ -98,9 +98,6 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
             # s = int(self.path[9:]) # last bit of the path contains the page id we'll look for
 
             s = int(urlpath[1])
-
-            # see links2geojson.sql for a formatted version of this query
-            l = 10
 
             query = """SELECT row_to_json(fc) FROM (
                         SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM (

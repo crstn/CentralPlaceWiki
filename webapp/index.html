@@ -6,11 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+	<link rel="stylesheet" href="libs/leaflet.label.css" />
 	<link rel="stylesheet" href="libs/leaflet.css" />
 	<link rel="stylesheet" href="style.css" />
 
 	<script src="libs/jquery-1.12.1.min.js"></script>
 	<script src="libs/leaflet.js"></script>
+	<script src="libs/leaflet.label.js"></script>
 	<script src="libs/typeahead.bundle.min.js"></script>
 	<script src="libs/rcolor.js"></script>
 	<!-- See https://github.com/sterlingwes/RandomColor -->
@@ -21,8 +23,20 @@
 
 <body>
 	<div id="map"></div>
-	<div id="search">
-		<input type="text" class="typeahead" placeholder="Search for a place..." />
+	<div id="menu">
+		<div id="search">
+			<input type="text" class="typeahead" placeholder="Search for a place..." />
+			<div class="select-style">
+				<select id="limit">
+					<option value="6">6</option>
+					<option value="10" selected>10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+					<option value="40">50</option>
+				</select>
+			</div>
+		</div>
 	</div>
 
 	<script>
@@ -56,7 +70,7 @@
 					url: 'search/%QUERY',
 					wildcard: '%QUERY',
 					filter: function(places) {
-						console.log(places);
+						// console.log(places);
 						// Map the remote source JSON array to a JavaScript object array
 						return $.map(places.results, function(p) {
 							return {
@@ -96,7 +110,10 @@
 				};
 
 				// load the linking lines
-				$.get("linksto/" + id, function(place) {
+				$.get("linksto/" + id + "/" + $( "#limit" ).val(), function(place) {
+
+					console.log($( "#limit" ).val());
+
 					p = L.geoJson(place, {
 						onEachFeature: onEachFeature,
 						style: {
@@ -118,7 +135,7 @@
 				})
 
 				// load the places linking to this one
-				$.get("placeslinkingto/" + id, function(place) {
+				$.get("placeslinkingto/" + id + "/" + $( "#limit" ).val(), function(place) {
 
 					p = L.geoJson(place, {
 						onEachFeature: onEachFeature,

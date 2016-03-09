@@ -16,6 +16,19 @@ div#search {
   float: left;
 }
 
+div#alert {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  padding: 10px;
+  color: white;
+  background-color: #E52606;
+  border: 2px solid #7F1503;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
 /* scaffolding */
 
 

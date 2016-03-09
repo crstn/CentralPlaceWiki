@@ -38,6 +38,7 @@
 			</div>
 		</div>
 	</div>
+	<div id="alert">Ooops...</div>
 
 	<script>
 		$(document).ready(function() {
@@ -128,7 +129,7 @@
 					p = L.geoJson(place, {
 						// onEachFeature: onEachFeature,
 						pointToLayer: function(feature, latlng) {
-							return L.circleMarker(latlng, geojsonMarkerOptions);
+							return L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page);
 						}
 					})
 					p.addTo(map);
@@ -140,7 +141,7 @@
 					p = L.geoJson(place, {
 						onEachFeature: onEachFeature,
 						pointToLayer: function(feature, latlng) {
-							return L.circleMarker(latlng, geojsonMarkerOptions);
+							return L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page);
 						}
 					})
 					p.addTo(map);

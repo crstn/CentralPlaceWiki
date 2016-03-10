@@ -1,132 +1,134 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <link rel="stylesheet" href="libs/leaflet.label.css"/>
-        <link rel="stylesheet" href="libs/leaflet.css"/>
-        <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="libs/leaflet.label.css" />
+    <link rel="stylesheet" href="libs/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
 
-        <script src="libs/jquery-1.12.1.min.js"></script>
-        <script src="libs/leaflet.js"></script>
-        <script src="libs/leaflet.label.js"></script>
-        <script src="libs/typeahead.bundle.min.js"></script>
-        <script src="libs/rcolor.js"></script>
-        <!-- See https://github.com/sterlingwes/RandomColor -->
+    <script src="libs/jquery-1.12.1.min.js"></script>
+    <script src="libs/leaflet.js"></script>
+    <script src="libs/leaflet.label.js"></script>
+    <script src="libs/typeahead.bundle.min.js"></script>
+    <script src="libs/rcolor.js"></script>
+    <!-- See https://github.com/sterlingwes/RandomColor -->
 
-        <title>Central Places in Wikipedia</title>
+    <title>Central Places in Wikipedia</title>
 
-    </head>
+</head>
 
-    <body>
-        <div id="map"></div>
-        <div id="search">
-            <input type="text" class="typeahead" placeholder="Search for a place..."/>
+<body>
+    <div id="map"></div>
+    <div id="search">
+        <input type="text" class="typeahead" placeholder="Search for a place..." />
+    </div>
+
+    <div class="options">
+        <h3>Options</h3>
+        <div>
+            <label for="limit">Max results</label>
+            <select id="limit">
+                <option value="6">6</option>
+                <option value="10" selected>10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="40">50</option>
+            </select>
         </div>
-
-        <div class="options">
-            <h3>Options</h3>
-            <div>
-                <label for="limit">Max results</label>
-                <select id="limit">
-                    <option value="6">6</option>
-                    <option value="10" selected>10</option>
-                    <option value="20">20</option>
-                    <option value="30">30</option>
-                    <option value="40">40</option>
-                    <option value="40">50</option>
-                </select>
-            </div>
-			<div>
-				<label for="citiesonly">Cities only</label>
-	            <input type="checkbox" id="citiesonly"/>
-			</div>
-			<!-- <div>
-				<label for="rangehull">Range hull</label>
-	            <input type="checkbox" id="rangehull"/>
-			</div>
-			<div>
+        <div>
+            <label for="citiesonly">Cities only</label>
+            <input type="checkbox" id="citiesonly" />
+        </div>
+        <div>
+            <label for="rangehull">Range hull</label>
+            <input type="checkbox" id="rangehull" />
+        </div>
+        <!-- <div>
 				<label for="circle">Range circle</label>
 	            <input type="checkbox" id="circle"/>
 			</div> -->
 
-        </div>
-        <div id="info">Info</div>
-        <div id="alert">Ooops...</div>
+    </div>
+    <div id="info">Info</div>
+    <div id="alert">Ooops...</div>
 
-        <script>
-            $(document).ready(function () {
+    <script>
+        $(document).ready(function() {
 
-                var color = new RColor;
+            var color = new RColor;
 
-                // setting up the map
-                var map = L.map('map').setView([
-                    50, 9
-                ], 6);;
+            // setting up the map
+            var map = L.map('map').setView([
+                50, 9
+            ], 6);;
 
-                L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
-                    maxZoom: 18,
-                    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright"' +
-                            '>ODbL</a>.',
-                    id: 'stamen',
-                    subdomains: ['a', 'b', 'c', 'd']
-                }).addTo(map);
+            L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright"' +
+                    '>ODbL</a>.',
+                id: 'stamen',
+                subdomains: ['a', 'b', 'c', 'd']
+            }).addTo(map);
 
-                // setting up the search function This effectively turns off tokenization, which is desired in our case:
-                function customTokenizer(datum) {
-                    return datum.page;
-                }
+            // setting up the search function This effectively turns off tokenization, which is desired in our case:
+            function customTokenizer(datum) {
+                return datum.page;
+            }
 
-                var places = new Bloodhound({
-                    datumTokenizer: customTokenizer,
-                    queryTokenizer: Bloodhound.tokenizers.whitespace,
-                    remote: {
-                        url: 'search/%QUERY',
-                        wildcard: '%QUERY',
-                        filter: function (places) {
-                            // Map the remote source JSON array to a JavaScript object array
-                            return $.map(places.results, function (p) {
-                                return {page: p.page, page_id: p.page_id};
-                            });
-                        }
+            var places = new Bloodhound({
+                datumTokenizer: customTokenizer,
+                queryTokenizer: Bloodhound.tokenizers.whitespace,
+                remote: {
+                    url: 'search/%QUERY',
+                    wildcard: '%QUERY',
+                    filter: function(places) {
+                        // Map the remote source JSON array to a JavaScript object array
+                        return $.map(places.results, function(p) {
+                            return {
+                                page: p.page,
+                                page_id: p.page_id
+                            };
+                        });
                     }
-                });
+                }
+            });
 
-                // passing in `null` for the `options` arguments will result in the default options being used
-                $('#search .typeahead').typeahead(null, {
-                    name: 'places',
-                    displayKey: 'page',
-                    source: places
-                });
+            // passing in `null` for the `options` arguments will result in the default options being used
+            $('#search .typeahead').typeahead(null, {
+                name: 'places',
+                displayKey: 'page',
+                source: places
+            });
 
-                // Telling the typeahead plugin what to do when a result is selected:
-                $('.typeahead').bind('typeahead:select', function (ev, suggestion) {
-                    $("#info").html("Thinking...").show();
-                    getLinksTo(suggestion.page_id);
-                });
+            // Telling the typeahead plugin what to do when a result is selected:
+            $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+                $("#info").html("Thinking...").show();
+                getLinksTo(suggestion.page_id);
+            });
 
-                // loads a geojson with the links to the place with ID id, the points for the linking places, and the place itself and adds all of that to the map
-                function getLinksTo(id) {
+            // loads a geojson with the links to the place with ID id, the points for the linking places, and the place itself and adds all of that to the map
+            function getLinksTo(id) {
 
-                    clr = color.get(true)
+                clr = color.get(true)
 
-                    // pick a random color for this subnetwork
-                    var geojsonMarkerOptions = {
-                        radius: 5,
-                        fillColor: clr,
-                        color: "#000",
-                        weight: 1,
-                        opacity: 1,
-                        fillOpacity: 0.8
-                    };
+                // pick a random color for this subnetwork
+                var geojsonMarkerOptions = {
+                    radius: 5,
+                    fillColor: clr,
+                    color: "#000",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                };
 
-                    // load the linking lines
-                    $.get("linksto/" + id + "/" + $("#limit").val() + onlyCities(), function (place) {
-
-                        console.log($("#limit").val());
+                // if the box is checked, load the convex hull:
+                if ($("#rangehull").prop("checked")) {
+                    $.get("rangehull/" + id + "/" + $("#limit").val() + onlyCities(), function(place) {
 
                         p = L.geoJson(place, {
                             onEachFeature: onEachFeature,
@@ -135,80 +137,97 @@
                             }
                         })
                         p.addTo(map);
-                        map.fitBounds(p.getBounds());
                     })
+                }
 
-                    $.get("place/" + id, function (place) {
+                // load the linking lines
+                $.get("linksto/" + id + "/" + $("#limit").val() + onlyCities(), function(place) {
+
+                    p = L.geoJson(place, {
+                        onEachFeature: onEachFeature,
+                        style: {
+                            "color": clr
+                        }
+                    })
+                    p.addTo(map);
+                    map.fitBounds(p.getBounds());
+                })
+
+                $.get("place/" + id, function(place) {
+                    p = L.geoJson(place, {
+                        // onEachFeature: onEachFeature,
+                        pointToLayer: function(feature, latlng) {
+                            return L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page);
+                        }
+                    })
+                    p.setStyle({
+                        fillColor: 'black'
+                    });
+                    p.addTo(map);
+                })
+
+                // load the places linking to this one
+                $.get("placeslinkingto/" + id + "/" + $("#limit").val() + onlyCities(), function(place) {
+                    // figure out max # of mentions in the result:
+                    console.log(place);
+                    m = 0;
+                    for (var i in place.features) {
+                        feature = place.features[i];
+                        if (feature.properties.mentions > m)
+                            m = feature.properties.mentions
+                    }
+
+                    // calculate the ratio we need to bring all radiuses down to at most 10 pixels
+                    scale = m / 10;
+
+                    try {
                         p = L.geoJson(place, {
-                            // onEachFeature: onEachFeature,
-                            pointToLayer: function (feature, latlng) {
-                                return L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page);
+                            onEachFeature: onEachFeature,
+                            pointToLayer: function(feature, latlng) {
+                                c = L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page + " (" + feature.properties.mentions + ")");
+                                c.setStyle(getScaledRadius(feature.properties.mentions, scale));
+                                return c;
                             }
                         })
-                        p.setStyle({fillColor: 'black'});
                         p.addTo(map);
-                    })
-
-                    // load the places linking to this one
-                    $.get("placeslinkingto/" + id + "/" + $("#limit").val() + onlyCities(), function (place) {
-                        // figure out max # of mentions in the result:
-                        console.log(place);
-                        m = 0;
-                        for (var i in place.features) {
-                            feature = place.features[i];
-                            if (feature.properties.mentions > m)
-                                m = feature.properties.mentions
-                        }
-
-                        // calculate the ratio we need to bring all radiuses down to at most 10 pixels
-                        scale = m / 10;
-
-                        try {
-                            p = L.geoJson(place, {
-                                onEachFeature: onEachFeature,
-                                pointToLayer: function (feature, latlng) {
-                                    c = L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page + " (" + feature.properties.mentions + ")");
-                                    c.setStyle(getScaledRadius(feature.properties.mentions, scale));
-                                    return c;
-                                }
-                            })
-                            p.addTo(map);
-                            $("#info").hide();
-                        } catch (err) {
-                            $("#alert").html("No pages linking to this one found.").show().delay(3000).fadeOut();
-                        }
-                    })
-
-                };
-
-                function getScaledRadius(originalValue, scale) {
-                    // add 2 pixels to avoid places with small numbers getting too small
-                    scaled = (originalValue / scale) + 2;
-                    console.log(scaled);
-                    return ({radius: scaled});
-
-                }
-
-                // make every point "clickable" so that the network for that point is shown
-                function onEachFeature(feature, layer) {
-
-                    layer.on('click', function (e) {
-                        getLinksTo(e.target.feature.properties.page_id);
-                    });
-
-                }
-
-                // Checks whether that checkbox checked and returns a string that will reflect that in the search URLs
-                function onlyCities() {
-                    if ($("#citiesonly").prop("checked")) {
-                        return "/citiesonly";
-                    } else {
-                        return "";
+                        $("#info").hide();
+                    } catch (err) {
+                        $("#alert").html("No pages linking to this one found.").show().delay(3000).fadeOut();
                     }
-                }
+                })
 
-            });
-        </script>
-    </body>
+            };
+
+            function getScaledRadius(originalValue, scale) {
+                // add 2 pixels to avoid places with small numbers getting too small
+                scaled = (originalValue / scale) + 2;
+                console.log(scaled);
+                return ({
+                    radius: scaled
+                });
+
+            }
+
+            // make every point "clickable" so that the network for that point is shown
+            function onEachFeature(feature, layer) {
+
+                layer.on('click', function(e) {
+                    getLinksTo(e.target.feature.properties.page_id);
+                });
+
+            }
+
+            // Checks whether that checkbox checked and returns a string that will reflect that in the search URLs
+            function onlyCities() {
+                if ($("#citiesonly").prop("checked")) {
+                    return "/citiesonly";
+                } else {
+                    return "";
+                }
+            }
+
+        });
+    </script>
+</body>
 
 </html>

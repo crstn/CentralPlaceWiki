@@ -179,6 +179,47 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
             return
 
+        elif urlpath[0] == 'rangehull':
+
+            s = int(urlpath[1])
+
+            if len(urlpath) > 3:
+                if urlpath[3] == "citiesonly":
+                    citiesonly = """ AND pages.type = 'city' """
+
+            query = """SELECT row_to_json(fc) FROM (
+    SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features
+    FROM (
+	    SELECT 'Feature' As type,
+	           ST_AsGeoJSON(lp.the_geom)::json As geometry,
+	           row_to_json(lp) As properties
+	    FROM pages As lg
+	    JOIN (
+	     SELECT corners.toid AS toid,
+                               corners."to" AS "to",
+                               ST_ConvexHull(ST_Collect(corners.the_geom::geometry)) As the_geom
+                        FROM (
+                    		 SELECT links.toid AS toid,
+                    		       links."to" AS "to",
+                    		       pages.the_geom AS the_geom
+                    		 FROM links, pages
+                    		 WHERE links.toid = %s
+                    		 AND links.line_geom IS NOT NULL
+                    		 AND pages.page_id = links.fromid
+                    		 """ + citiesonly + """
+                    		 ORDER BY links.mentions DESC
+                    		 LIMIT %s ) AS corners
+                    		GROUP BY toid, "to") As lp
+                    	    ON lg.page_id = lp.toid  )
+                    	As f )
+                        As fc;"""
+
+            logging.warning(query)
+
+            queryDBsendResponse(self, query, (s,l,), geojsonHeader)
+
+            return
+
         # else continue as usual, i.e. serve any files from the folder
         SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
 

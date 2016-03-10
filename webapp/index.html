@@ -27,7 +27,7 @@
             <div id="search">
                 <input type="text" class="typeahead" placeholder="Search for a place..."/>
                 <div class="select-style">
-					Max results:
+                    Max results:
                     <select id="limit">
                         <option value="6">6</option>
                         <option value="10" selected>10</option>
@@ -36,12 +36,12 @@
                         <option value="40">40</option>
                         <option value="40">50</option>
                     </select>
-					Cities only?
-					<input type="checkbox" id="citiesonly" />
+                    Cities only?
+                    <input type="checkbox" id="citiesonly"/>
                 </div>
             </div>
         </div>
-		<div id="info">Info</div>
+        <div id="info">Info</div>
         <div id="alert">Ooops...</div>
 
         <script>
@@ -72,7 +72,7 @@
                     queryTokenizer: Bloodhound.tokenizers.whitespace,
                     remote: {
                         url: 'search/%QUERY',
-						wildcard: '%QUERY',
+                        wildcard: '%QUERY',
                         filter: function (places) {
                             // Map the remote source JSON array to a JavaScript object array
                             return $.map(places.results, function (p) {
@@ -91,18 +91,16 @@
 
                 // Telling the typeahead plugin what to do when a result is selected:
                 $('.typeahead').bind('typeahead:select', function (ev, suggestion) {
-					$("#info").html("Thinking...").show();
+                    $("#info").html("Thinking...").show();
                     getLinksTo(suggestion.page_id);
                 });
 
-				// loads a geojson with the links to the place with ID id,
-				// the points for the linking places, and the place itself
-				// and adds all of that to the map
+                // loads a geojson with the links to the place with ID id, the points for the linking places, and the place itself and adds all of that to the map
                 function getLinksTo(id) {
 
                     clr = color.get(true)
 
-					// pick a random color for this subnetwork
+                    // pick a random color for this subnetwork
                     var geojsonMarkerOptions = {
                         radius: 5,
                         fillColor: clr,
@@ -135,29 +133,49 @@
                             }
                         })
                         p.setStyle({fillColor: 'black'});
-						p.addTo(map);
+                        p.addTo(map);
                     })
 
                     // load the places linking to this one
                     $.get("placeslinkingto/" + id + "/" + $("#limit").val() + onlyCities(), function (place) {
+                        // figure out max # of mentions in the result:
+                        console.log(place);
+                        m = 0;
+                        for (var i in place.features) {
+                            feature = place.features[i];
+                            if (feature.properties.mentions > m)
+                                m = feature.properties.mentions
+                        }
+
+                        // calculate the ratio we need to bring all radiuses down to at most 10 pixels
+                        scale = m / 10;
 
                         try {
                             p = L.geoJson(place, {
                                 onEachFeature: onEachFeature,
                                 pointToLayer: function (feature, latlng) {
-                                    return L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page);
+                                    c = L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page + " (" + feature.properties.mentions + ")");
+                                    c.setStyle(getScaledRadius(feature.properties.mentions, scale));                                    return c;
                                 }
                             })
                             p.addTo(map);
-							$("#info").hide();
+                            $("#info").hide();
                         } catch (err) {
-							$("#alert").html("No pages linking to this one found.").show().delay(3000).fadeOut();
+                            $("#alert").html("No pages linking to this one found.").show().delay(3000).fadeOut();
                         }
                     })
 
                 };
 
-				// make every point "clickable" so that the network for that point is shown
+                function getScaledRadius(originalValue, scale) {
+                    // add 2 pixels to avoid places with small numbers getting too small
+                    scaled = (originalValue / scale) + 2;
+                    console.log(scaled);
+                    return ({radius: scaled});
+
+                }
+
+                // make every point "clickable" so that the network for that point is shown
                 function onEachFeature(feature, layer) {
 
                     layer.on('click', function (e) {
@@ -166,15 +184,14 @@
 
                 }
 
-				// Checks whether that checkbox checked and returns a string that will
-				// reflect that in the search URLs
-				function onlyCities(){
-					if ($("#citiesonly").prop( "checked" )){
-						return "/citiesonly";
-					} else {
-						return "";
-					}
-				}
+                // Checks whether that checkbox checked and returns a string that will reflect that in the search URLs
+                function onlyCities() {
+                    if ($("#citiesonly").prop("checked")) {
+                        return "/citiesonly";
+                    } else {
+                        return "";
+                    }
+                }
 
             });
         </script>

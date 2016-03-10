@@ -45,20 +45,31 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
         # decompose the path to figure out what to do:
         urlpath = filter(None, self.path.split('/')) # the filter removes any empty strings from the list
 
+        if len(urlpath) == 0:
+            SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
+
+        # we'll start off with no restriction as to only querying cities,
+        # this may be overriden in the individual queries (see below)
+        citiesonly = """ """
+
         # check whether we have a limit argument on the path;
         # if not, set it to 10
         l = 10
         if len(urlpath) > 2:
             l = int(urlpath[2])
-        elif len(urlpath) == 0:
-            SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
+
 
 
         if urlpath[0] == 'search':
             # s = urllib.unquote(self.path[8:]).decode('utf-8')+"%" # last bit of the path contains the search term, plus wildcard
             s = urllib.unquote(urlpath[1]).decode('utf-8')+"%" # last bit of the path contains the search term, plus wildcard
 
-            print s
+            # query only cities? TODO: doesn't work yet, have to figure
+            # out how to make this work in typeahead.js
+            if len(urlpath) > 3:
+                if urlpath[3] == "citiesonly":
+                    citiesonly = """ AND type = 'city' """
+
 
             query = """SELECT row_to_json(fc)
                        FROM (SELECT array_to_json(array_agg(f)) As results
@@ -67,6 +78,7 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                                    WHERE ( page LIKE %s )
                                    AND incoming > 0
                                    AND the_geom IS NOT NULL
+                                   """ + citiesonly + """
                                    ORDER BY incoming DESC limit %s ) AS f ) AS fc;"""
 
             queryDBsendResponse(self, query, (s,l,), jsonHeader)
@@ -85,10 +97,13 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                                         SELECT page_id, page
                                         FROM pages
                                         WHERE page_id = %s
-                                        AND the_geom IS NOT NULL) As lp
+                                        AND the_geom IS NOT NULL
+                                        ) As lp
                                     ON lg.page_id = lp.page_id  )
                                 As f )
                             As fc;"""
+
+            logging.info(query)
 
             queryDBsendResponse(self, query, (s,), geojsonHeader)
 
@@ -99,19 +114,30 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
             s = int(urlpath[1])
 
+            frompart = """ FROM links """
+
+            if len(urlpath) > 3:
+                if urlpath[3] == "citiesonly":
+                    frompart = """ FROM links, pages """
+                    citiesonly = """ AND pages.page_id = links.fromid
+                        AND pages.type = 'city' """
+
             query = """SELECT row_to_json(fc) FROM (
                         SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM (
                             SELECT 'Feature' As type, ST_AsGeoJSON(lg.line_geom)::json As geometry, row_to_json(lp) As properties
                             FROM links As lg
-                            JOIN ( SELECT toid, fromid, "from", mentions
-                                   FROM links
-                                   WHERE toid = %s
-                                   AND line_geom IS NOT NULL
-                                   ORDER BY mentions DESC
+                            JOIN ( SELECT links.toid, links.fromid, links."from", links.mentions
+                                   """ + frompart + """
+                                   WHERE links.toid = %s
+                                   AND links.line_geom IS NOT NULL
+                                   """ + citiesonly + """
+                                   ORDER BY links.mentions DESC
                                    LIMIT %s) As lp
                             ON lg.fromid = lp.fromid AND lg.toid = lp.toid  )
                         As f )
                       As fc;"""
+
+            logging.info(query)
 
             queryDBsendResponse(self, query, (s,l,), geojsonHeader)
 
@@ -121,6 +147,10 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
             s = int(urlpath[1])
 
+            if len(urlpath) > 3:
+                if urlpath[3] == "citiesonly":
+                    citiesonly = """ AND pages.type = 'city' """
+
             query = """SELECT row_to_json(fc)
             FROM (
                 SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features
@@ -128,16 +158,22 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                     SELECT 'Feature' As type, ST_AsGeoJSON(lg.the_geom)::json As geometry, row_to_json(lp) As properties
                     FROM pages AS lg
                     JOIN (
-                        SELECT pages.page_id AS page_id, pages.page AS page, pages.the_geom AS the_geom
+                        SELECT pages.page_id AS page_id,
+                               pages.page AS page,
+                               pages.the_geom AS the_geom,
+                               links.mentions AS mentions
                         FROM links, pages
                         WHERE links.toid = %s
                         AND links.line_geom IS NOT NULL
                         AND pages.page_id = links.fromid
+                        """ + citiesonly + """
                         ORDER BY links.mentions DESC
                         LIMIT %s) As lp
                     ON lg.page_id = lp.page_id)
                 As f )
             As fc;"""
+
+            logging.info(query)
 
             queryDBsendResponse(self, query, (s,l,), geojsonHeader)
 

@@ -9,14 +9,14 @@ div#menu {
   position: absolute;
   top: 40px;
   left: 50%;
-  margin-left: -250px;
-  width: 500px;
+  margin-left: -325px;
+  width: 650px;
 }
 div#search {
   float: left;
 }
 
-div#alert {
+div#alert, div#info {
   position: absolute;
   right: 25px;
   bottom: 25px;
@@ -30,6 +30,12 @@ div#alert {
   display: none;
 }
 
+div#info {
+    background-color: white;
+    color: black;
+    border: 2px solid #ccc;
+}
+
 /* scaffolding */
 
 
@@ -40,7 +46,7 @@ html {
   *overflow-x: hidden;
 }
 .container {
-  max-width: 750px;
+  max-width: 550px;
   margin: 0 auto;
   text-align: center;
 }
@@ -99,10 +105,10 @@ p + p {
   margin: 50px 0;
 }
 .typeahead, .tt-query, .tt-hint {
-  width: 396px;
+  width: 300px;
   height: 30px;
   padding: 8px 12px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
   border: 2px solid #ccc;
   -webkit-border-radius: 8px;
@@ -140,8 +146,8 @@ p + p {
 }
 .tt-suggestion {
   padding: 3px 20px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
 }
 .tt-suggestion:hover {
   cursor: pointer;
@@ -186,7 +192,7 @@ p + p {
 .select-style {
   float: right;
   margin: 0 0 0 10px;
-  padding: 0;
+  padding: 0px 10px;
   background-color: #fff;
   border: 2px solid #ccc;
   -webkit-border-radius: 8px;
@@ -196,7 +202,7 @@ p + p {
 .select-style select {
   height: 48px;
   padding: 8px 12px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
   border: 2px solid #ccc;
   -webkit-border-radius: 8px;
@@ -217,4 +223,10 @@ p + p {
 
 .select-style select:focus {
   outline: none;
+}
+
+input#citiesonly{
+    border: 1px solid #cacece;
+	padding: 9px;
+	border-radius: 3px;
 }

@@ -23,23 +23,36 @@
 
     <body>
         <div id="map"></div>
-        <div id="menu">
-            <div id="search">
-                <input type="text" class="typeahead" placeholder="Search for a place..."/>
-                <div class="select-style">
-                    Max results:
-                    <select id="limit">
-                        <option value="6">6</option>
-                        <option value="10" selected>10</option>
-                        <option value="20">20</option>
-                        <option value="30">30</option>
-                        <option value="40">40</option>
-                        <option value="40">50</option>
-                    </select>
-                    Cities only?
-                    <input type="checkbox" id="citiesonly"/>
-                </div>
+        <div id="search">
+            <input type="text" class="typeahead" placeholder="Search for a place..."/>
+        </div>
+
+        <div class="options">
+            <h3>Options</h3>
+            <div>
+                <label for="limit">Max results</label>
+                <select id="limit">
+                    <option value="6">6</option>
+                    <option value="10" selected>10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="40">50</option>
+                </select>
             </div>
+			<div>
+				<label for="citiesonly">Cities only</label>
+	            <input type="checkbox" id="citiesonly"/>
+			</div>
+			<!-- <div>
+				<label for="rangehull">Range hull</label>
+	            <input type="checkbox" id="rangehull"/>
+			</div>
+			<div>
+				<label for="circle">Range circle</label>
+	            <input type="checkbox" id="circle"/>
+			</div> -->
+
         </div>
         <div id="info">Info</div>
         <div id="alert">Ooops...</div>
@@ -155,7 +168,8 @@
                                 onEachFeature: onEachFeature,
                                 pointToLayer: function (feature, latlng) {
                                     c = L.circleMarker(latlng, geojsonMarkerOptions).bindLabel(feature.properties.page + " (" + feature.properties.mentions + ")");
-                                    c.setStyle(getScaledRadius(feature.properties.mentions, scale));                                    return c;
+                                    c.setStyle(getScaledRadius(feature.properties.mentions, scale));
+                                    return c;
                                 }
                             })
                             p.addTo(map);

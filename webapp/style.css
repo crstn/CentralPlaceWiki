@@ -5,15 +5,13 @@ body {
 html, body, #map {
   height: 100%;
 }
-div#menu {
-  position: absolute;
-  top: 40px;
-  left: 50%;
-  margin-left: -325px;
-  width: 650px;
-}
+
 div#search {
-  float: left;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
 }
 
 div#alert, div#info {
@@ -105,7 +103,7 @@ p + p {
   margin: 50px 0;
 }
 .typeahead, .tt-query, .tt-hint {
-  width: 300px;
+  width: 400px;
   height: 30px;
   padding: 8px 12px;
   font-size: 18px;
@@ -189,15 +187,17 @@ p + p {
 
 /* Styling the drop down menu */
 
-.select-style {
-  float: right;
-  margin: 0 0 0 10px;
-  padding: 0px 10px;
+.options {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px;
   background-color: #fff;
   border: 2px solid #ccc;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
+  font-size: 0.8em;
 }
 .select-style select {
   height: 48px;
@@ -225,8 +225,19 @@ p + p {
   outline: none;
 }
 
-input#citiesonly{
-    border: 1px solid #cacece;
-	padding: 9px;
-	border-radius: 3px;
+div.options div, div.options h3 {
+    margin: 3px 0 0 0;
+    width: 150px;
+}
+
+div.options div label{
+    width: 40px;
+}
+
+div.options div input, div.options div select{
+    float: right;
+}
+
+div.options div input{
+    margin-right: 33px;
 }

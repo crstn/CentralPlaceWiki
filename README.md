@@ -96,6 +96,11 @@ Then run `reimport.sql` again.
   psql -f housekeeping.sql cpt
   ```
 
+12. *Creating a reference dataset*. This step should be conducted if you want to test the dataset against a reference dataset. Running this command will set up the required table structure **TODO!!!**:
+  ```
+  sql -f referencetables.sql cpt
+  ```
+You will then have to fill these tables; in the case of Germany, this has been done by manually scraping the central place lists from Wikipedia for each state, see [this example](https://de.wikipedia.org/wiki/Liste_der_Ober-_und_Mittelzentren_in_Schleswig-Holstein). The contents for these are in the files **… TODO!!!**
 
 ## Known issues
 

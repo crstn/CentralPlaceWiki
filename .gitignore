@@ -1,4 +1,5 @@
 *.xml
+GIS data/*
 CPT/*
 testpages/*
 AGILE 2015 Central Places in Wikipedia alias
@@ -86,3 +87,7 @@ curl.sh
 *.log
 
 node_modules/*
+
+AGILE 2015 Central Places in Wikipedia alias (iMac's conflicted copy 2016-04-20)
+
+*.qgs

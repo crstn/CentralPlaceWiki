@@ -867,7 +867,7 @@
 'Immenstadt im Allgäu','Bayern',2,55
 'Starnberg','Bayern',2,
 'Sulzbach-Rosenberg','Bayern',2,
-'Tegernsee','Bayern',2,56
+'Tegernsee (Stadt)','Bayern',2,56
 'Rottach-Egern','Bayern',2,56
 'Bad Wiessee','Bayern',2,56
 'Gmund am Tegernsee','Bayern',2,56
@@ -1000,3 +1000,7 @@
 'Wertheim','Baden-Württemberg',2,
 'Wiesloch','Baden-Württemberg',2,73
 'Walldorf (Baden)','Baden-Württemberg',2,73
+'Berlin','Berlin',1,
+'Hamburg','Hamburg',1,
+'Bremen','Bremen',1,
+'Bremerhaven','Bremen',2,

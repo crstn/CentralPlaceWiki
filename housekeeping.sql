@@ -68,7 +68,7 @@ ADD COLUMN incoming integer;
 UPDATE pages
 SET incoming = sq.summe
 FROM (
-  SELECT   toid, SUM(mentions) AS summe
+  SELECT   toid, SUM(mentions) AS summe -- mentions already include links!
   FROM     links
   GROUP BY toid
 ) AS sq
@@ -76,3 +76,24 @@ WHERE sq.toid = pages.page_id;
 
 -- and index that column
 CREATE INDEX pages_incoming_index ON pages USING btree ( incoming DESC NULLS LAST );
+
+
+
+-- we'lldo the same thing again, but this time we'll
+-- only count incoming mentions from pages about cities
+
+ALTER TABLE pages
+ADD COLUMN incoming_from_cities integer;
+
+UPDATE pages
+SET incoming_from_cities = sq.summe
+FROM (
+    SELECT   toid, SUM(mentions) AS summe
+    FROM     links, pages
+    WHERE    links.fromid = pages.page_id
+    AND      pages."type" = 'city'
+    GROUP BY links.toid
+) AS sq
+WHERE sq.toid = pages.page_id;
+
+CREATE INDEX pages_incoming_from_cities_index ON pages USING btree ( incoming_from_cities DESC NULLS LAST );

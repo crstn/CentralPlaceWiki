@@ -24,7 +24,7 @@ pyplot.hist(np.log(upper['incoming']), normed=True, bins=bins, alpha=0.5, label=
 ticks = bins[0::20]
 pyplot.xticks(ticks, [int(np.exp(i)) for i in ticks])
 
-pyplot.xlabel('incoming references')
+pyplot.xlabel('incoming references (log scale)')
 pyplot.ylabel('probability')
 pyplot.legend(loc='upper right')
 

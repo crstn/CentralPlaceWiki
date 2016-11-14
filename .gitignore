@@ -99,3 +99,7 @@ test.csv
 test.html
 
 test.sql
+
+Python Plots/*.csv
+
+Python Plots/*/*.csv

@@ -9,6 +9,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import urllib2
 import scipy.stats as stat
+import pync
 
 conn = psycopg2.connect("dbname='cpt' host='localhost'")
 
@@ -234,6 +235,93 @@ def sortBoth(a, b):
 
 
 
+def findMedianDistance():
+    rows = shootSQL("""SELECT l.to, l.from, l.dist_sphere_meters
+                       FROM centers_de c, pages pf, pages pt, links l
+                       WHERE c.type = 1
+                       AND c.city = pt.page
+                       AND pt.page_id = l.toid
+                       AND pf.page_id = l.fromid
+                       AND pf.type = 'city'
+                       AND l.dist_sphere_meters > 0;""")
+
+
+    distances1 = []
+
+    for row in rows:
+        distances1.append(row[2])
+
+    print "Median distance for incoming links to upper centers: " + str(np.median(distances1) / 1000.0)
+    print "Mean distance for incoming links to upper centers: " + str(np.mean(distances1) / 1000.0)
+
+
+
+    # repeat for middle centers
+
+    rows = shootSQL("""SELECT l.to, l.from, l.dist_sphere_meters
+                       FROM centers_de c, pages pf, pages pt, links l
+                       WHERE c.type > 1
+                       AND c.city = pt.page
+                       AND pt.page_id = l.toid
+                       AND pf.page_id = l.fromid
+                       AND pf.type = 'city'
+                       AND l.dist_sphere_meters > 0;""")
+
+
+    distances2 = []
+
+    for row in rows:
+        distances2.append(row[2])
+
+    print "Median distance for incoming links to middle centers: " + str(np.median(distances2) / 1000.0)
+    print "Mean distance for incoming links to middle centers: " + str(np.mean(distances2) / 1000.0)
+
+
+    # repeat once again for all cities
+
+    rows = shootSQL("""SELECT l.to, l.from, l.dist_sphere_meters
+                       FROM pages pf, pages pt, links l
+                       WHERE pt.type  = 'city'
+                       AND pf.type    = 'city'
+                       AND pt.page_id = l.toid
+                       AND pf.page_id = l.fromid
+                       AND l.dist_sphere_meters > 0
+                       AND pt.page NOT IN (SELECT city FROM centers_de) ;""")
+
+
+    distances3 = []
+
+    for row in rows:
+        distances3.append(row[2])
+
+    print "Median distance for incoming links to all non-center cities: " + str(np.median(distances3) / 1000.0)
+    print "Mean distance for incoming links to all non-center cities: " + str(np.mean(distances3) / 1000.0)
+
+
+    # make a box plot of all 3 for comparison
+    data = [np.log10(distances1), np.log10(distances2), np.log10(distances3)]
+
+    ax = plt.subplot(1, 1, 1)
+
+    bp_dict = ax.boxplot(data, labels=["Upper", "Middle", "Other"])
+    ax.set_yticks(np.arange(-2, 8))
+    ax.set_yticklabels(10.0**np.arange(-2, 8))
+
+    for line in bp_dict['medians']:
+            # get position data for median line
+            x, y = line.get_xydata()[1]
+            # place the text there
+            ax.text(x, y, '%.1f' % x, verticalalignment='center')
+
+    plt.suptitle("Distances to linking cities")
+
+    plt.savefig("boxplot_distances.pdf")
+
+    plt.clf()
+
+
+
+
 def plotPopVsIncoming():
 
     einwohner = dict()
@@ -303,45 +391,50 @@ def plotPopVsIncoming():
 #
 # ============================================================
 
+findMedianDistance()
+
 # uppers = getUpperCenters()
 # mostlinked = getMostLinkedCities(250)
 #
 # printStats(mostlinked, uppers)
 
-uppers = ['Hamburg', 'Osnabrück', 'Münster (Westfalen)']
-steps = []
-
-for place in uppers:
-
-    print place
-
-    size = 6
-    rec = 0.0
-
-    while rec < 1.0:
-        size = size * 2
-        c = getNClosestMiddleCenters(place, 6)
-        s = getNStrongestLinkers(place, size)
-
-        # print "Closest "+str(size)+" centers for "+place+":\n" + printableSet(c)
-        # print str(size)+" Cities with highest number of links for "+place+":\n"+printableSet(s)
-        #
-        # printStats(s, c)
-        #
-        # print " "
-        rec = recall(s, c)
-        print str(size) + ": "+str(rec)
-
-    steps.append(size)
-
-r = np.array(steps)
-
-print "Avg steps: " + str(np.average(r))
-print "Max steps: " + str(np.max(r))
-
+# uppers = ['Hamburg', 'Osnabrück', 'Berlin']
+# steps = []
 #
+# for place in uppers:
+#
+#     print place
+#
+#     size = 6
+#     rec = 0.0
+#
+#     while rec < 1.0:
+#         size = size * 2
+#         c = getNClosestMiddleCenters(place, 6)
+#         s = getNStrongestLinkers(place, size)
+#
+#         # print "Closest "+str(size)+" centers for "+place+":\n" + printableSet(c)
+#         # print str(size)+" Cities with highest number of links for "+place+":\n"+printableSet(s)
+#         #
+#         # printStats(s, c)
+#         #
+#         # print " "
+#         rec = recall(s, c)
+#         print str(size) + ": "+str(rec)
+#
+#     steps.append(size)
+#
+# r = np.array(steps)
+#
+# print "Avg steps: " + str(np.average(r))
+# print "Max steps: " + str(np.max(r))
+#
+# #
 
 
 
 
 conn.close()
+
+
+pync.Notifier.notify('Number crunching complete 💥 ', title='Python')

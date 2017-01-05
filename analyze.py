@@ -7,6 +7,8 @@ import numpy as np
 import csv
 import matplotlib
 import matplotlib.pyplot as plt
+import urllib2
+import scipy.stats as stat
 
 conn = psycopg2.connect("dbname='cpt' host='localhost'")
 
@@ -16,6 +18,42 @@ conn = psycopg2.connect("dbname='cpt' host='localhost'")
 # some lil' helpers
 #
 # ====================
+
+# fetches the population number for the place name from Wikipedia
+def getPopForPlace(place):
+    data = urllib2.urlopen("https://de.wikipedia.org/wiki/"+place)
+    page =  data.read()
+
+    parts  = page.split('<td>Einwohner:</td>')
+    parts = parts[1].split('<td style="line-height: 1.2em;">')
+    parts = parts[1].split('<')
+
+    popstring = parts[0]
+
+    return int(popstring.replace(".", ""))
+
+def getAllPopNumbers():
+    with open('popDE.csv', 'w') as csvfile:
+        fieldnames = ['state', 'city', 'pop']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+
+        cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+        cur.execute("""select city, state from centers_de, pages where page = city;""")
+
+        rows = cur.fetchall()
+
+        for row in rows:
+            try:
+                p = getPopForPlace(row[0])
+            except Exception as e:
+                p = -1
+                print row[0] + ", " + row[1] + " failed"
+
+            print p
+            writer.writerow({'state': row[1], 'city': row[0], 'pop': p})
+
 
 # returns a list of all results returned by the SQL query
 def shootSQL(sql):
@@ -193,104 +231,117 @@ def sortBoth(a, b):
 
     return newa, newb
 
+
+
+
+def plotPopVsIncoming():
+
+    einwohner = dict()
+
+    with open('popDEcomplete.csv') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if row['state'] not in einwohner:
+                einwohner[row['state']] = dict()
+
+            einwohner[row['state']][row['city']] = int(row['pop'])
+
+
+    cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    cur.execute("""select city, state, incoming from centers_de, pages where page = city;""")
+
+    rows = cur.fetchall()
+
+    inc = []
+    pop = []
+
+    for row in rows:
+
+        city = row[0]
+        state = row[1]
+        incoming = row[2]
+
+        if city not in einwohner[state]:
+             print city + " not in Pop figures"
+        else:
+            # print city+": " + str(einwohner[state][city]) + ", " + str(incoming)
+            inc.append(incoming)
+            pop.append(einwohner[state][city])
+
+    inc, pop = sortBoth(inc, pop)
+
+    print stat.pearsonr(inc, pop)
+
+    inc = np.log(np.array(inc))
+    pop = np.log(np.array(pop))
+
+    matplotlib.style.use("fivethirtyeight")
+
+    plt.plot(pop, np.poly1d(np.polyfit(pop, inc, 1))(pop), linewidth = 1.0)
+    plt.plot(pop, inc, ".")
+
+
+    plt.suptitle("Incoming references vs population")
+
+    plt.xlabel('Population')
+    popticks = np.log(np.array([100,1000,10000,100000,1000000,4000000]))
+    popticklabels = np.array(["100", "1k", "10k","100k","1m","4m"])
+    plt.xticks(popticks, popticklabels)
+
+    plt.ylabel('Incoming references')
+    incticks = np.log(np.array([100,1000,10000,100000,700000]))
+    incticklabels = np.array(["100", "1k", "10k", "100k", "700k"])
+    plt.yticks(incticks, incticklabels)
+
+    plt.savefig("incoming_vs_pop.pdf")
+
+    plt.clf()
+
 # ============================================================
 #
 # here's where the thing happens ✨
 #
 # ============================================================
 
-
 # uppers = getUpperCenters()
 # mostlinked = getMostLinkedCities(250)
 #
 # printStats(mostlinked, uppers)
 
-# # uppers = ['Münster (Westfalen)', 'Osnabrück']
-# recalls = []
-#
-# for place in uppers:
-#
-#     sizes = [6]
-#
-#     for size in sizes:
-#         c = getNClosestMiddleCenters(place, size)
-#         s = getNStrongestLinkers(place, size)
-#
-#         print "Closest "+str(size)+" centers for "+place+":\n" + printableSet(c)
-#         print str(size)+" Cities with highest number of links for "+place+":\n"+printableSet(s)
-#
-#         printStats(s, c)
-#
-#         print " "
-#
-#         recalls.append(recall(s, c))
-#
-# r = np.array(recalls)
-#
-# print "Avg recall: " + str(np.average(r))
-# print "Max recall: " + str(np.max(r))
+uppers = ['Hamburg', 'Osnabrück', 'Münster (Westfalen)']
+steps = []
+
+for place in uppers:
+
+    print place
+
+    size = 6
+    rec = 0.0
+
+    while rec < 1.0:
+        size = size * 2
+        c = getNClosestMiddleCenters(place, 6)
+        s = getNStrongestLinkers(place, size)
+
+        # print "Closest "+str(size)+" centers for "+place+":\n" + printableSet(c)
+        # print str(size)+" Cities with highest number of links for "+place+":\n"+printableSet(s)
+        #
+        # printStats(s, c)
+        #
+        # print " "
+        rec = recall(s, c)
+        print str(size) + ": "+str(rec)
+
+    steps.append(size)
+
+r = np.array(steps)
+
+print "Avg steps: " + str(np.average(r))
+print "Max steps: " + str(np.max(r))
 
 #
 
 
-einwohner = dict()
-
-with open('bw.csv') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        if row['State'] not in einwohner:
-            einwohner[row['State']] = dict()
-
-        einwohner[row['State']][row['Name']] = int(row['Einwohner'].replace(".", ""))
-
-# pprint.pprint(einwohner)
-
-
-
-cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-cur.execute("""select city, state, incoming from centers_de, pages where state = 'Baden-Württemberg' and page = city;""")
-
-rows = cur.fetchall()
-
-inc = []
-pop = []
-
-for row in rows:
-
-    city = row[0]
-    state = row[1]
-    incoming = row[2]
-
-    if city not in einwohner[state]:
-        print city + " not in Pop figures"
-    else:
-        print city+": " + str(einwohner[state][city]) + ", " + str(incoming)
-        inc.append(incoming)
-        pop.append(einwohner[state][city])
-
-inc, pop = sortBoth(inc, pop)
-
-inc = np.array(inc)
-pop = np.array(pop)
-
-polynomial = np.poly1d(np.polyfit(inc,pop,2))
-
-# Feed data into pyplot.
-xpoints = np.linspace(0.0, np.max(pop), 100)
-# xpoints = np.linspace(0.0, 100000, 100)
-plt.plot(inc,pop,'x',xpoints,polynomial(xpoints),'-')
-# plt.plot(inc,pop,'x')
-
-
-# m, b = np.polyfit(inc, pop, 1)
-#
-# plt.plot(inc, pop, ".")
-# plt.plot(inc, m*pop + b, "-", linewidth = 1.0)
-
-plt.suptitle("Incoming links vs population")
-plt.savefig("incoming_vs_pop.pdf")
-
-plt.clf()
 
 
 conn.close()

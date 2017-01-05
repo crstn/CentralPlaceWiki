@@ -1,0 +1,1007 @@
+state,city,pop
+Thüringen,Erfurt,210118
+Thüringen,Gera,96011
+Thüringen,Jena,109527
+Thüringen,Altenburg,32910
+Thüringen,Eisenach,42417
+Thüringen,Gotha,45410
+Thüringen,Mühlhausen/Thüringen,34552
+Thüringen,Nordhausen,42217
+Thüringen,Saalfeld (Mühlhausen),196
+Thüringen,Rudolstadt,22855
+Thüringen,Bad Blankenburg,6767
+Thüringen,Suhl,36778
+Thüringen,Zella-Mehlis,10631
+Thüringen,Weimar,64131
+Thüringen,Apolda,22364
+Thüringen,Arnstadt,24481
+Thüringen,Artern/Unstrut,5590
+Thüringen,Bad Langensalza,17483
+Thüringen,Bad Lobenstein,6146
+Thüringen,Bad Salzungen,15763
+Thüringen,Eisenberg (Thüringen),13669
+Thüringen,Greiz,21042
+Thüringen,Heilbad Heiligenstadt,16772
+Thüringen,Hermsdorf (Thüringen),7689
+Thüringen,Bad Klosterlausnitz,3542
+Thüringen,Hildburghausen,11792
+Thüringen,Ilmenau,26153
+Thüringen,Leinefelde-Worbis,18684
+Thüringen,Meiningen,21231
+Thüringen,Neuhaus am Rennweg,6897
+Thüringen,Lauscha,3376
+Thüringen,Pößneck,12148
+Thüringen,Schleiz,8467
+Thüringen,Schmalkalden,19291
+Thüringen,Schmölln,11361
+Thüringen,Gößnitz (Thüringen),3511
+Thüringen,Sömmerda,18996
+Thüringen,Sondershausen,22039
+Thüringen,Sonneberg,23736
+Thüringen,Stadtroda,5892
+Thüringen,Zeulenroda-Triebes,16901
+Schleswig-Holstein,Flensburg,85942
+Schleswig-Holstein,Kiel,246306
+Schleswig-Holstein,Lübeck,216253
+Schleswig-Holstein,Neumünster,79197
+Schleswig-Holstein,Bad Oldesloe,24938
+Schleswig-Holstein,Bad Segeberg,17176
+Schleswig-Holstein,Wahlstedt,9347
+Schleswig-Holstein,Brunsbüttel,12740
+Schleswig-Holstein,Eckernförde,21859
+Schleswig-Holstein,Elmshorn,51017
+Schleswig-Holstein,Eutin,16979
+Schleswig-Holstein,Heide (Holstein),21422
+Schleswig-Holstein,Husum,22430
+Schleswig-Holstein,Itzehoe,31771
+Schleswig-Holstein,Kaltenkirchen,20331
+Schleswig-Holstein,Mölln,18856
+Schleswig-Holstein,Rendsburg,27617
+Schleswig-Holstein,Schleswig,24266
+Schleswig-Holstein,Ahrensburg,32606
+Schleswig-Holstein,Geesthacht,30030
+Schleswig-Holstein,Norderstedt,76712
+Schleswig-Holstein,Pinneberg,42266
+Schleswig-Holstein,Wedel,32890
+Sachsen-Anhalt,Dessau-Roßlau,82919
+Sachsen-Anhalt,Halle (Saale),236991
+Sachsen-Anhalt,Magdeburg,235723
+Sachsen-Anhalt,Bitterfeld-Wolfen,40480
+Sachsen-Anhalt,Halberstadt,43768
+Sachsen-Anhalt,Merseburg,34052
+Sachsen-Anhalt,Naumburg (Saale),33012
+Sachsen-Anhalt,Schönebeck (Elbe),31366
+Sachsen-Anhalt,Stendal,40269
+Sachsen-Anhalt,Lutherstadt Wittenberg,46475
+Sachsen-Anhalt,Aschersleben,27793
+Sachsen-Anhalt,Bernburg (Saale),33920
+Sachsen-Anhalt,Burg (bei Magdeburg),22970
+Sachsen-Anhalt,Lutherstadt Eisleben,24198
+Sachsen-Anhalt,Haldensleben,19439
+Sachsen-Anhalt,Köthen (Anhalt),26519
+Sachsen-Anhalt,Oschersleben (Bode),19883
+Sachsen-Anhalt,Quedlinburg,24555
+Sachsen-Anhalt,Salzwedel,24410
+Sachsen-Anhalt,Sangerhausen,27752
+Sachsen-Anhalt,Staßfurt,26634
+Sachsen-Anhalt,Weißenfels,40398
+Sachsen-Anhalt,Wernigerode,33108
+Sachsen-Anhalt,Zeitz,29052
+Sachsen-Anhalt,Zerbst/Anhalt,22055
+Sachsen,Chemnitz,248645
+Sachsen,Dresden,543825
+Sachsen,Leipzig,560472
+Sachsen,Plauen,65201
+Sachsen,Zwickau,91123
+Sachsen,Bautzen,39845
+Sachsen,Görlitz,55255
+Sachsen,Hoyerswerda,33843
+Sachsen,Annaberg-Buchholz,20426
+Sachsen,Borna,19672
+Sachsen,Coswig (Sachsen),20831
+Sachsen,Crimmitschau,19180
+Sachsen,Delitzsch,24850
+Sachsen,Dippoldiswalde,14529
+Sachsen,Döbeln,24034
+Sachsen,Eilenburg,15452
+Sachsen,Freiberg,41641
+Sachsen,Freital,39734
+Sachsen,Glauchau,23255
+Sachsen,Grimma,28480
+Sachsen,Großenhain,18352
+Sachsen,Kamenz,15202
+Sachsen,Limbach-Oberfrohna,24059
+Sachsen,Löbau,15353
+Sachsen,Marienberg,17409
+Sachsen,Markkleeberg,24240
+Sachsen,Meißen,27936
+Sachsen,Mittweida,14939
+Sachsen,Niesky,9607
+Sachsen,Oelsnitz/Vogtl.,10492
+Sachsen,Oschatz,14734
+Sachsen,Pirna,38010
+Sachsen,Radeberg,18389
+Sachsen,Radebeul,34055
+Sachsen,Reichenbach im Vogtland,21200
+Sachsen,Riesa,30885
+Sachsen,Schkeuditz,17443
+Sachsen,Stollberg/Erzgeb.,11380
+Sachsen,Torgau,20047
+Sachsen,Weißwasser/Oberlausitz,16851
+Sachsen,Werdau,21039
+Sachsen,Wurzen,16364
+Sachsen,Zittau,25712
+Sachsen,Auerbach/Vogtl.,18893
+Sachsen,Ellefeld,2578
+Sachsen,Falkenstein/Vogtl.,8300
+Sachsen,Rodewisch,6434
+Sachsen,Hohenstein-Ernstthal,14866
+Sachsen,Lichtenstein/Sa.,11632
+Sachsen,Oberlungwitz,5928
+Sachsen,Aue (Sachsen),16349
+Sachsen,Lauter (Lauter-Bernsbach),4707
+Sachsen,Lößnitz (Erzgebirge),8677
+Sachsen,Bad Schlema,4848
+Sachsen,Schneeberg (Erzgebirge),14732
+Sachsen,Schwarzenberg/Erzgeb.,17391
+Saarland,Saarbrücken,178151
+Saarland,Blieskastel,21033
+Saarland,Dillingen/Saar,20311
+Saarland,Homburg,41974
+Saarland,Lebach,19156
+Saarland,Merzig,29937
+Saarland,Neunkirchen (Saar),46369
+Saarland,Saarlouis,34768
+Saarland,St. Ingbert,36292
+Saarland,St. Wendel,26066
+Saarland,Völklingen,39129
+Saarland,Wadern,15809
+Rheinland-Pfalz,Kaiserslautern,98520
+Rheinland-Pfalz,Koblenz,112586
+Rheinland-Pfalz,Ludwigshafen am Rhein,164718
+Rheinland-Pfalz,Mainz,209779
+Rheinland-Pfalz,Trier,114914
+Rheinland-Pfalz,Landau in der Pfalz,45362
+Rheinland-Pfalz,Speyer,50284
+Rheinland-Pfalz,Worms,82102
+Rheinland-Pfalz,Zweibrücken,34260
+Rheinland-Pfalz,Homburg,41974
+Rheinland-Pfalz,Altenkirchen (Westerwald),6221
+Rheinland-Pfalz,Alzey,17826
+Rheinland-Pfalz,Andernach,29441
+Rheinland-Pfalz,Bad Bergzabern,8007
+Rheinland-Pfalz,Bad Dürkheim,18499
+Rheinland-Pfalz,Bad Ems,9229
+Rheinland-Pfalz,Bad Kreuznach,49406
+Rheinland-Pfalz,Bingen am Rhein,24987
+Rheinland-Pfalz,Boppard,15404
+Rheinland-Pfalz,Dahn,4595
+Rheinland-Pfalz,Daun,7994
+Rheinland-Pfalz,Diez,12073
+Rheinland-Pfalz,Frankenthal (Pfalz),48363
+Rheinland-Pfalz,Germersheim,20587
+Rheinland-Pfalz,Gerolstein,7504
+Rheinland-Pfalz,Grünstadt,13213
+Rheinland-Pfalz,Hermeskeil,7122
+Rheinland-Pfalz,Ingelheim am Rhein,26546
+Rheinland-Pfalz,Linz am Rhein,5902
+Rheinland-Pfalz,Mayen,18818
+Rheinland-Pfalz,Pirmasens,40125
+Rheinland-Pfalz,Prüm,5488
+Rheinland-Pfalz,Saarburg,7180
+Rheinland-Pfalz,Wittlich,18762
+Rheinland-Pfalz,Adenau,2947
+Rheinland-Pfalz,Bad Neuenahr-Ahrweiler,27468
+Rheinland-Pfalz,Remagen,16392
+Rheinland-Pfalz,Sinzig,17330
+Rheinland-Pfalz,Annweiler am Trifels,7083
+Rheinland-Pfalz,Edenkoben,6719
+Rheinland-Pfalz,Herxheim bei Landau/Pfalz,10629
+Rheinland-Pfalz,Landau in der Pfalz,45362
+Rheinland-Pfalz,Bad Sobernheim,6387
+Rheinland-Pfalz,Kirn,8149
+Rheinland-Pfalz,Meisenheim,2927
+Rheinland-Pfalz,Baumholder,4032
+Rheinland-Pfalz,Birkenfeld (Nahe),6883
+Rheinland-Pfalz,Idar-Oberstein,28350
+Rheinland-Pfalz,Bendorf,16813
+Rheinland-Pfalz,Höhr-Grenzhausen,9346
+Rheinland-Pfalz,Koblenz,112586
+Rheinland-Pfalz,Lahnstein,17973
+Rheinland-Pfalz,Vallendar,8502
+Rheinland-Pfalz,Bernkastel-Kues,6987
+Rheinland-Pfalz,Traben-Trarbach,5768
+Rheinland-Pfalz,Betzdorf,9967
+Rheinland-Pfalz,Kirchen (Sieg),8575
+Rheinland-Pfalz,Wissen (Stadt),8314
+Rheinland-Pfalz,Bitburg,14002
+Rheinland-Pfalz,Neuerburg,1559
+Rheinland-Pfalz,Cochem,5332
+Rheinland-Pfalz,Zell (Mosel),4085
+Rheinland-Pfalz,Dernbach (Pfalz),443
+Rheinland-Pfalz,Montabaur,12911
+Rheinland-Pfalz,Wirges,5321
+Rheinland-Pfalz,Dierdorf,5663
+Rheinland-Pfalz,Neuwied,64340
+Rheinland-Pfalz,Eisenberg (Pfalz),9311
+Rheinland-Pfalz,Kirchheimbolanden,7815
+Rheinland-Pfalz,Rockenhausen,5308
+Rheinland-Pfalz,Hachenburg,5888
+Rheinland-Pfalz,Westerburg,5670
+Rheinland-Pfalz,Haßloch,20254
+Rheinland-Pfalz,Neustadt an der Weinstraße,52999
+Rheinland-Pfalz,Kandel (Pfalz),8943
+Rheinland-Pfalz,Wörth am Rhein,17645
+Rheinland-Pfalz,Kastellaun,5274
+Rheinland-Pfalz,Simmern/Hunsrück,7759
+Rheinland-Pfalz,Kirchberg (Hunsrück),3891
+Rheinland-Pfalz,Konz,17966
+Rheinland-Pfalz,Trier,114914
+Rheinland-Pfalz,Kusel,4992
+Rheinland-Pfalz,Lauterecken,2133
+Rheinland-Pfalz,Landstuhl,8351
+Rheinland-Pfalz,Ramstein-Miesenbach,7543
+Rheinland-Pfalz,Ludwigshafen am Rhein,164718
+Rheinland-Pfalz,Schifferstadt,19701
+Rheinland-Pfalz,Mainz,209779
+Rheinland-Pfalz,Nieder-Olm,9790
+Rheinland-Pfalz,Nierstein,8191
+Rheinland-Pfalz,Oppenheim,7341
+Rheinland-Pfalz,Nastätten,4198
+Rheinland-Pfalz,Sankt Goar,2704
+Rheinland-Pfalz,Sankt Goarshausen,1317
+Nordrhein-Westfalen,Aachen,245885
+Nordrhein-Westfalen,Bielefeld,333090
+Nordrhein-Westfalen,Bonn,318809
+Nordrhein-Westfalen,Bochum,364742
+Nordrhein-Westfalen,Dortmund,586181
+Nordrhein-Westfalen,Duisburg,491231
+Nordrhein-Westfalen,Düsseldorf,612178
+Nordrhein-Westfalen,Essen,582624
+Nordrhein-Westfalen,Hagen,189044
+Nordrhein-Westfalen,Köln,1060582
+Nordrhein-Westfalen,Krefeld,225144
+Nordrhein-Westfalen,Mönchengladbach,259996
+Nordrhein-Westfalen,Münster (Westfalen),310039
+Nordrhein-Westfalen,Paderborn,148126
+Nordrhein-Westfalen,Siegen,102355
+Nordrhein-Westfalen,Wuppertal,350046
+Nordrhein-Westfalen,Bottrop,117143
+Nordrhein-Westfalen,Gelsenkirchen,260368
+Nordrhein-Westfalen,Hamm,179397
+Nordrhein-Westfalen,Herne,155851
+Nordrhein-Westfalen,Leverkusen,163487
+Nordrhein-Westfalen,Mülheim an der Ruhr,169278
+Nordrhein-Westfalen,Oberhausen,210934
+Nordrhein-Westfalen,Remscheid,109499
+Nordrhein-Westfalen,Solingen,158726
+Nordrhein-Westfalen,Ennepetal,29926
+Nordrhein-Westfalen,Gevelsberg,31315
+Nordrhein-Westfalen,Hattingen,54834
+Nordrhein-Westfalen,Herdecke,22818
+Nordrhein-Westfalen,Schwelm,28330
+Nordrhein-Westfalen,Sprockhövel,25205
+Nordrhein-Westfalen,Wetter (Ruhr),27822
+Nordrhein-Westfalen,Witten,96700
+Nordrhein-Westfalen,Arnsberg,73784
+Nordrhein-Westfalen,Brilon,26232
+Nordrhein-Westfalen,Marsberg,19968
+Nordrhein-Westfalen,Schmallenberg,25230
+Nordrhein-Westfalen,Sundern (Sauerland),28166
+Nordrhein-Westfalen,Winterberg,12798
+Nordrhein-Westfalen,Meschede,30119
+Nordrhein-Westfalen,Altena,17375
+Nordrhein-Westfalen,Hemer,33535
+Nordrhein-Westfalen,Iserlohn,93537
+Nordrhein-Westfalen,Lüdenscheid,73354
+Nordrhein-Westfalen,Meinerzhagen,20670
+Nordrhein-Westfalen,Menden (Sauerland),53485
+Nordrhein-Westfalen,Plettenberg,25781
+Nordrhein-Westfalen,Werdohl,18002
+Nordrhein-Westfalen,Attendorn,24676
+Nordrhein-Westfalen,Lennestadt,26073
+Nordrhein-Westfalen,Olpe,24757
+Nordrhein-Westfalen,Bad Berleburg,19774
+Nordrhein-Westfalen,Bad Laasphe,14276
+Nordrhein-Westfalen,Kreuztal,31500
+Nordrhein-Westfalen,Neunkirchen (Siegerland),13717
+Nordrhein-Westfalen,Geseke,21070
+Nordrhein-Westfalen,Lippstadt,67233
+Nordrhein-Westfalen,Soest,47974
+Nordrhein-Westfalen,Warstein,25407
+Nordrhein-Westfalen,Werl,30638
+Nordrhein-Westfalen,Bergkamen,47803
+Nordrhein-Westfalen,Kamen,43868
+Nordrhein-Westfalen,Lünen,85867
+Nordrhein-Westfalen,Schwerte,46723
+Nordrhein-Westfalen,Selm,26603
+Nordrhein-Westfalen,Unna,59111
+Nordrhein-Westfalen,Werne,29955
+Nordrhein-Westfalen,Gütersloh,97586
+Nordrhein-Westfalen,Halle (Westf.),21709
+Nordrhein-Westfalen,Rheda-Wiedenbrück,48763
+Nordrhein-Westfalen,Rietberg,29436
+Nordrhein-Westfalen,Bünde,45615
+Nordrhein-Westfalen,Herford,66521
+Nordrhein-Westfalen,Löhne,40086
+Nordrhein-Westfalen,Vlotho,18914
+Nordrhein-Westfalen,Bad Driburg,18699
+Nordrhein-Westfalen,Beverungen,13442
+Nordrhein-Westfalen,Brakel,16586
+Nordrhein-Westfalen,Höxter,29589
+Nordrhein-Westfalen,Steinheim (Westfalen),12922
+Nordrhein-Westfalen,Warburg,23629
+Nordrhein-Westfalen,Bad Salzuflen,53341
+Nordrhein-Westfalen,Barntrup,8846
+Nordrhein-Westfalen,Blomberg,15370
+Nordrhein-Westfalen,Detmold,74817
+Nordrhein-Westfalen,Horn-Bad Meinberg,17126
+Nordrhein-Westfalen,Lage (Lippe),35120
+Nordrhein-Westfalen,Lemgo,41276
+Nordrhein-Westfalen,Bad Oeynhausen,48990
+Nordrhein-Westfalen,Espelkamp,24921
+Nordrhein-Westfalen,Lübbecke,25462
+Nordrhein-Westfalen,Minden,81598
+Nordrhein-Westfalen,Petershagen,25663
+Nordrhein-Westfalen,Porta Westfalica (Stadt),35430
+Nordrhein-Westfalen,Büren (Westfalen),21772
+Nordrhein-Westfalen,Delbrück,31964
+Nordrhein-Westfalen,Emmerich am Rhein,30968
+Nordrhein-Westfalen,Geldern,33841
+Nordrhein-Westfalen,Goch,33889
+Nordrhein-Westfalen,Kevelaer,28311
+Nordrhein-Westfalen,Kleve,49729
+Nordrhein-Westfalen,Erkrath,44086
+Nordrhein-Westfalen,Haan,30410
+Nordrhein-Westfalen,Heiligenhaus,25793
+Nordrhein-Westfalen,Hilden,55185
+Nordrhein-Westfalen,Langenfeld (Rheinland),58033
+Nordrhein-Westfalen,Mettmann,38291
+Nordrhein-Westfalen,Monheim am Rhein,40885
+Nordrhein-Westfalen,Ratingen,87943
+Nordrhein-Westfalen,Velbert,81430
+Nordrhein-Westfalen,Wülfrath,21223
+Nordrhein-Westfalen,Dormagen,64064
+Nordrhein-Westfalen,Grevenbroich,63051
+Nordrhein-Westfalen,Kaarst,43286
+Nordrhein-Westfalen,Korschenbroich,32922
+Nordrhein-Westfalen,Meerbusch,54892
+Nordrhein-Westfalen,Neuss,155414
+Nordrhein-Westfalen,Kempen,34837
+Nordrhein-Westfalen,Nettetal,41964
+Nordrhein-Westfalen,Schwalmtal (Niederrhein),19139
+Nordrhein-Westfalen,Tönisvorst,29296
+Nordrhein-Westfalen,Viersen,75931
+Nordrhein-Westfalen,Willich,50748
+Nordrhein-Westfalen,Dinslaken,67452
+Nordrhein-Westfalen,Hamminkeln,26996
+Nordrhein-Westfalen,Kamp-Lintfort,37683
+Nordrhein-Westfalen,Moers,104529
+Nordrhein-Westfalen,Neukirchen-Vluyn,27178
+Nordrhein-Westfalen,Rheinberg,31023
+Nordrhein-Westfalen,Voerde (Niederrhein),36675
+Nordrhein-Westfalen,Wesel,60595
+Nordrhein-Westfalen,Xanten,21510
+Nordrhein-Westfalen,Alsdorf,46880
+Nordrhein-Westfalen,Baesweiler,26819
+Nordrhein-Westfalen,Eschweiler,55909
+Nordrhein-Westfalen,Herzogenrath,46583
+Nordrhein-Westfalen,Monschau,12352
+Nordrhein-Westfalen,Stolberg (Rheinland),56739
+Nordrhein-Westfalen,Würselen,38962
+Nordrhein-Westfalen,Düren,90244
+Nordrhein-Westfalen,Jülich,32601
+Nordrhein-Westfalen,Euskirchen,56769
+Nordrhein-Westfalen,Mechernich,27170
+Nordrhein-Westfalen,Schleiden,13272
+Nordrhein-Westfalen,Erkelenz,43350
+Nordrhein-Westfalen,Geilenkirchen,26963
+Nordrhein-Westfalen,Heinsberg,41538
+Nordrhein-Westfalen,Hückelhoven,39531
+Nordrhein-Westfalen,Übach-Palenberg,24377
+Nordrhein-Westfalen,Wegberg,27827
+Nordrhein-Westfalen,Engelskirchen,19307
+Nordrhein-Westfalen,Gummersbach,50412
+Nordrhein-Westfalen,Radevormwald,22386
+Nordrhein-Westfalen,Waldbröl,19194
+Nordrhein-Westfalen,Wipperfürth,21481
+Nordrhein-Westfalen,Bedburg,23334
+Nordrhein-Westfalen,Bergheim,60390
+Nordrhein-Westfalen,Brühl (Rheinland),44768
+Nordrhein-Westfalen,Erftstadt,49786
+Nordrhein-Westfalen,Frechen,51999
+Nordrhein-Westfalen,Hürth,59496
+Nordrhein-Westfalen,Kerpen,65477
+Nordrhein-Westfalen,Pulheim,54200
+Nordrhein-Westfalen,Wesseling,35975
+Nordrhein-Westfalen,Bergisch Gladbach,111366
+Nordrhein-Westfalen,Leichlingen (Rheinland),27937
+Nordrhein-Westfalen,Wermelskirchen,34504
+Nordrhein-Westfalen,Bad Honnef,25654
+Nordrhein-Westfalen,Bornheim (Rheinland),47636
+Nordrhein-Westfalen,Eitorf,18864
+Nordrhein-Westfalen,Hennef (Sieg),46902
+Nordrhein-Westfalen,Königswinter,40702
+Nordrhein-Westfalen,Lohmar,30348
+Nordrhein-Westfalen,Niederkassel,37583
+Nordrhein-Westfalen,Rheinbach,27224
+Nordrhein-Westfalen,Sankt Augustin,55709
+Nordrhein-Westfalen,Siegburg,41016
+Nordrhein-Westfalen,Troisdorf,74400
+Nordrhein-Westfalen,Ahaus,39277
+Nordrhein-Westfalen,Bocholt,71443
+Nordrhein-Westfalen,Borken,42272
+Nordrhein-Westfalen,Gronau (Westf.),47010
+Nordrhein-Westfalen,Stadtlohn,20411
+Nordrhein-Westfalen,Vreden,22688
+Nordrhein-Westfalen,Coesfeld,36116
+Nordrhein-Westfalen,Dülmen,46613
+Nordrhein-Westfalen,Lüdinghausen,24263
+Nordrhein-Westfalen,Castrop-Rauxel,74220
+Nordrhein-Westfalen,Datteln,34521
+Nordrhein-Westfalen,Dorsten,75431
+Nordrhein-Westfalen,Gladbeck,75455
+Nordrhein-Westfalen,Haltern am See,38020
+Nordrhein-Westfalen,Herten,61163
+Nordrhein-Westfalen,Marl,83926
+Nordrhein-Westfalen,Oer-Erkenschwick,31387
+Nordrhein-Westfalen,Recklinghausen,114330
+Nordrhein-Westfalen,Waltrop,29354
+Nordrhein-Westfalen,Emsdetten,36320
+Nordrhein-Westfalen,Greven,36674
+Nordrhein-Westfalen,Ibbenbüren,50935
+Nordrhein-Westfalen,Lengerich (Westfalen),22461
+Nordrhein-Westfalen,Ochtrup,19599
+Nordrhein-Westfalen,Rheine,74852
+Nordrhein-Westfalen,Steinfurt,33682
+Nordrhein-Westfalen,Ahlen,52287
+Nordrhein-Westfalen,Beckum,36560
+Nordrhein-Westfalen,Oelde,29299
+Nordrhein-Westfalen,Warendorf,37249
+Niedersachsen,Braunschweig,251364
+Niedersachsen,Celle,69748
+Niedersachsen,Göttingen,118914
+Niedersachsen,Hannover,532163
+Niedersachsen,Hildesheim,101667
+Niedersachsen,Lüneburg,74072
+Niedersachsen,Oldenburg (Oldb),163830
+Niedersachsen,Osnabrück,162403
+Niedersachsen,Salzgitter,101079
+Niedersachsen,Wilhelmshaven,75995
+Niedersachsen,Wolfsburg,124045
+Niedersachsen,Emden,50694
+Niedersachsen,Lingen (Ems),53284
+Niedersachsen,Nordhorn,53285
+Niedersachsen,Delmenhorst,76323
+Niedersachsen,Hameln,56529
+Niedersachsen,Langenhagen,53323
+Niedersachsen,Bad Zwischenahn,28204
+Niedersachsen,Rastede,22027
+Niedersachsen,Westerstede,22154
+Niedersachsen,Aurich,41489
+Niedersachsen,Norden (Ostfriesland),25117
+Niedersachsen,Cloppenburg,33798
+Niedersachsen,Friesoythe,21918
+Niedersachsen,Cuxhaven,48264
+Niedersachsen,Hemmoor,8861
+Niedersachsen,Diepholz,16692
+Niedersachsen,Stuhr,33083
+Niedersachsen,Sulingen,12681
+Niedersachsen,Syke,24018
+Niedersachsen,Meppen,34918
+Niedersachsen,Papenburg,36690
+Niedersachsen,Jever,14020
+Niedersachsen,Varel,23884
+Niedersachsen,Gifhorn,41905
+Niedersachsen,Wittingen,11480
+Niedersachsen,Bad Harzburg,21735
+Niedersachsen,Clausthal-Zellerfeld,15818
+Niedersachsen,Goslar,50782
+Niedersachsen,Seesen,19296
+Niedersachsen,Duderstadt,21072
+Niedersachsen,Hann. Münden,24072
+Niedersachsen,Bad Pyrmont,19239
+Niedersachsen,Barsinghausen,33608
+Niedersachsen,Burgdorf (Region Hannover),30147
+Niedersachsen,Garbsen,60590
+Niedersachsen,Großburgwedel,10400
+Niedersachsen,Laatzen,40939
+Niedersachsen,Lehrte,43639
+Niedersachsen,Neustadt am Rübenberge,43931
+Niedersachsen,Springe,28682
+Niedersachsen,Wunstorf,41251
+Niedersachsen,Buchholz in der Nordheide,38487
+Niedersachsen,Seevetal,40949
+Niedersachsen,Winsen (Luhe),33896
+Niedersachsen,Munster (Örtze),15091
+Niedersachsen,Soltau,21414
+Niedersachsen,Walsrode,23219
+Niedersachsen,Helmstedt,23254
+Niedersachsen,Alfeld (Leine),19081
+Niedersachsen,Sarstedt,19303
+Niedersachsen,Holzminden,20099
+Niedersachsen,Leer (Ostfriesland),34042
+Niedersachsen,Lüchow (Wendland),9481
+Niedersachsen,Nienburg/Weser,31193
+Niedersachsen,Bad Gandersheim,10141
+Niedersachsen,Einbeck,31338
+Niedersachsen,Northeim,28920
+Niedersachsen,Uslar,14394
+Niedersachsen,Wildeshausen,19390
+Niedersachsen,Bramsche,36013
+Niedersachsen,Georgsmarienhütte,31520
+Niedersachsen,Melle,46039
+Niedersachsen,Quakenbrück,12845
+Niedersachsen,Osterholz-Scharmbeck,30302
+Niedersachsen,Osterode am Harz,22201
+Niedersachsen,Peine,49366
+Niedersachsen,Bremervörde,18645
+Niedersachsen,Rotenburg (Wümme),21392
+Niedersachsen,Zeven,13760
+Niedersachsen,Bad Nenndorf,10649
+Niedersachsen,Bückeburg,19182
+Niedersachsen,Rinteln,25187
+Niedersachsen,Stadthagen,21814
+Niedersachsen,Buxtehude,40173
+Niedersachsen,Stade,46378
+Niedersachsen,Uelzen,33782
+Niedersachsen,Lohne (Oldenburg),26060
+Niedersachsen,Vechta,31558
+Niedersachsen,Achim (Landkreis Verden),31156
+Niedersachsen,Verden (Aller),26997
+Niedersachsen,Brake (Unterweser),15129
+Niedersachsen,Nordenham,26325
+Niedersachsen,Wittmund,20735
+Niedersachsen,Wolfenbüttel,52269
+Mecklenburg-Vorpommern,Neubrandenburg,63602
+Mecklenburg-Vorpommern,Rostock,206011
+Mecklenburg-Vorpommern,Schwerin,96800
+Mecklenburg-Vorpommern,Stralsund,58041
+Mecklenburg-Vorpommern,Greifswald,57286
+Mecklenburg-Vorpommern,Anklam,12712
+Mecklenburg-Vorpommern,Bad Doberan,12107
+Mecklenburg-Vorpommern,Bergen auf Rügen,13484
+Mecklenburg-Vorpommern,Demmin,11269
+Mecklenburg-Vorpommern,Grevesmühlen,10496
+Mecklenburg-Vorpommern,Grimmen,10019
+Mecklenburg-Vorpommern,Güstrow,28845
+Mecklenburg-Vorpommern,Hagenow,11697
+Mecklenburg-Vorpommern,Ludwigslust,12255
+Mecklenburg-Vorpommern,Neustrelitz,20504
+Mecklenburg-Vorpommern,Parchim,17918
+Mecklenburg-Vorpommern,Pasewalk,10535
+Mecklenburg-Vorpommern,Ribnitz-Damgarten,15155
+Mecklenburg-Vorpommern,Teterow,8604
+Mecklenburg-Vorpommern,Ueckermünde,8844
+Mecklenburg-Vorpommern,Waren (Müritz),21153
+Mecklenburg-Vorpommern,Wismar,42557
+Mecklenburg-Vorpommern,Wolgast,12312
+Hessen,Darmstadt,155353
+Hessen,Frankfurt am Main,732688
+Hessen,Fulda,67253
+Hessen,Gießen,84455
+Hessen,Hanau,92643
+Hessen,Kassel,197984
+Hessen,Marburg,73836
+Hessen,Offenbach am Main,123734
+Hessen,Wetzlar,51649
+Hessen,Wiesbaden,276218
+Hessen,Bad Hersfeld,29116
+Hessen,Friedberg (Hessen),28156
+Hessen,Bad Nauheim,31630
+Hessen,Limburg an der Lahn,34255
+Hessen,Rüsselsheim am Main,63030
+Hessen,Allendorf (Eder),5665
+Hessen,Battenberg (Eder),5414
+Hessen,Alsfeld,16142
+Hessen,Bad Arolsen,15507
+Hessen,Bad Homburg vor der Höhe,53244
+Hessen,Bad Orb,9631
+Hessen,Bad Schwalbach,10697
+Hessen,Bad Soden am Taunus,22161
+Hessen,Bad Soden-Salmünster,13361
+Hessen,Bad Vilbel,33020
+Hessen,Bad Wildungen,16777
+Hessen,Baunatal,27617
+Hessen,Bebra,13888
+Hessen,Bensheim,40051
+Hessen,Biedenkopf,13685
+Hessen,Borken (Hessen),12633
+Hessen,Bruchköbel,20418
+Hessen,Büdingen,21785
+Hessen,Bürstadt,16060
+Hessen,Butzbach,25557
+Hessen,Dieburg,15500
+Hessen,Dietzenbach,33397
+Hessen,Dillenburg,23510
+Hessen,Dreieich,40601
+Hessen,Eltville am Rhein,16970
+Hessen,Erbach (Odenwald),13401
+Hessen,Eschborn,20824
+Hessen,Eschwege,19542
+Hessen,Flörsheim am Main,20623
+Hessen,Frankenberg (Eder),17855
+Hessen,Friedrichsdorf,25092
+Hessen,Fritzlar,14428
+Hessen,Geisenheim,11690
+Hessen,Gelnhausen,22687
+Hessen,Gladenbach,12166
+Hessen,Griesheim,26907
+Hessen,Groß-Gerau,24648
+Hessen,Groß-Umstadt,20821
+Hessen,Grünberg (Hessen),13634
+Hessen,Haiger,19199
+Hessen,Hattersheim am Main,26908
+Hessen,Heppenheim (Bergstraße),25284
+Hessen,Herborn,20816
+Hessen,Heringen (Werra),7294
+Hessen,Hessisch Lichtenau,12100
+Hessen,Heusenstamm,18752
+Hessen,Hochheim am Main,17057
+Hessen,Hofgeismar,14872
+Hessen,Hofheim am Taunus,39476
+Hessen,Homberg (Efze),13907
+Hessen,Hünfeld,15996
+Hessen,Hungen,12471
+Hessen,Lich,13290
+Hessen,Idstein,24108
+Hessen,Kelkheim (Taunus),28452
+Hessen,Kirchhain,16294
+Hessen,Königstein im Taunus,16393
+Hessen,Korbach,23515
+Hessen,Kronberg im Taunus,18330
+Hessen,Lampertheim,32303
+Hessen,Langen (Hessen),37026
+Hessen,Laubach,9632
+Hessen,Lauterbach (Hessen),14119
+Hessen,Lorsch,13515
+Hessen,Maintal,38208
+Hessen,Melsungen,13381
+Hessen,Michelstadt,16642
+Hessen,Mörfelden-Walldorf,33623
+Hessen,Mühlheim am Main,28170
+Hessen,Neu-Isenburg,37565
+Hessen,Nidda,17299
+Hessen,Obertshausen,24443
+Hessen,Oberursel (Taunus),45723
+Hessen,Pfungstadt,24548
+Hessen,Rödermark,27242
+Hessen,Rodgau,44222
+Hessen,Rotenburg an der Fulda,14411
+Hessen,Rüdesheim am Rhein,9873
+Hessen,Schlüchtern,15827
+Hessen,Schwalbach am Taunus,15203
+Hessen,Schwalmstadt,17861
+Hessen,Seligenstadt,20980
+Hessen,Sontra,7629
+Hessen,Stadtallendorf,21861
+Hessen,Taunusstein,29063
+Hessen,Usingen,14025
+Hessen,Vellmar,18033
+Hessen,Viernheim,34146
+Hessen,Wächtersbach,12380
+Hessen,Weilburg,13337
+Hessen,Weiterstadt,25416
+Hessen,Witzenhausen,14949
+Hessen,Wolfhagen,13276
+Brandenburg,Brandenburg an der Havel,71574
+Brandenburg,Cottbus,99687
+Brandenburg,Frankfurt (Oder),58092
+Brandenburg,Potsdam,167745
+Brandenburg,Bad Belzig,11120
+Brandenburg,Bad Freienwalde (Oder),12406
+Brandenburg,Beeskow,8122
+Brandenburg,Bernau bei Berlin,37169
+Brandenburg,Eberswalde,39303
+Brandenburg,Eisenhüttenstadt,30416
+Brandenburg,Erkner,11668
+Brandenburg,Falkensee,42634
+Brandenburg,Finsterwalde,16548
+Brandenburg,Forst (Lausitz),18773
+Brandenburg,Fürstenwalde/Spree,31741
+Brandenburg,Guben,17616
+Brandenburg,Hennigsdorf,26264
+Brandenburg,Herzberg (Elster),9067
+Brandenburg,Jüterbog,12314
+Brandenburg,Königs Wusterhausen,35765
+Brandenburg,Kyritz,9100
+Brandenburg,Lübben (Spreewald),13824
+Brandenburg,Lübbenau/Spreewald,16237
+Brandenburg,Luckenwalde,20358
+Brandenburg,Ludwigsfelde,25030
+Brandenburg,Nauen,16943
+Brandenburg,Neuenhagen bei Berlin,17593
+Brandenburg,Neuruppin,30715
+Brandenburg,Oranienburg,43526
+Brandenburg,Prenzlau,19275
+Brandenburg,Rathenow,24387
+Brandenburg,Schwedt/Oder,30262
+Brandenburg,Seelow,5387
+Brandenburg,Spremberg,22818
+Brandenburg,Strausberg,26213
+Brandenburg,Teltow,25483
+Brandenburg,Templin,16067
+Brandenburg,Zossen,17905
+Bayern,Amberg,41861
+Bayern,Ansbach,41159
+Bayern,Aschaffenburg,68986
+Bayern,Augsburg,286374
+Bayern,Bamberg,73331
+Bayern,Bayreuth,72148
+Bayern,Coburg,41257
+Bayern,Deggendorf,32189
+Bayern,Plattling,12913
+Bayern,Hof (Saale),44660
+Bayern,Ingolstadt,132438
+Bayern,Kaufbeuren,42731
+Bayern,Kempten (Allgäu),66947
+Bayern,Landshut,69211
+Bayern,Memmingen,42841
+Bayern,München,1450381
+Bayern,Neu-Ulm,57237
+Bayern,Ulm,122636
+Bayern,Neumarkt in der Oberpfalz,39333
+Bayern,Nürnberg,509975
+Bayern,Fürth,124171
+Bayern,Erlangen,108336
+Bayern,Passau,50566
+Bayern,Regensburg,145465
+Bayern,Rosenheim,61844
+Bayern,Schweinfurt,51969
+Bayern,Straubing,46806
+Bayern,Traunstein,19642
+Bayern,Weiden in der Oberpfalz,42055
+Bayern,Würzburg,124873
+Bayern,Freising,46963
+Bayern,Garmisch-Partenkirchen,26821
+Bayern,Kulmbach,25933
+Bayern,Marktredwitz,17130
+Bayern,Wunsiedel,9203
+Bayern,Schwabach,40428
+Bayern,Abensberg,13540
+Bayern,Neustadt an der Donau,13670
+Bayern,Aichach,21050
+Bayern,Altötting,12750
+Bayern,Neuötting,8588
+Bayern,Alzenau,18839
+Bayern,Bad Aibling,18407
+Bayern,Bad Brückenau,6412
+Bayern,Bad Kissingen,21696
+Bayern,Bad Kötzting,7301
+Bayern,Bad Neustadt an der Saale,15154
+Bayern,Bad Reichenhall,17443
+Bayern,Bad Tölz,18475
+Bayern,Bad Windsheim,12047
+Bayern,Bad Wörishofen,15446
+Bayern,Berchtesgaden,7888
+Bayern,Bogen (Stadt),9771
+Bayern,Burghausen,18259
+Bayern,Burglengenfeld,12862
+Bayern,Maxhütte-Haidhof,10941
+Bayern,Teublitz,7299
+Bayern,Cham (Oberpfalz),16529
+Bayern,Dachau,46705
+Bayern,Dillingen an der Donau,18547
+Bayern,Lauingen (Donau),10773
+Bayern,Dingolfing,19145
+Bayern,Dinkelsbühl,11538
+Bayern,Donauwörth,18972
+Bayern,Ebersberg,11935
+Bayern,Grafing bei München,13480
+Bayern,Eggenfelden,13456
+Bayern,Eichstätt,13407
+Bayern,Erding,36159
+Bayern,Forchheim,31651
+Bayern,Freilassing,16522
+Bayern,Freyung,7194
+Bayern,Friedberg (Bayern),29339
+Bayern,Fürstenfeldbruck,35708
+Bayern,Furth im Wald,8910
+Bayern,Domažlice,11163
+Bayern,Füssen,15265
+Bayern,Germering,39387
+Bayern,Gerolzhofen,6902
+Bayern,Grafenau (Niederbayern),8313
+Bayern,Günzburg,20038
+Bayern,Leipheim,6926
+Bayern,Gunzenhausen,16432
+Bayern,Hammelburg,11135
+Bayern,Haßfurt,13277
+Bayern,Hersbruck,12260
+Bayern,Herzogenaurach,23095
+Bayern,Höchstadt an der Aisch,13251
+Bayern,Illertissen,16904
+Bayern,Karlstadt,14808
+Bayern,Kelheim,16270
+Bayern,Kitzingen,20756
+Bayern,Kronach,16808
+Bayern,Krumbach (Schwaben),12891
+Bayern,Landau an der Isar,13027
+Bayern,Landsberg am Lech,28708
+Bayern,Lauf an der Pegnitz,26344
+Bayern,Lichtenfels (Oberfranken),20169
+Bayern,Lindau (Bodensee),25132
+Bayern,Lindenberg im Allgäu,11295
+Bayern,Lohr am Main,15060
+Bayern,Mainburg,14855
+Bayern,Marktheidenfeld,10967
+Bayern,Marktoberdorf,18349
+Bayern,Miesbach,11382
+Bayern,Hausham,8291
+Bayern,Miltenberg,9372
+Bayern,Mindelheim,14569
+Bayern,Moosburg an der Isar,17847
+Bayern,Mühldorf am Inn,19068
+Bayern,Münchberg,10320
+Bayern,Murnau am Staffelsee,12184
+Bayern,Naila,7640
+Bayern,Neuburg an der Donau,29182
+Bayern,Neustadt an der Aisch,12805
+Bayern,Neustadt bei Coburg,15227
+Bayern,Neutraubling,13431
+Bayern,Nördlingen,19841
+Bayern,Obernburg am Main,8477
+Bayern,Elsenfeld,9015
+Bayern,Erlenbach am Main,9996
+Bayern,Oberstdorf,9638
+Bayern,Ochsenfurt,11155
+Bayern,Parsberg,6771
+Bayern,Pegnitz (Stadt),13356
+Bayern,Penzberg,16234
+Bayern,Pfaffenhofen an der Ilm,25226
+Bayern,Pfarrkirchen,12297
+Bayern,Pocking,15499
+Bayern,Ruhstorf an der Rott,6944
+Bayern,Regen (Stadt),10855
+Bayern,Zwiesel,9407
+Bayern,Roth,24819
+Bayern,Rothenburg ob der Tauber,11041
+Bayern,Schongau,12291
+Bayern,Peiting,11334
+Bayern,Schrobenhausen,16753
+Bayern,Schwabmünchen,13836
+Bayern,Schwandorf,28481
+Bayern,Selb,14928
+Bayern,Simbach am Inn,9933
+Bayern,Braunau am Inn,16716
+Bayern,Sonthofen,21300
+Bayern,Immenstadt im Allgäu,14191
+Bayern,Starnberg,22939
+Bayern,Sulzbach-Rosenberg,19624
+Bayern,Tegernsee (Stadt),3880
+Bayern,Rottach-Egern,5733
+Bayern,Bad Wiessee,4913
+Bayern,Gmund am Tegernsee,6012
+Bayern,Tirschenreuth,8899
+Bayern,Traunreut,20799
+Bayern,Trostberg,11073
+Bayern,Viechtach,8060
+Bayern,Vilsbiburg,11535
+Bayern,Vilshofen an der Donau,16251
+Bayern,Waldkraiburg,22917
+Bayern,Waldsassen,6741
+Bayern,Cheb,32355
+Bayern,Wasserburg am Inn,12846
+Bayern,Weilheim in Oberbayern,22184
+Bayern,Weißenburg in Bayern,17976
+Bayern,Wolfratshausen,18237
+Bayern,Geretsried,24392
+Baden-Württemberg,Freiburg im Breisgau,226393
+Baden-Württemberg,Friedrichshafen,59108
+Baden-Württemberg,Ravensburg,49830
+Baden-Württemberg,Weingarten (Württemberg),24460
+Baden-Württemberg,Heidelberg,156267
+Baden-Württemberg,Heilbronn,122567
+Baden-Württemberg,Karlsruhe,307755
+Baden-Württemberg,Konstanz,82859
+Baden-Württemberg,Lörrach,49303
+Baden-Württemberg,Weil am Rhein,30030
+Baden-Württemberg,Mannheim,305780
+Baden-Württemberg,Ludwigshafen am Rhein,164718
+Baden-Württemberg,Offenburg,58465
+Baden-Württemberg,Pforzheim,122247
+Baden-Württemberg,Reutlingen,114310
+Baden-Württemberg,Tübingen,87464
+Baden-Württemberg,Stuttgart,623738
+Baden-Württemberg,Ulm,122636
+Baden-Württemberg,Neu-Ulm,57237
+Baden-Württemberg,Villingen-Schwenningen,84674
+Baden-Württemberg,Baden-Baden,54160
+Baden-Württemberg,Aalen,67344
+Baden-Württemberg,Achern,25018
+Baden-Württemberg,Albstadt,44431
+Baden-Württemberg,Backnang,36266
+Baden-Württemberg,Bad Krozingen,18692
+Baden-Württemberg,Staufen im Breisgau,7726
+Baden-Württemberg,Bad Mergentheim,23064
+Baden-Württemberg,Bad Säckingen,17036
+Baden-Württemberg,Bad Saulgau,17286
+Baden-Württemberg,Bad Waldsee,20011
+Baden-Württemberg,Bad Wildbad,9876
+Baden-Württemberg,Balingen,33640
+Baden-Württemberg,Biberach an der Riß,32233
+Baden-Württemberg,Bietigheim-Bissingen,42968
+Baden-Württemberg,Besigheim,12018
+Baden-Württemberg,Blaubeuren,12087
+Baden-Württemberg,Laichingen,11175
+Baden-Württemberg,Böblingen,48696
+Baden-Württemberg,Sindelfingen,63971
+Baden-Württemberg,Breisach am Rhein,15315
+Baden-Württemberg,Bretten,28826
+Baden-Württemberg,Bruchsal,44104
+Baden-Württemberg,Buchen (Odenwald),17704
+Baden-Württemberg,Bühl (Baden),28882
+Baden-Württemberg,Calw,23232
+Baden-Württemberg,Crailsheim,33768
+Baden-Württemberg,Donaueschingen,21746
+Baden-Württemberg,Eberbach,14751
+Baden-Württemberg,Ehingen (Donau),25503
+Baden-Württemberg,Ellwangen (Jagst),26574
+Baden-Württemberg,Emmendingen,27383
+Baden-Württemberg,Esslingen am Neckar,91271
+Baden-Württemberg,Ettlingen,38982
+Baden-Württemberg,Freudenstadt,22579
+Baden-Württemberg,Gaggenau,29032
+Baden-Württemberg,Gernsbach,14085
+Baden-Württemberg,Geislingen an der Steige,27168
+Baden-Württemberg,Göppingen,56781
+Baden-Württemberg,Haslach im Kinzigtal,6934
+Baden-Württemberg,Hausach,5746
+Baden-Württemberg,Wolfach,5774
+Baden-Württemberg,Hechingen,18971
+Baden-Württemberg,Heidenheim an der Brenz,48048
+Baden-Württemberg,Herrenberg,31003
+Baden-Württemberg,Horb am Neckar,24665
+Baden-Württemberg,Kehl,35032
+Baden-Württemberg,Kirchheim unter Teck,40094
+Baden-Württemberg,Künzelsau,15127
+Baden-Württemberg,Lahr/Schwarzwald,44884
+Baden-Württemberg,Laupheim,21153
+Baden-Württemberg,Leonberg,47219
+Baden-Württemberg,Leutkirch im Allgäu,22406
+Baden-Württemberg,Ludwigsburg,92973
+Baden-Württemberg,Kornwestheim,33153
+Baden-Württemberg,Metzingen,21612
+Baden-Württemberg,Mosbach,23000
+Baden-Württemberg,Mühlacker,25649
+Baden-Württemberg,Müllheim (Baden),18664
+Baden-Württemberg,Münsingen (Württemberg),14399
+Baden-Württemberg,Nagold (Stadt),21687
+Baden-Württemberg,Neckarsulm,26304
+Baden-Württemberg,Nürtingen,40535
+Baden-Württemberg,Öhringen,23489
+Baden-Württemberg,Pfullendorf,13104
+Baden-Württemberg,Radolfzell am Bodensee,30943
+Baden-Württemberg,Rastatt,48051
+Baden-Württemberg,Rheinfelden (Baden),32756
+Baden-Württemberg,Riedlingen,10451
+Baden-Württemberg,Rottenburg am Neckar,43278
+Baden-Württemberg,Rottweil,24915
+Baden-Württemberg,Schopfheim,19498
+Baden-Württemberg,Schorndorf,39172
+Baden-Württemberg,Schramberg,20985
+Baden-Württemberg,Schwäbisch Gmünd,59840
+Baden-Württemberg,Schwäbisch Hall,38827
+Baden-Württemberg,Schwetzingen,22335
+Baden-Württemberg,Sigmaringen,18271
+Baden-Württemberg,Singen (Hohentwiel),47287
+Baden-Württemberg,Sinsheim,35175
+Baden-Württemberg,Stockach,16677
+Baden-Württemberg,Tauberbischofsheim,13201
+Baden-Württemberg,Titisee-Neustadt,12083
+Baden-Württemberg,Tuttlingen,34586
+Baden-Württemberg,Überlingen,22408
+Baden-Württemberg,Vaihingen an der Enz,28695
+Baden-Württemberg,Waiblingen,54263
+Baden-Württemberg,Fellbach,45147
+Baden-Württemberg,Waldkirch,21561
+Baden-Württemberg,Waldshut-Tiengen,23674
+Baden-Württemberg,Wangen im Allgäu,27093
+Baden-Württemberg,Weinheim,44797
+Baden-Württemberg,Wertheim,23405
+Baden-Württemberg,Wiesloch,26426
+Baden-Württemberg,Walldorf (Baden),15559
+Berlin,Berlin,3520031
+Hamburg,Hamburg,1787408
+Bremen,Bremen,557464
+Bremen,Bremerhaven,114025

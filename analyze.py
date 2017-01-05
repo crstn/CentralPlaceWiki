@@ -299,21 +299,16 @@ def findMedianDistance():
 
 
     # make a box plot of all 3 for comparison
-    data = [np.log10(distances1), np.log10(distances2), np.log10(distances3)]
+    data = [np.divide(distances1, 1000.0), np.divide(distances2, 1000.0), np.divide(distances3, 1000.0)]
 
     ax = plt.subplot(1, 1, 1)
 
-    bp_dict = ax.boxplot(data, labels=["Upper", "Middle", "Other"])
-    ax.set_yticks(np.arange(-2, 8))
-    ax.set_yticklabels(10.0**np.arange(-2, 8))
+    ax.boxplot(data, labels=["Upper Centers", "Middle Centers", "Other Cities"])
 
-    for line in bp_dict['medians']:
-            # get position data for median line
-            x, y = line.get_xydata()[1]
-            # place the text there
-            ax.text(x, y, '%.1f' % x, verticalalignment='center')
+    axes = plt.gca()
+    axes.set_ylim([0,250])
 
-    plt.suptitle("Distances to linking cities")
+    plt.suptitle("Distances to linking cities in KM")
 
     plt.savefig("boxplot_distances.pdf")
 

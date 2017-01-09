@@ -1,8 +1,10 @@
 ﻿COPY (
 
-	SELECT p.page_id, p.page, p.incoming_from_cities
-	FROM pages p
-	WHERE p.type = 'city'
+	SELECT page_id, page, incoming_from_cities
+	FROM pages
+	WHERE type = 'city'
+	AND incoming_from_cities > 0
+	AND country = 'DE';
 
 	)
 

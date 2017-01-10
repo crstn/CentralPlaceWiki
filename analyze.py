@@ -477,7 +477,7 @@ def bottomsUp():
                         	ORDER BY l.from, l.mentions DESC ) s
                         GROUP BY s.to
                         ORDER BY SUM(s.mentions) DESC
-                        LIMIT 5000; """)
+                        LIMIT 1000; """)
 
     yall = 0
     upper = 0
@@ -503,10 +503,31 @@ def bottomsUp():
 
         print str(yall)+","+str(middle)+","+str(upper)
 
-    # print str(middle) + " middle centers"
-    # print str(upper) + " upper centers"
+    print str(middle) + " middle centers"
+    print str(upper) + " upper centers"
 
 
+
+# Creates line plots of the bottom up extraction results
+def plotBottomsUp():
+    results = pd.read_csv('/Users/carsten/Dropbox/Code/CentralPlaceWiki/matchesBottomUp.csv', sep=',')
+
+    matplotlib.style.use("fivethirtyeight")
+
+    plt.plot(results["results"], results["middle"], linewidth = 1.0, label = "Middle centers")
+    plt.plot(results["results"], results["upper"], linewidth = 1.0, label = "Upper centers")
+
+
+    plt.suptitle("Total results vs. retrieved centers")
+
+    plt.xlabel('Results retrieved')
+    plt.ylabel('Retrieved centers')
+
+    plt.legend(loc='center right')
+
+    plt.savefig("bottomsUpMatches.pdf", bbox_inches='tight')
+
+    plt.clf()
 
 
 
@@ -516,47 +537,8 @@ def bottomsUp():
 #
 # ============================================================
 
+bottomsUp()
 
-
-# findMedianDistance()
-
-# uppers = getUpperCenters()
-# mostlinked = getMostLinkedCities(250)
-#
-# printStats(mostlinked, uppers)
-
-# uppers = ['Hamburg', 'Osnabrück', 'Berlin']
-# steps = []
-#
-# for place in uppers:
-#
-#     print place
-#
-#     size = 6
-#     rec = 0.0
-#
-#     while rec < 1.0:
-#         size = size * 2
-#         c = getNClosestMiddleCenters(place, 6)
-#         s = getNStrongestLinkers(place, size)
-#
-#         # print "Closest "+str(size)+" centers for "+place+":\n" + printableSet(c)
-#         # print str(size)+" Cities with highest number of links for "+place+":\n"+printableSet(s)
-#         #
-#         # printStats(s, c)
-#         #
-#         # print " "
-#         rec = recall(s, c)
-#         print str(size) + ": "+str(rec)
-#
-#     steps.append(size)
-#
-# r = np.array(steps)
-#
-# print "Avg steps: " + str(np.average(r))
-# print "Max steps: " + str(np.max(r))
-#
-# #
 
 
 

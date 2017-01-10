@@ -19,10 +19,10 @@ def shootSQL(sql, args):
 
 
 
-inp = '/Users/Carsten/Dropbox/Code/CentralPlaceWiki/Python Plots/Incoming from cities - histograms/Incoming from cities - all cities DE.csv'
-out = "/Users/Carsten/Dropbox/Code/CentralPlaceWiki/Python Plots/Incoming from cities - histograms/incoming + median dist - all cities DE.csv"
+inp = '/Users/Carsten/Dropbox/Code/CentralPlaceWiki/Python Plots/Incoming references - plots/All Incoming references - upper centers.csv'
+out = "/Users/Carsten/Dropbox/Code/CentralPlaceWiki/Python Plots/Incoming references - plots/incoming + median dist - upper centers.csv"
 
-fieldnames = ['page_id', 'page', 'incoming_from_cities', 'mediandist']
+fieldnames = ['page_id', 'page', 'incoming', 'mediandist']
 writer = csv.DictWriter(open(out, 'w'), delimiter=',', fieldnames=fieldnames)
 
 # with open(out, "a") as myfile:

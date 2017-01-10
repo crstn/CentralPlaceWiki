@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import psycopg2
 import psycopg2.extras
 import pprint
@@ -9,6 +10,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import urllib2
 import scipy.stats as stat
+import pandas as pd
 import pync
 
 conn = psycopg2.connect("dbname='cpt' host='localhost'")
@@ -57,9 +59,9 @@ def getAllPopNumbers():
 
 
 # returns a list of all results returned by the SQL query
-def shootSQL(sql):
+def shootSQL(sql, args = ()):
     cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    cur.execute(sql)
+    cur.execute(sql, args)
     rows = cur.fetchall()
     cur.close()
     return rows
@@ -253,7 +255,8 @@ def findMedianDistance():
 
     print "Median distance for incoming links to upper centers: " + str(np.median(distances1) / 1000.0)
     print "Mean distance for incoming links to upper centers: " + str(np.mean(distances1) / 1000.0)
-
+    print "25 percent quantile: " + str(np.percentile(distances1, 25) /1000.0)
+    print "75 percent quantile: " + str(np.percentile(distances1, 75) /1000.0)
 
 
     # repeat for middle centers
@@ -275,6 +278,8 @@ def findMedianDistance():
 
     print "Median distance for incoming links to middle centers: " + str(np.median(distances2) / 1000.0)
     print "Mean distance for incoming links to middle centers: " + str(np.mean(distances2) / 1000.0)
+    print "25 percent quantile: " + str(np.percentile(distances2, 25) /1000.0)
+    print "75 percent quantile: " + str(np.percentile(distances2, 75) /1000.0)
 
 
     # repeat once again for all cities
@@ -296,6 +301,8 @@ def findMedianDistance():
 
     print "Median distance for incoming links to all non-center cities: " + str(np.median(distances3) / 1000.0)
     print "Mean distance for incoming links to all non-center cities: " + str(np.mean(distances3) / 1000.0)
+    print "25 percent quantile: " + str(np.percentile(distances3, 25) /1000.0)
+    print "75 percent quantile: " + str(np.percentile(distances3, 75) /1000.0)
 
 
     # make a box plot of all 3 for comparison
@@ -316,7 +323,42 @@ def findMedianDistance():
 
 
 
+# Plots the number of incoming links against the distance for all pairs of pages about cities
+def plotDistVsReferences():
+    rows = shootSQL("""SELECT l.from, l.to, l.mentions, l.dist_sphere_meters
+                       FROM links l, centers_de c, pages p1, pages p2
+                       WHERE l.from = p1.page
+                       AND l.to = p2.page
+                       AND p1.type = 'city'
+                       AND p2.type = 'city'
+                       AND l.dist_sphere_meters > 0
+                       AND p2.page = c.city;""")
 
+    i = 0
+
+    distances = []
+    mentions = []
+
+    for row in rows:
+        mentions.append(row[2])
+        distances.append(row[3])
+        i = i + 1
+
+    # mentions, distances = sortBoth(mentions, distances)
+
+    print stat.pearsonr(mentions, distances)
+
+
+
+    print "Plotting " + str(i) + " points..."
+
+
+
+
+
+# genrates a log-log scatter plot with a fitted line of
+# population of place against the number of incoming links
+# to its wikipedia page.
 def plotPopVsIncoming():
 
     einwohner = dict()
@@ -380,13 +422,103 @@ def plotPopVsIncoming():
 
     plt.clf()
 
+
+
+def plotIncomingVsMeanDistance():
+
+    os.chdir('/Users/Carsten/Dropbox/Code/CentralPlaceWiki/Python Plots/Incoming references - plots')
+
+    cities = pd.read_csv('incoming + median dist - all cities DE.csv', sep=',')
+    upper  = pd.read_csv('incoming + median dist - upper centers.csv', sep=',')
+    middle = pd.read_csv('incoming + median dist - middle centers.csv', sep=',')
+
+    # make 0.1 step bins from 0 to 15:
+    # ints = range(0,150,1)
+    # bins = [ (float(x)/10.0) for x in ints ]
+    #
+    # props = dict(alpha=0.5, edgecolors='none' )
+
+    matplotlib.style.use('fivethirtyeight')
+
+    plt.scatter(np.log(cities['references']), np.log(np.divide(cities['meandist'], 1000.0)),  label='All cities', color='grey')#, **props)
+    plt.scatter(np.log(middle['references']), np.log(np.divide(middle['meandist'], 1000.0)),  label='Middle centers', color='green')#, **props)
+    plt.scatter(np.log(upper['references']), np.log(np.divide(upper['meandist'], 1000.0)),  label='Upper centers', color='red')#, **props)
+
+
+    plt.xlabel('Incoming references (log scale)')
+    # tickx = np.log(np.array([0,5000,10000,15000,20000]))
+    # ticklabelx = np.array(["0", "5,000", "10,000","15,000","20,000"])
+    # plt.xticks(tickx, ticklabelx)
+
+    plt.ylabel('Median distance to referencing cities (log scale) in km')
+    # ticky = np.log(np.array([0,200,400,600,800,1000]))
+    # ticklabely = np.array(["0", "200", "400","600","800","1000"])
+    # plt.yticks(ticky, ticklabely)
+
+    plt.legend(loc='lower right')
+
+    plt.savefig('incomingVsMeanDistance.png', bbox_inches='tight')
+    plt.clf()
+
+
+
+def bottomsUp():
+    rows = shootSQL(""" SELECT s.to, SUM(s.mentions)
+                        FROM (
+                        	SELECT DISTINCT ON (l.from)
+                        	       l.from, l.to, l.mentions
+                        	FROM links l, pages p1, pages p2
+                        	WHERE l.from = p1.page
+                        	AND p1.type = 'city'
+                        	AND p1.country = 'DE'
+                        	AND l.to = p2.page
+                        	AND p2.type = 'city'
+                        	AND p2.country = 'DE'
+                        	ORDER BY l.from, l.mentions DESC ) s
+                        GROUP BY s.to
+                        ORDER BY SUM(s.mentions) DESC
+                        LIMIT 5000; """)
+
+    yall = 0
+    upper = 0
+    middle = 0
+
+    print "results,middle,upper"
+
+    for row in rows:
+        yall = yall + 1
+        center = row["to"]
+
+        rws = shootSQL(""" SELECT type FROM centers_de WHERE city = %s """, [center])
+
+        # print center
+        for r in rws:
+            if r["type"] == 1:
+                upper = upper + 1
+            elif r["type"] > 1:
+                middle = middle + 1
+
+
+            # print " is a center"
+
+        print str(yall)+","+str(middle)+","+str(upper)
+
+    # print str(middle) + " middle centers"
+    # print str(upper) + " upper centers"
+
+
+
+
+
 # ============================================================
 #
 # here's where the thing happens ✨
 #
 # ============================================================
 
-findMedianDistance()
+
+
+# findMedianDistance()
 
 # uppers = getUpperCenters()
 # mostlinked = getMostLinkedCities(250)

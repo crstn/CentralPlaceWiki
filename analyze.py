@@ -79,6 +79,161 @@ def getAllCenters():
     return centers
 
 
+def getDeclaredCenterNames():
+    centers = []
+
+    rows = shootSQL("""SELECT distinct city
+                       FROM centers_de;""")
+
+    for row in rows:
+        centers.append(row["city"])
+    return centers
+
+
+
+
+def getDeclaredUpperCenterNames():
+    centers = []
+
+    rows = shootSQL("""SELECT distinct city
+                       FROM centers_de
+                       WHERE type = 1;""")
+
+    for row in rows:
+        centers.append(row["city"])
+    return centers
+
+
+
+def getDeclaredMiddleCenterNames():
+    centers = []
+
+    rows = shootSQL("""SELECT distinct city
+                       FROM centers_de
+                       WHERE type > 1;""")
+
+    for row in rows:
+        centers.append(row["city"])
+    return centers
+
+
+
+def getExtractedCenterNames():
+    centers = []
+
+    rows = shootSQL("""SELECT s.page_id, s.to, SUM(s.mentions), s.the_geom
+    FROM (
+    	SELECT DISTINCT ON (l.from)
+    	       l.from, l.to, l.mentions, p2.the_geom, p2.page_id
+    	FROM links l, pages p1, pages p2
+    	WHERE l.from = p1.page
+    	AND p1.type = 'city'
+    	AND p1.country = 'DE'
+    	AND l.to = p2.page
+    	AND p2.type = 'city'
+    	AND p2.country = 'DE'
+    	ORDER BY l.from, l.mentions DESC ) s
+    GROUP BY s.to, s.page_id, s.the_geom
+    ORDER BY SUM(s.mentions) DESC
+    LIMIT 997;""")
+
+    for row in rows:
+        centers.append(row["to"])
+
+    return centers
+
+
+
+
+
+# computes the shift between the declared and the extracted centers
+# by measuring the distance from every attracted
+def computeShifts():
+    declaredCenters = getDeclaredCenterNames()
+    # print len(declaredCenters)
+
+    declaredUpper = getDeclaredUpperCenterNames()
+    # print len(declaredUpper)
+
+    declaredMiddle = getDeclaredMiddleCenterNames()
+    # print len(declaredMiddle)
+
+    extractedCenters = getExtractedCenterNames()
+    # print len(extractedCenters)
+
+    extractedUpper = extractedCenters[:(len(declaredUpper))]
+    # print len(extractedUpper)
+    # print extractedUpper
+
+    extractedMiddle = extractedCenters[(-1*len(declaredMiddle)):]
+    # print len(extractedMiddle)
+    # print extractedMiddle
+
+    # for cityname in declaredCenters:
+    #     print cityname
+
+    # loop through the extraced centers, and for each,
+    # find the closest declared center
+
+    allCenterDistances = []
+    for c in extractedCenters:
+        rows = shootSQL("""select p1.page as f, p2.page as t, ST_Distance(p1.the_geom, p2.the_geom) AS dist
+                        from pages p1, pages p2
+                        where p1.page = '%s'
+                        and p2.page in %s
+                        and ST_Distance(p1.the_geom, p2.the_geom) < 900000
+                        order by dist
+                        limit 1"""  % (c, tuple(declaredCenters)))
+
+        for row in rows: # there is only one...
+            allCenterDistances.append(row["dist"])
+
+
+    # upperCenterDistances = []
+    # for c in extractedUpper:
+    #     rows = shootSQL("""select p1.page as f, p2.page as t, ST_Distance(p1.the_geom, p2.the_geom) AS dist
+    #                     from pages p1, pages p2
+    #                     where p1.page = '%s'
+    #                     and p2.page in %s
+    #                     order by dist
+    #                     limit 1"""  % (c, tuple(declaredUpper)))
+    #
+    #     for row in rows: # there is only one...
+    #         upperCenterDistances.append(row["dist"])
+    #
+    #
+    # middleCenterDistances = []
+    # for c in extractedMiddle:
+    #     rows = shootSQL("""select p1.page as f, p2.page as t, ST_Distance(p1.the_geom, p2.the_geom) AS dist
+    #                     from pages p1, pages p2
+    #                     where p1.page = '%s'
+    #                     and p2.page in %s
+    #                     order by dist
+    #                     limit 1"""  % (c, tuple(declaredMiddle)))
+    #     for row in rows: # there is only one...
+    #         middleCenterDistances.append(row["dist"])
+
+
+
+    # data = [np.divide(allCenterDistances, 1000.0), np.divide(upperCenterDistances, 1000.0), np.divide(middleCenterDistances, 1000.0)]
+    data = [np.divide(allCenterDistances, 1000.0)]
+
+    # ax = plt.subplot(1, 1, 1)
+
+    # ax.boxplot(data, labels=["All Centers", "Upper Centers", "Middle Centers"])
+    plt.boxplot(data, 'rs', labels=["Distances"])
+
+    # axes = plt.gca()
+    # axes.set_ylim([-5,55])
+
+    plt.suptitle("Shift distances to clostest neighbor")
+
+    plt.savefig("boxplot_shifts_all.pdf")
+
+    plt.clf()
+
+
+
 # returns a list of all upper centers
 def getUpperCenters():
     centers = []
@@ -537,8 +692,7 @@ def plotBottomsUp():
 #
 # ============================================================
 
-bottomsUp()
-
+computeShifts()
 
 
 

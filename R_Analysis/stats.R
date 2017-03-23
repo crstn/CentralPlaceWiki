@@ -51,7 +51,6 @@ nn <- nncross(declared.ppp,extracted.ppp)
 neighbors = nn$which # indicies of nearest neighbors
 distances = nn$dist  # distances
 
-table(distances)
 
 plot(superimpose(declared.ppp=declared.ppp,extracted.ppp=extracted.ppp), main="nncross", cols=c("red","blue"))
 arrows(declared.ppp$x, declared.ppp$y, extracted.ppp[neighbors]$x, extracted.ppp[neighbors]$y, length=0.15)
@@ -60,3 +59,26 @@ boxplot (distances/1000)
 summary(distances/1000)
 
 hist(distances/1000)
+
+
+
+
+# make subsets of both patterns that contain ONLY the points
+# that don't have a corresponding point at the same location
+i = distances > 0
+declared_unique = declared[i,]
+declared_unique.ppp  <- as.ppp(coordinates(declared_unique),  germany.window)
+
+nonneighbors = neighbors[i]
+extracted_unique = extracted[nonneighbors,]
+extracted_unique.ppp <-as.ppp(coordinates(extracted_unique), germany.window)
+
+plot(superimpose(declared_unique.ppp=declared_unique.ppp,extracted_unique.ppp=extracted_unique.ppp), main="uniques", cols=c("red","blue"))
+
+k_ex_u <- Kest(extracted_unique.ppp)
+k_ex_u
+k_dec_u <- Kest(declared_unique.ppp)
+k_dec_u
+
+plot(k_ex_u)
+plot(k_dec_u)

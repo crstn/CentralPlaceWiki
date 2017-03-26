@@ -1,6 +1,7 @@
 library(spatstat)
 library(rgdal)
 library(maptools)
+library(RColorBrewer)
 
 setwd("~/Dropbox/Code/CentralPlaceWiki/R_Analysis")
 
@@ -93,4 +94,11 @@ declared.density <- density.ppp(declared.ppp, eps=25000, 0.2)
 plot(declared.density)
 
 diff.density <- declared.density - extracted.desity
-plot(diff.density)
+
+absmin = abs(min(diff.density$v, na.rm = TRUE))
+absmax = max(diff.density$v, na.rm = TRUE)
+
+limit = max(absmin, absmax)
+limit
+
+plot(diff.density, zlim=c(-1*limit,limit), col=brewer.pal(11,"RdBu"))

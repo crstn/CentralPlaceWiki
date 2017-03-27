@@ -2,6 +2,7 @@ library(spatstat)
 library(rgdal)
 library(maptools)
 library(RColorBrewer)
+library(raster)
 
 setwd("~/Dropbox/Code/CentralPlaceWiki/R_Analysis")
 
@@ -56,8 +57,9 @@ distances = nn$dist  # distances
 plot(superimpose(declared.ppp=declared.ppp,extracted.ppp=extracted.ppp), main="nncross", cols=c("red","blue"))
 arrows(declared.ppp$x, declared.ppp$y, extracted.ppp[neighbors]$x, extracted.ppp[neighbors]$y, length=0.15)
 
-boxplot (distances/1000)
+boxplot(distances/1000)
 summary(distances/1000)
+sd(distances/1000)
 
 hist(distances/1000)
 
@@ -87,12 +89,16 @@ plot(superimpose(declared_unique.ppp=declared_unique.ppp,extracted_unique.ppp=ex
 
 plot(germany)
 
-extracted.desity <- density.ppp(extracted.ppp, eps=25000, 0.2)
-plot(extracted.desity)
+extracted.desity <- density.ppp(extracted.ppp, eps=20000, 0.2)
+declared.density <- density.ppp(declared.ppp, eps=20000, 0.2)
 
-declared.density <- density.ppp(declared.ppp, eps=25000, 0.2)
-plot(declared.density)
+l <- max(max(extracted.desity$v, na.rm = TRUE), max(extracted.desity$v, na.rm = TRUE))
 
+
+plot(extracted.desity, zlim=c(0,l))
+plot(declared.density, zlim=c(0,l))
+
+# calc and plot difference:
 diff.density <- declared.density - extracted.desity
 
 absmin = abs(min(diff.density$v, na.rm = TRUE))
@@ -102,3 +108,25 @@ limit = max(absmin, absmax)
 limit
 
 plot(diff.density, zlim=c(-1*limit,limit), col=brewer.pal(11,"RdBu"))
+
+
+cor.test(c(c(extracted.desity)$v), c(c(declared.density)$v))
+
+# load population density data
+popdens <- raster("Shapefiles/GeoBasisDE/Gemeinden-25km-raster.tif")
+
+popdens
+plot(popdens)
+
+# this turns the two matrices into 1D-vectors and conducts a test for Pearson's product-moment correlation: 
+cor.test(c(c(extracted.desity)$v), c(as.matrix(popdens)), na.rm=TRUE)
+cor.test(c(c(declared.density)$v), c(as.matrix(popdens)), na.rm=TRUE)
+plot(c(c(extracted.desity)$v), c(as.matrix(popdens)))
+
+
+# Let's save the diff.density to a raster to make a prettier map later:
+diffraster <- raster(diff.density)
+# copy over the crs from the popdens raster:
+crs(diffraster) <- popdens@crs
+# save as geotiff:
+writeRaster(diffraster, 'IntensityDifference.tif')

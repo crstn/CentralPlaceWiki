@@ -103,3 +103,7 @@ test.sql
 Python Plots/*.csv
 
 Python Plots/*/*.csv
+
+R_Analysis/.RData
+
+R_Analysis/.RData

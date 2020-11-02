@@ -2,7 +2,7 @@
 Code for a research project about identifying central place structures using geotagged pages in Wikipedia. To run this, perform the following steps. You'll need a lot of free disk space (how much depends on which language edition of wikipedia you are processing). A fast computer obviously helps running everything faster.
 
 You should have a good idea of how Python and PostGIS work if you are trying to run this. I'm assuming here you're on a Unix-ish system, good luck if you're on Windows. Here we go:
-- Download a wikipedia pages XML dump in the language of your choice, e.g. go [here](https://dumps.wikimedia.org/enwiki/) for English, go to one of the date subfolders, and download the file ending in `ages-articles-multistream.xml.bz2`, then unzip it. You can down and unzip in one go like so:
+- Download a wikipedia pages XML dump in the language of your choice, e.g. go [here](https://dumps.wikimedia.org/enwiki/) for English, go to one of the date subfolders, and download the file ending in `ages-articles-multistream.xml.bz2`, then unzip it. You can download and unzip in one go like so:
 
   ```
   curl https://dumps.wikimedia.org/dewiki/20160203/dewiki-20160203-pages-articles-multistream.xml.bz2 | bunzip2 > dewiki-20160203-pages-articles-multistream.xml
